@@ -1,348 +1,1921 @@
 {
-    "identity": "email",
-    "protectedData": {
-        "users": {
-            "35c62d76-8152-4626-8712-eeb96381bea8": {
-                "email": "peter@abv.bg",
-                "username": "Peter",
-                "hashedPassword": "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
-            },
-            "847ec027-f659-4086-8032-5173e2f9c93a": {
-                "email": "george@abv.bg",
-                "username": "George",
-                "hashedPassword": "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
-            },
-            "60f0cf0b-34b0-4abd-9769-8c42f830dffc": {
-                "email": "admin@abv.bg",
-                "username": "Admin",
-                "hashedPassword": "fac7060c3e17e6f151f247eacb2cd5ae80b8c36aedb8764e18a41bbdc16aa302"
-            }
-        },
-        "sessions": {}
+  "identity": "email",
+  "protectedData": {
+    "users": {
+      "35c62d76-8152-4626-8712-eeb96381bea8": {
+        "email": "peter@abv.bg",
+        "username": "Peter",
+        "hashedPassword": "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
+      },
+      "847ec027-f659-4086-8032-5173e2f9c93a": {
+        "email": "george@abv.bg",
+        "username": "George",
+        "hashedPassword": "83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1"
+      },
+      "60f0cf0b-34b0-4abd-9769-8c42f830dffc": {
+        "email": "admin@abv.bg",
+        "username": "Admin",
+        "hashedPassword": "fac7060c3e17e6f151f247eacb2cd5ae80b8c36aedb8764e18a41bbdc16aa302"
+      }
     },
-    "seedData": {
-        "recipes": {
-            "3987279d-0ad4-4afb-8ca9-5b256ae3b298": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "name": "Easy Lasagna",
-                "img": "assets/lasagna.jpg",
-                "ingredients": [
-                    "1 tbsp Ingredient 1",
-                    "2 cups Ingredient 2",
-                    "500 g  Ingredient 3",
-                    "25 g Ingredient 4"
-                ],
-                "steps": [
-                    "Prepare ingredients",
-                    "Mix ingredients",
-                    "Cook until done"
-                ],
-                "_createdOn": 1613551279012
-            },
-            "8f414b4f-ab39-4d36-bedb-2ad69da9c830": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "name": "Grilled Duck Fillet",
-                "img": "assets/roast.jpg",
-                "ingredients": [
-                    "500 g  Ingredient 1",
-                    "3 tbsp Ingredient 2",
-                    "2 cups Ingredient 3"
-                ],
-                "steps": [
-                    "Prepare ingredients",
-                    "Mix ingredients",
-                    "Cook until done"
-                ],
-                "_createdOn": 1613551344360
-            },
-            "985d9eab-ad2e-4622-a5c8-116261fb1fd2": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "name": "Roast Trout",
-                "img": "assets/fish.jpg",
-                "ingredients": [
-                    "4 cups Ingredient 1",
-                    "1 tbsp Ingredient 2",
-                    "1 tbsp Ingredient 3",
-                    "750 g  Ingredient 4",
-                    "25 g Ingredient 5"
-                ],
-                "steps": [
-                    "Prepare ingredients",
-                    "Mix ingredients",
-                    "Cook until done"
-                ],
-                "_createdOn": 1613551388703
-            }
+    "sessions": {}
+  },
+  "seedData": {
+    "recipes": {
+      "1": {
+        "id": 1,
+        "name": "Pistachio and Raspberry Cheesecake Domes",
+        "category": ["Desserts", "Cheesecake"],
+        "description": "A luxurious and visually stunning dessert, combining the nutty richness of pistachio with the tangy sweetness of raspberry. These domes are perfect for special occasions or as a gourmet treat.",
+        "ingredients": [
+          "200g cream cheese",
+          "100g mascarpone cheese",
+          "50g powdered sugar",
+          "1 tsp vanilla extract",
+          "50g pistachio paste",
+          "100g fresh raspberries",
+          "50g white chocolate, melted",
+          "100g digestive biscuits, crushed",
+          "50g unsalted butter, melted",
+          "1 sheet gelatin, soaked",
+          "50g raspberry coulis (for filling)",
+          "Edible gold leaf (for decoration)",
+          "Fresh mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix crushed digestive biscuits with melted butter and press into dome-shaped molds. Chill for 15 minutes.",
+          "Make the filling: Beat cream cheese, mascarpone, powdered sugar, and vanilla extract until smooth. Add pistachio paste and mix well.",
+          "Incorporate gelatin: Melt the soaked gelatin in a microwave and mix it into the cheesecake filling.",
+          "Layer the domes: Fill the molds halfway with the cheesecake mixture, add a teaspoon of raspberry coulis, then top with more cheesecake mixture. Smooth the top and freeze for 2 hours.",
+          "Unmold the domes: Carefully remove the cheesecake domes from the molds and place them on a serving plate.",
+          "Decorate: Drizzle melted white chocolate over the domes, add a touch of edible gold leaf, and garnish with fresh raspberries and mint leaves.",
+          "Serve chilled and enjoy!"
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 0,
+        "servings": 6,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 320,
+        "tags": ["Cheesecake", "Dessert", "Gourmet", "Pistachio", "Raspberry"],
+        "userId": 45,
+        "images": ["/images/recipes/1-1.jpg"],
+        "rating": 4.8,
+        "views": 3450,
+        "reactions": {
+          "likes": 2100,
+          "dislikes": 50
         },
-        "comments": {
-            "0a272c58-b7ea-4e09-a000-7ec988248f66": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "content": "Great recipe!",
-                "recipeId": "8f414b4f-ab39-4d36-bedb-2ad69da9c830",
-                "_createdOn": 1614260681375,
-                "_id": "0a272c58-b7ea-4e09-a000-7ec988248f66"
-            }
-        },
-        "records": {
-            "i01": {
-                "name": "John1",
-                "val": 1,
-                "_createdOn": 1613551388703
-            },
-            "i02": {
-                "name": "John2",
-                "val": 1,
-                "_createdOn": 1613551388713
-            },
-            "i03": {
-                "name": "John3",
-                "val": 2,
-                "_createdOn": 1613551388723
-            },
-            "i04": {
-                "name": "John4",
-                "val": 2,
-                "_createdOn": 1613551388733
-            },
-            "i05": {
-                "name": "John5",
-                "val": 2,
-                "_createdOn": 1613551388743
-            },
-            "i06": {
-                "name": "John6",
-                "val": 3,
-                "_createdOn": 1613551388753
-            },
-            "i07": {
-                "name": "John7",
-                "val": 3,
-                "_createdOn": 1613551388763
-            },
-            "i08": {
-                "name": "John8",
-                "val": 2,
-                "_createdOn": 1613551388773
-            },
-            "i09": {
-                "name": "John9",
-                "val": 3,
-                "_createdOn": 1613551388783
-            },
-            "i10": {
-                "name": "John10",
-                "val": 1,
-                "_createdOn": 1613551388793
-            }
-        },
-        "catches": {
-            "07f260f4-466c-4607-9a33-f7273b24f1b4": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "angler": "Paulo Admorim",
-                "weight": 636,
-                "species": "Atlantic Blue Marlin",
-                "location": "Vitoria, Brazil",
-                "bait": "trolled pink",
-                "captureTime": 80,
-                "_createdOn": 1614760714812,
-                "_id": "07f260f4-466c-4607-9a33-f7273b24f1b4"
-            },
-            "bdabf5e9-23be-40a1-9f14-9117b6702a9d": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "angler": "John Does",
-                "weight": 554,
-                "species": "Atlantic Blue Marlin",
-                "location": "Buenos Aires, Argentina",
-                "bait": "trolled pink",
-                "captureTime": 120,
-                "_createdOn": 1614760782277,
-                "_id": "bdabf5e9-23be-40a1-9f14-9117b6702a9d"
-            }
-        },
-        "furniture": {},
-        "orders": {},
-        "movies": {
-            "1240549d-f0e0-497e-ab99-eb8f703713d7": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "title": "Black Widow",
-                "description": "Natasha Romanoff aka Black Widow confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Comes on the screens 2020.",
-                "img": "https://miro.medium.com/max/735/1*akkAa2CcbKqHsvqVusF3-w.jpeg",
-                "_createdOn": 1614935055353,
-                "_id": "1240549d-f0e0-497e-ab99-eb8f703713d7"
-            },
-            "143e5265-333e-4150-80e4-16b61de31aa0": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "title": "Wonder Woman 1984",
-                "description": "Diana must contend with a work colleague and businessman, whose desire for extreme wealth sends the world down a path of destruction, after an ancient artifact that grants wishes goes missing.",
-                "img": "https://pbs.twimg.com/media/ETINgKwWAAAyA4r.jpg",
-                "_createdOn": 1614935181470,
-                "_id": "143e5265-333e-4150-80e4-16b61de31aa0"
-            },
-            "a9bae6d8-793e-46c4-a9db-deb9e3484909": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "title": "Top Gun 2",
-                "description": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
-                "img": "https://i.pinimg.com/originals/f2/a4/58/f2a458048757bc6914d559c9e4dc962a.jpg",
-                "_createdOn": 1614935268135,
-                "_id": "a9bae6d8-793e-46c4-a9db-deb9e3484909"
-            }
-        },
-        "likes": {},
-        "ideas": {
-            "833e0e57-71dc-42c0-b387-0ce0caf5225e": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "title": "Best Pilates Workout To Do At Home",
-                "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima possimus eveniet ullam aspernatur corporis tempore quia nesciunt nostrum mollitia consequatur. At ducimus amet aliquid magnam nulla sed totam blanditiis ullam atque facilis corrupti quidem nisi iusto saepe, consectetur culpa possimus quos? Repellendus, dicta pariatur! Delectus, placeat debitis error dignissimos nesciunt magni possimus quo nulla, fuga corporis maxime minus nihil doloremque aliquam quia recusandae harum. Molestias dolorum recusandae commodi velit cum sapiente placeat alias rerum illum repudiandae? Suscipit tempore dolore autem, neque debitis quisquam molestias officia hic nesciunt? Obcaecati optio fugit blanditiis, explicabo odio at dicta asperiores distinctio expedita dolor est aperiam earum! Molestias sequi aliquid molestiae, voluptatum doloremque saepe dignissimos quidem quas harum quo. Eum nemo voluptatem hic corrupti officiis eaque et temporibus error totam numquam sequi nostrum assumenda eius voluptatibus quia sed vel, rerum, excepturi maxime? Pariatur, provident hic? Soluta corrupti aspernatur exercitationem vitae accusantium ut ullam dolor quod!",
-                "img": "./images/best-pilates-youtube-workouts-2__medium_4x3.jpg",
-                "_createdOn": 1615033373504,
-                "_id": "833e0e57-71dc-42c0-b387-0ce0caf5225e"
-            },
-            "247efaa7-8a3e-48a7-813f-b5bfdad0f46c": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "title": "4 Eady DIY Idea To Try!",
-                "description": "Similique rem culpa nemo hic recusandae perspiciatis quidem, quia expedita, sapiente est itaque optio enim placeat voluptates sit, fugit dignissimos tenetur temporibus exercitationem in quis magni sunt vel. Corporis officiis ut sapiente exercitationem consectetur debitis suscipit laborum quo enim iusto, labore, quod quam libero aliquid accusantium! Voluptatum quos porro fugit soluta tempore praesentium ratione dolorum impedit sunt dolores quod labore laudantium beatae architecto perspiciatis natus cupiditate, iure quia aliquid, iusto modi esse!",
-                "img": "./images/brightideacropped.jpg",
-                "_createdOn": 1615033452480,
-                "_id": "247efaa7-8a3e-48a7-813f-b5bfdad0f46c"
-            },
-            "b8608c22-dd57-4b24-948e-b358f536b958": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "title": "Dinner Recipe",
-                "description": "Consectetur labore et corporis nihil, officiis tempora, hic ex commodi sit aspernatur ad minima? Voluptas nesciunt, blanditiis ex nulla incidunt facere tempora laborum ut aliquid beatae obcaecati quidem reprehenderit consequatur quis iure natus quia totam vel. Amet explicabo quidem repellat unde tempore et totam minima mollitia, adipisci vel autem, enim voluptatem quasi exercitationem dolor cum repudiandae dolores nostrum sit ullam atque dicta, tempora iusto eaque! Rerum debitis voluptate impedit corrupti quibusdam consequatur minima, earum asperiores soluta. A provident reiciendis voluptates et numquam totam eveniet! Dolorum corporis libero dicta laborum illum accusamus ullam?",
-                "img": "./images/dinner.jpg",
-                "_createdOn": 1615033491967,
-                "_id": "b8608c22-dd57-4b24-948e-b358f536b958"
-            }
-        },
-        "catalog": {
-            "53d4dbf5-7f41-47ba-b485-43eccb91cb95": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "make": "Table",
-                "model": "Swedish",
-                "year": 2015,
-                "description": "Medium table",
-                "price": 235,
-                "img": "./images/table.png",
-                "material": "Hardwood",
-                "_createdOn": 1615545143015,
-                "_id": "53d4dbf5-7f41-47ba-b485-43eccb91cb95"
-            },
-            "f5929b5c-bca4-4026-8e6e-c09e73908f77": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "make": "Sofa",
-                "model": "ES-549-M",
-                "year": 2018,
-                "description": "Three-person sofa, blue",
-                "price": 1200,
-                "img": "./images/sofa.jpg",
-                "material": "Frame - steel, plastic; Upholstery - fabric",
-                "_createdOn": 1615545572296,
-                "_id": "f5929b5c-bca4-4026-8e6e-c09e73908f77"
-            },
-            "c7f51805-242b-45ed-ae3e-80b68605141b": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "make": "Chair",
-                "model": "Bright Dining Collection",
-                "year": 2017,
-                "description": "Dining chair",
-                "price": 180,
-                "img": "./images/chair.jpg",
-                "material": "Wood laminate; leather",
-                "_createdOn": 1615546332126,
-                "_id": "c7f51805-242b-45ed-ae3e-80b68605141b"
-            }
-        },
-        "teams": {
-            "34a1cab1-81f1-47e5-aec3-ab6c9810efe1": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "name": "Storm Troopers",
-                "logoUrl": "/assets/atat.png",
-                "description": "These ARE the droids we're looking for",
-                "_createdOn": 1615737591748,
-                "_id": "34a1cab1-81f1-47e5-aec3-ab6c9810efe1"
-            },
-            "dc888b1a-400f-47f3-9619-07607966feb8": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "name": "Team Rocket",
-                "logoUrl": "/assets/rocket.png",
-                "description": "Gotta catch 'em all!",
-                "_createdOn": 1615737655083,
-                "_id": "dc888b1a-400f-47f3-9619-07607966feb8"
-            },
-            "733fa9a1-26b6-490d-b299-21f120b2f53a": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "name": "Minions",
-                "logoUrl": "/assets/hydrant.png",
-                "description": "Friendly neighbourhood jelly beans, helping evil-doers succeed.",
-                "_createdOn": 1615737688036,
-                "_id": "733fa9a1-26b6-490d-b299-21f120b2f53a"
-            }
-        },
-        "members": {
-            "cc9b0a0f-655d-45d7-9857-0a61c6bb2c4d": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "teamId": "34a1cab1-81f1-47e5-aec3-ab6c9810efe1",
-                "status": "member",
-                "_createdOn": 1616236790262,
-                "_updatedOn": 1616236792930
-            },
-            "61a19986-3b86-4347-8ca4-8c074ed87591": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "teamId": "dc888b1a-400f-47f3-9619-07607966feb8",
-                "status": "member",
-                "_createdOn": 1616237188183,
-                "_updatedOn": 1616237189016
-            },
-            "8a03aa56-7a82-4a6b-9821-91349fbc552f": {
-                "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
-                "teamId": "733fa9a1-26b6-490d-b299-21f120b2f53a",
-                "status": "member",
-                "_createdOn": 1616237193355,
-                "_updatedOn": 1616237195145
-            },
-            "9be3ac7d-2c6e-4d74-b187-04105ab7e3d6": {
-                "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
-                "teamId": "dc888b1a-400f-47f3-9619-07607966feb8",
-                "status": "member",
-                "_createdOn": 1616237231299,
-                "_updatedOn": 1616237235713
-            },
-            "280b4a1a-d0f3-4639-aa54-6d9158365152": {
-                "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-                "teamId": "dc888b1a-400f-47f3-9619-07607966feb8",
-                "status": "member",
-                "_createdOn": 1616237257265,
-                "_updatedOn": 1616237278248
-            },
-            "e797fa57-bf0a-4749-8028-72dba715e5f8": {
-                "_ownerId": "60f0cf0b-34b0-4abd-9769-8c42f830dffc",
-                "teamId": "34a1cab1-81f1-47e5-aec3-ab6c9810efe1",
-                "status": "member",
-                "_createdOn": 1616237272948,
-                "_updatedOn": 1616237293676
-            }
+        "reviewCount": 120,
+        "meta": {
+          "createdAt": "2024-05-23T09:15:42.123Z",
+          "updatedAt": "2024-05-23T09:15:42.123Z"
         }
+      },
+      "2": {
+        "id": 2,
+        "name": "Indulgent Red Velvet Strawberry Cheesecake",
+        "category": ["Desserts", "Cheesecake", "Cakes"],
+        "description": "A decadent fusion of red velvet cake and creamy strawberry cheesecake, layered to perfection. This dessert is a showstopper, combining rich flavors with a stunning visual appeal.",
+        "ingredients": [
+          "200g red velvet cake crumbs",
+          "100g unsalted butter, melted",
+          "500g cream cheese, softened",
+          "150g granulated sugar",
+          "1 tsp vanilla extract",
+          "3 large eggs",
+          "200g fresh strawberries, pureed",
+          "1 tbsp cornstarch",
+          "100g white chocolate, melted",
+          "200ml heavy cream",
+          "Fresh strawberries (for garnish)",
+          "Mint leaves (for garnish)",
+          "Edible glitter (optional)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix red velvet cake crumbs with melted butter and press into the bottom of a springform pan. Chill for 15 minutes.",
+          "Make the cheesecake filling: Beat cream cheese, sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition.",
+          "Incorporate strawberries: Mix strawberry puree with cornstarch and fold into the cheesecake mixture.",
+          "Layer the cheesecake: Pour the filling over the chilled crust and smooth the top.",
+          "Bake: Preheat the oven to 160°C (325°F). Bake the cheesecake in a water bath for 50-60 minutes or until set. Let it cool completely.",
+          "Prepare the topping: Whip heavy cream until stiff peaks form, then fold in melted white chocolate. Spread over the cooled cheesecake.",
+          "Decorate: Garnish with fresh strawberries, mint leaves, and a sprinkle of edible glitter for a festive touch.",
+          "Chill for at least 4 hours before serving."
+        ],
+        "prepTimeMinutes": 40,
+        "cookTimeMinutes": 60,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "American",
+        "caloriesPerServing": 450,
+        "tags": [
+          "Cheesecake",
+          "Red Velvet",
+          "Strawberry",
+          "Dessert",
+          "Indulgent"
+        ],
+        "userId": 67,
+        "images": ["/images/recipes/2-1.jpg", "/images/recipes/2-2.jpg"],
+        "rating": 4.9,
+        "views": 4200,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 45
+        },
+        "reviewCount": 150,
+        "meta": {
+          "createdAt": "2024-05-23T10:00:00.000Z",
+          "updatedAt": "2024-05-23T10:00:00.000Z"
+        }
+      },
+      "3": {
+        "id": 3,
+        "name": "Beetroot Feta Cheesecake with Dill & Pistachio Dust",
+        "category": ["Appetizers", "Savory Cheesecake"],
+        "description": "A stunning and flavorful savory cheesecake featuring earthy beetroot, tangy feta cheese, and fresh dill, finished with a crunchy pistachio dust for an elegant texture and taste contrast.",
+        "ingredients": [
+          "200g roasted beetroot, pureed",
+          "150g feta cheese, crumbled",
+          "100g cream cheese",
+          "2 tbsp Greek yogurt",
+          "1 tsp lemon zest",
+          "1 tbsp lemon juice",
+          "1 tbsp fresh dill, chopped",
+          "1 tsp honey",
+          "100g crushed rye crackers",
+          "50g melted butter",
+          "30g pistachios, finely ground",
+          "Salt and pepper to taste"
+        ],
+        "instructions": [
+          "Mix crushed rye crackers with melted butter and press into small ring molds as the base.",
+          "Blend beetroot puree, feta, cream cheese, yogurt, lemon zest, lemon juice, dill, honey, salt, and pepper until smooth.",
+          "Spoon the mixture over the base and smooth the tops.",
+          "Chill in the fridge for at least 3 hours to set.",
+          "Unmold and sprinkle with ground pistachios before serving."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 0,
+        "servings": 4,
+        "difficulty": "Medium",
+        "cuisine": "Modern European",
+        "caloriesPerServing": 280,
+        "tags": [
+          "Savory Cheesecake",
+          "Beetroot",
+          "Feta",
+          "Pistachio",
+          "Appetizer"
+        ],
+        "userId": 204,
+        "images": ["/images/recipes/3-1.jpg"],
+        "rating": 4.8,
+        "views": 2954,
+        "reactions": {
+          "likes": 2178,
+          "dislikes": 18
+        },
+        "reviewCount": 97,
+        "meta": {
+          "createdAt": "2024-05-23T14:42:10.619Z",
+          "updatedAt": "2024-05-23T14:42:10.619Z"
+        }
+      },
+      "4": {
+        "id": 4,
+        "name": "Decadent Chocolate Cake",
+        "category": ["Desserts", "Cakes"],
+        "description": "A rich and moist chocolate cake that is perfect for any occasion. This cake is layered with a smooth chocolate ganache and topped with fresh berries for a touch of elegance.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "200g granulated sugar",
+          "100g unsweetened cocoa powder",
+          "1 tsp baking powder",
+          "1 tsp baking soda",
+          "1/2 tsp salt",
+          "2 large eggs",
+          "240ml buttermilk",
+          "120ml vegetable oil",
+          "2 tsp vanilla extract",
+          "240ml hot water",
+          "200g dark chocolate, chopped",
+          "200ml heavy cream",
+          "Fresh berries (for garnish)",
+          "Powdered sugar (for dusting)"
+        ],
+        "instructions": [
+          "Preheat the oven to 180°C (350°F). Grease and flour two 9-inch round cake pans.",
+          "Mix dry ingredients: In a large bowl, whisk together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add wet ingredients: Add eggs, buttermilk, oil, and vanilla extract to the dry ingredients. Mix until well combined.",
+          "Incorporate hot water: Gradually add hot water to the batter, mixing until smooth. The batter will be thin.",
+          "Bake: Divide the batter evenly between the prepared pans. Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean. Let the cakes cool in the pans for 10 minutes, then transfer to a wire rack to cool completely.",
+          "Make the ganache: Place chopped dark chocolate in a bowl. Heat heavy cream until just boiling, then pour over the chocolate. Let it sit for 2 minutes, then stir until smooth.",
+          "Assemble the cake: Place one cake layer on a serving plate. Spread a layer of ganache over the top. Place the second cake layer on top and cover the entire cake with the remaining ganache.",
+          "Decorate: Garnish with fresh berries and dust with powdered sugar before serving."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 35,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "International",
+        "caloriesPerServing": 380,
+        "tags": ["Chocolate", "Cake", "Dessert", "Ganache"],
+        "userId": 89,
+        "images": ["/images/recipes/4-1.jpg", "/images/recipes/4-2.jpg"],
+        "rating": 4.7,
+        "views": 3800,
+        "reactions": {
+          "likes": 2200,
+          "dislikes": 40
+        },
+        "reviewCount": 130,
+        "meta": {
+          "createdAt": "2024-05-23T11:00:00.000Z",
+          "updatedAt": "2024-05-23T11:00:00.000Z"
+        }
+      },
+      "5": {
+        "id": 5,
+        "name": "Pistachio Lemon Breakfast Bread",
+        "category": ["Breakfast", "Breads"],
+        "description": "A moist and nutty breakfast bread infused with zesty lemon and crunchy pistachios. Perfect for a light morning treat with a cup of coffee or tea.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "100g ground pistachios",
+          "150g sugar",
+          "2 tsp baking powder",
+          "1/2 tsp salt",
+          "2 eggs",
+          "120ml whole milk",
+          "100ml vegetable oil",
+          "1 tbsp lemon zest",
+          "2 tbsp lemon juice",
+          "1 tsp vanilla extract",
+          "50g chopped pistachios for topping",
+          "1 tbsp honey (optional, for glazing)"
+        ],
+        "instructions": [
+          "Preheat oven to 180°C (350°F) and grease a loaf pan.",
+          "In a bowl, whisk together flour, ground pistachios, sugar, baking powder, and salt.",
+          "In another bowl, beat eggs, then mix in milk, oil, lemon zest, lemon juice, and vanilla extract.",
+          "Gradually fold wet ingredients into the dry ingredients until combined.",
+          "Pour the batter into the prepared loaf pan and sprinkle chopped pistachios on top.",
+          "Bake for 40-45 minutes or until a toothpick inserted in the center comes out clean.",
+          "Optional: Brush the top with honey while warm for extra flavor.",
+          "Let cool before slicing and serving."
+        ],
+        "prepTimeMinutes": 15,
+        "cookTimeMinutes": 45,
+        "servings": 8,
+        "difficulty": "Easy",
+        "cuisine": "Mediterranean",
+        "caloriesPerServing": 290,
+        "tags": ["Breakfast", "Pistachio", "Lemon", "Quick Bread"],
+        "userId": 205,
+        "images": ["/images/recipes/5-1.jpg"],
+        "rating": 4.7,
+        "views": 3127,
+        "reactions": {
+          "likes": 2456,
+          "dislikes": 22
+        },
+        "reviewCount": 104,
+        "meta": {
+          "createdAt": "2024-05-23T16:23:55.619Z",
+          "updatedAt": "2024-05-23T16:23:55.619Z"
+        }
+      },
+      "6": {
+        "id": 6,
+        "name": "Mini Dragon Fruit Cheesecake Bites",
+        "category": ["Desserts", "Cheesecake", "Mini Bites"],
+        "description": "These vibrant and creamy mini cheesecake bites are made with dragon fruit, offering a unique and tropical twist. Perfect for parties or as a light, elegant dessert.",
+        "ingredients": [
+          "150g digestive biscuits, crushed",
+          "50g unsalted butter, melted",
+          "250g cream cheese, softened",
+          "100g powdered sugar",
+          "1 tsp vanilla extract",
+          "100g dragon fruit pulp (fresh or frozen)",
+          "1 tsp lemon juice",
+          "1 sheet gelatin, soaked",
+          "100ml heavy cream, whipped",
+          "Fresh dragon fruit slices (for garnish)",
+          "Mint leaves (for garnish)",
+          "Edible flowers (optional)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix crushed digestive biscuits with melted butter. Press into the bottom of mini cupcake molds or silicone molds. Chill for 15 minutes.",
+          "Make the filling: Beat cream cheese, powdered sugar, and vanilla extract until smooth.",
+          "Incorporate dragon fruit: Add dragon fruit pulp and lemon juice to the cream cheese mixture. Mix until well combined.",
+          "Add gelatin: Melt the soaked gelatin in a microwave and mix it into the cheesecake filling.",
+          "Fold in whipped cream: Gently fold whipped cream into the cheesecake mixture to create a light and airy texture.",
+          "Assemble: Spoon the filling over the chilled biscuit bases. Smooth the tops with a spatula.",
+          "Chill: Refrigerate for at least 2 hours or until set.",
+          "Decorate: Garnish with fresh dragon fruit slices, mint leaves, and edible flowers before serving."
+        ],
+        "prepTimeMinutes": 25,
+        "cookTimeMinutes": 0,
+        "servings": 12,
+        "difficulty": "Easy",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 180,
+        "tags": [
+          "Cheesecake",
+          "Dragon Fruit",
+          "Mini Bites",
+          "Dessert",
+          "Tropical"
+        ],
+        "userId": 102,
+        "images": ["/images/recipes/6-1.jpg"],
+        "rating": 4.8,
+        "views": 3100,
+        "reactions": {
+          "likes": 1800,
+          "dislikes": 30
+        },
+        "reviewCount": 95,
+        "meta": {
+          "createdAt": "2024-05-23T12:00:00.000Z",
+          "updatedAt": "2024-05-23T12:00:00.000Z"
+        }
+      },
+      "7": {
+        "id": 7,
+        "name": "Raspberry Zinger Poke Cake",
+        "category": ["Desserts", "Cakes"],
+        "description": "A light and fluffy vanilla cake soaked with tangy raspberry syrup, topped with a creamy coconut frosting and shredded coconut for the ultimate nostalgic treat.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "150g sugar",
+          "2 tsp baking powder",
+          "1/2 tsp salt",
+          "2 eggs",
+          "120ml whole milk",
+          "100ml vegetable oil",
+          "1 tsp vanilla extract",
+          "250g fresh raspberries",
+          "100g sugar (for raspberry syrup)",
+          "2 tbsp lemon juice",
+          "5g gelatin powder",
+          "200ml heavy cream",
+          "50g powdered sugar",
+          "100g shredded coconut"
+        ],
+        "instructions": [
+          "Preheat oven to 180°C (350°F) and grease a baking dish.",
+          "In a bowl, whisk together flour, sugar, baking powder, and salt.",
+          "In another bowl, beat eggs, then mix in milk, oil, and vanilla extract.",
+          "Combine wet and dry ingredients and mix until smooth.",
+          "Pour batter into the prepared dish and bake for 25-30 minutes or until a toothpick inserted in the center comes out clean.",
+          "For the raspberry syrup, heat raspberries, sugar, and lemon juice until the raspberries break down. Strain and mix in gelatin until dissolved.",
+          "Poke holes into the cooled cake and pour the raspberry syrup over the top. Let it soak.",
+          "Whip heavy cream with powdered sugar until stiff peaks form.",
+          "Spread the whipped cream over the soaked cake and top with shredded coconut.",
+          "Chill before serving for best flavor."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 30,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "American",
+        "caloriesPerServing": 320,
+        "tags": ["Poke Cake", "Raspberry", "Coconut", "Dessert"],
+        "userId": 206,
+        "images": ["/images/recipes/7-1.jpg"],
+        "rating": 4.8,
+        "views": 3456,
+        "reactions": {
+          "likes": 2789,
+          "dislikes": 14
+        },
+        "reviewCount": 112,
+        "meta": {
+          "createdAt": "2024-05-23T18:10:42.619Z",
+          "updatedAt": "2024-05-23T18:10:42.619Z"
+        }
+      },
+      "8": {
+        "id": 8,
+        "name": "Black Forest Cheesecake",
+        "category": ["Desserts", "Cheesecake", "Cakes"],
+        "description": "A luxurious fusion of classic Black Forest cake and creamy cheesecake. Layers of chocolate, cherries, and creamy filling create a decadent dessert that's perfect for any celebration.",
+        "ingredients": [
+          "200g chocolate cookie crumbs",
+          "100g unsalted butter, melted",
+          "500g cream cheese, softened",
+          "150g granulated sugar",
+          "1 tsp vanilla extract",
+          "3 large eggs",
+          "200g dark chocolate, melted",
+          "200g cherries (fresh or canned), pitted",
+          "2 tbsp cherry liqueur (optional)",
+          "200ml heavy cream",
+          "1 tbsp powdered sugar",
+          "Chocolate shavings (for garnish)",
+          "Fresh cherries (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix chocolate cookie crumbs with melted butter. Press into the bottom of a springform pan. Chill for 15 minutes.",
+          "Make the cheesecake filling: Beat cream cheese, sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition.",
+          "Incorporate chocolate: Fold melted dark chocolate into the cream cheese mixture.",
+          "Layer the cherries: Scatter pitted cherries over the chilled crust, then pour the cheesecake filling over the top.",
+          "Bake: Preheat the oven to 160°C (325°F). Bake the cheesecake in a water bath for 50-60 minutes or until set. Let it cool completely.",
+          "Prepare the topping: Whip heavy cream with powdered sugar until stiff peaks form. Spread over the cooled cheesecake.",
+          "Decorate: Garnish with chocolate shavings and fresh cherries.",
+          "Chill for at least 4 hours before serving."
+        ],
+        "prepTimeMinutes": 40,
+        "cookTimeMinutes": 60,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 420,
+        "tags": [
+          "Cheesecake",
+          "Black Forest",
+          "Chocolate",
+          "Cherries",
+          "Dessert"
+        ],
+        "userId": 75,
+        "images": ["/images/recipes/8-1.jpg"],
+        "rating": 4.9,
+        "views": 4500,
+        "reactions": {
+          "likes": 2700,
+          "dislikes": 50
+        },
+        "reviewCount": 160,
+        "meta": {
+          "createdAt": "2024-05-23T13:00:00.000Z",
+          "updatedAt": "2024-05-23T13:00:00.000Z"
+        }
+      },
+      "9": {
+        "id": 9,
+        "name": "Luscious Lemon Cheesecake",
+        "category": ["Desserts", "Cheesecake"],
+        "description": "A rich and velvety lemon cheesecake with a buttery biscuit crust, topped with a tangy lemon curd for an irresistibly refreshing citrus burst.",
+        "ingredients": [
+          "200g digestive biscuits, crushed",
+          "100g unsalted butter, melted",
+          "500g cream cheese",
+          "150g sugar",
+          "2 eggs",
+          "200ml heavy cream",
+          "2 tbsp cornstarch",
+          "1 tbsp vanilla extract",
+          "2 tbsp lemon zest",
+          "3 tbsp lemon juice",
+          "200g lemon curd (for topping)"
+        ],
+        "instructions": [
+          "Preheat oven to 160°C (320°F) and grease a springform pan.",
+          "Mix crushed biscuits with melted butter and press firmly into the pan to form the crust.",
+          "In a bowl, beat cream cheese, sugar, and vanilla until smooth.",
+          "Add eggs one at a time, mixing well after each addition.",
+          "Mix in heavy cream, cornstarch, lemon zest, and lemon juice.",
+          "Pour batter over the crust and bake for 50-55 minutes until set but slightly jiggly in the center.",
+          "Turn off the oven and let the cheesecake cool inside with the door slightly open.",
+          "Once cooled, spread lemon curd on top and refrigerate for at least 4 hours before serving."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 55,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "American",
+        "caloriesPerServing": 380,
+        "tags": ["Cheesecake", "Lemon", "Dessert", "Creamy"],
+        "userId": 207,
+        "images": ["/images/recipes/9-1.jpg"],
+        "rating": 4.9,
+        "views": 3897,
+        "reactions": {
+          "likes": 3124,
+          "dislikes": 9
+        },
+        "reviewCount": 129,
+        "meta": {
+          "createdAt": "2024-05-23T19:45:37.619Z",
+          "updatedAt": "2024-05-23T19:45:37.619Z"
+        }
+      },
+      "10": {
+        "id": 10,
+        "name": "Crème Brûlée Cheesecake",
+        "category": ["Desserts", "Cheesecake", "Cakes"],
+        "description": "A luxurious dessert that combines the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for those who love a sophisticated twist on classic flavors.",
+        "ingredients": [
+          "200g digestive biscuits, crushed",
+          "100g unsalted butter, melted",
+          "500g cream cheese, softened",
+          "150g granulated sugar",
+          "1 tsp vanilla extract",
+          "3 large eggs",
+          "200ml heavy cream",
+          "1 tsp vanilla bean paste",
+          "100g granulated sugar (for caramelizing)",
+          "Fresh berries (for garnish)",
+          "Mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix crushed digestive biscuits with melted butter. Press into the bottom of a springform pan. Chill for 15 minutes.",
+          "Make the cheesecake filling: Beat cream cheese, sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition.",
+          "Incorporate cream: Gradually add heavy cream and vanilla bean paste to the cream cheese mixture. Mix until well combined.",
+          "Bake: Preheat the oven to 160°C (325°F). Pour the filling over the chilled crust. Bake in a water bath for 50-60 minutes or until set. Let it cool completely.",
+          "Chill: Refrigerate the cheesecake for at least 4 hours or overnight.",
+          "Caramelize the top: Sprinkle a thin, even layer of granulated sugar over the top of the cheesecake. Use a kitchen torch to caramelize the sugar until it forms a golden crust.",
+          "Decorate: Garnish with fresh berries and mint leaves before serving."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 60,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 400,
+        "tags": ["Cheesecake", "Crème Brûlée", "Dessert", "Caramelized"],
+        "userId": 88,
+        "images": ["/images/recipes/10-1.jpg"],
+        "rating": 4.9,
+        "views": 5000,
+        "reactions": {
+          "likes": 3000,
+          "dislikes": 60
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-05-23T14:00:00.000Z",
+          "updatedAt": "2024-05-23T14:00:00.000Z"
+        }
+      },
+      "11": {
+        "id": 11,
+        "name": "Decadent Chocolate Cake with Silky Mousse",
+        "category": ["Desserts", "Cakes", "Chocolate"],
+        "description": "An indulgent, rich chocolate cake layered with velvety chocolate mousse and topped with a glossy ganache for the ultimate chocolate lover’s dream.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "50g cocoa powder",
+          "200g sugar",
+          "2 tsp baking powder",
+          "1/2 tsp salt",
+          "2 eggs",
+          "120ml whole milk",
+          "100ml vegetable oil",
+          "1 tsp vanilla extract",
+          "150ml hot coffee",
+          "200g dark chocolate",
+          "250ml heavy cream",
+          "50g powdered sugar",
+          "200g dark chocolate (for ganache)",
+          "150ml heavy cream (for ganache)"
+        ],
+        "instructions": [
+          "Preheat oven to 180°C (350°F) and grease two round cake pans.",
+          "In a bowl, whisk together flour, cocoa powder, sugar, baking powder, and salt.",
+          "In another bowl, beat eggs, then mix in milk, oil, and vanilla extract.",
+          "Gradually combine wet and dry ingredients, then stir in hot coffee.",
+          "Divide the batter between the pans and bake for 25-30 minutes.",
+          "For the mousse, melt dark chocolate and let cool slightly.",
+          "Whip heavy cream with powdered sugar until soft peaks form, then fold in melted chocolate.",
+          "For the ganache, heat heavy cream until warm, then pour over dark chocolate and mix until smooth.",
+          "Assemble the cake by layering with chocolate mousse, then pour ganache over the top.",
+          "Chill before serving for a silky and rich texture."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 30,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "French",
+        "caloriesPerServing": 420,
+        "tags": ["Chocolate Cake", "Mousse", "Ganache", "Indulgent"],
+        "userId": 208,
+        "images": ["/images/recipes/11-1.jpg"],
+        "rating": 4.9,
+        "views": 4321,
+        "reactions": {
+          "likes": 3567,
+          "dislikes": 11
+        },
+        "reviewCount": 152,
+        "meta": {
+          "createdAt": "2024-05-23T21:12:44.619Z",
+          "updatedAt": "2024-05-23T21:12:44.619Z"
+        }
+      },
+      "12": {
+        "id": 12,
+        "name": "Raspberry Chocolate Ganache Cake",
+        "category": ["Desserts", "Cakes"],
+        "description": "A rich and indulgent chocolate cake layered with tangy raspberry filling and topped with a smooth chocolate ganache. Perfect for chocolate lovers and special occasions.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "200g granulated sugar",
+          "100g unsweetened cocoa powder",
+          "1 tsp baking powder",
+          "1 tsp baking soda",
+          "1/2 tsp salt",
+          "2 large eggs",
+          "240ml buttermilk",
+          "120ml vegetable oil",
+          "2 tsp vanilla extract",
+          "240ml hot water",
+          "200g fresh raspberries",
+          "100g raspberry jam",
+          "200g dark chocolate, chopped",
+          "200ml heavy cream",
+          "Fresh raspberries (for garnish)",
+          "Mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Preheat the oven to 180°C (350°F). Grease and flour two 9-inch round cake pans.",
+          "Mix dry ingredients: In a large bowl, whisk together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add wet ingredients: Add eggs, buttermilk, oil, and vanilla extract to the dry ingredients. Mix until well combined.",
+          "Incorporate hot water: Gradually add hot water to the batter, mixing until smooth. The batter will be thin.",
+          "Bake: Divide the batter evenly between the prepared pans. Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean. Let the cakes cool in the pans for 10 minutes, then transfer to a wire rack to cool completely.",
+          "Prepare the raspberry filling: Mix fresh raspberries with raspberry jam and set aside.",
+          "Make the ganache: Place chopped dark chocolate in a bowl. Heat heavy cream until just boiling, then pour over the chocolate. Let it sit for 2 minutes, then stir until smooth.",
+          "Assemble the cake: Place one cake layer on a serving plate. Spread the raspberry filling over the top. Place the second cake layer on top and cover the entire cake with the chocolate ganache.",
+          "Decorate: Garnish with fresh raspberries and mint leaves before serving."
+        ],
+        "prepTimeMinutes": 40,
+        "cookTimeMinutes": 35,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "International",
+        "caloriesPerServing": 450,
+        "tags": ["Chocolate", "Raspberry", "Cake", "Dessert", "Ganache"],
+        "userId": 92,
+        "images": ["/images/recipes/12-1.jpg"],
+        "rating": 4.8,
+        "views": 4800,
+        "reactions": {
+          "likes": 2800,
+          "dislikes": 55
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-05-23T15:00:00.000Z",
+          "updatedAt": "2024-05-23T15:00:00.000Z"
+        }
+      },
+      "13": {
+        "id": 13,
+        "name": "Crème Brûlée Cheesecake",
+        "category": ["Desserts", "Cheesecake"],
+        "description": "A luscious fusion of creamy cheesecake and classic crème brûlée, featuring a rich vanilla custard filling and a crisp caramelized sugar topping.",
+        "ingredients": [
+          "200g digestive biscuits, crushed",
+          "100g unsalted butter, melted",
+          "500g cream cheese",
+          "150g sugar",
+          "2 eggs",
+          "200ml heavy cream",
+          "1 tbsp cornstarch",
+          "1 tbsp vanilla bean paste",
+          "2 tbsp lemon juice",
+          "50g sugar (for caramelized topping)"
+        ],
+        "instructions": [
+          "Preheat oven to 160°C (320°F) and grease a springform pan.",
+          "Mix crushed biscuits with melted butter and press into the pan to form the crust.",
+          "In a bowl, beat cream cheese, sugar, and vanilla until smooth.",
+          "Add eggs one at a time, mixing well after each addition.",
+          "Mix in heavy cream, cornstarch, and lemon juice.",
+          "Pour batter over the crust and bake for 50-55 minutes until set but slightly jiggly in the center.",
+          "Let the cheesecake cool completely, then refrigerate for at least 4 hours.",
+          "Before serving, sprinkle sugar evenly over the top and caramelize using a kitchen torch until golden and crisp."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 55,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "French-American",
+        "caloriesPerServing": 390,
+        "tags": ["Cheesecake", "Crème Brûlée", "Caramelized", "Vanilla"],
+        "userId": 209,
+        "images": ["/images/recipes/13-1.jpg"],
+        "rating": 4.9,
+        "views": 4152,
+        "reactions": {
+          "likes": 3420,
+          "dislikes": 8
+        },
+        "reviewCount": 138,
+        "meta": {
+          "createdAt": "2024-05-23T22:30:17.619Z",
+          "updatedAt": "2024-05-23T22:30:17.619Z"
+        }
+      },
+      "14": {
+        "id": 14,
+        "name": "Caramel Flan Cheesecake with a Chocolate Twist",
+        "category": ["Desserts", "Cheesecake", "Cakes"],
+        "description": "A decadent fusion of creamy caramel flan and rich cheesecake, with a delightful chocolate twist. This dessert is perfect for those who love the combination of caramel, cheese, and chocolate.",
+        "ingredients": [
+          "200g granulated sugar (for caramel)",
+          "2 tbsp water (for caramel)",
+          "500g cream cheese, softened",
+          "150g granulated sugar",
+          "1 tsp vanilla extract",
+          "3 large eggs",
+          "200ml heavy cream",
+          "100g dark chocolate, melted",
+          "1 tsp vanilla bean paste",
+          "Fresh berries (for garnish)",
+          "Mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the caramel: In a saucepan, combine 200g sugar and 2 tbsp water. Cook over medium heat, without stirring, until the sugar dissolves and turns a deep amber color. Pour the caramel into a 9-inch round cake pan, tilting to coat the bottom evenly. Let it cool and harden.",
+          "Make the cheesecake filling: Beat cream cheese, 150g sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition.",
+          "Incorporate cream and chocolate: Gradually add heavy cream and vanilla bean paste to the cream cheese mixture. Fold in melted dark chocolate until well combined.",
+          "Bake: Preheat the oven to 160°C (325°F). Pour the filling over the hardened caramel in the cake pan. Place the pan in a larger baking dish and fill the larger dish with hot water halfway up the sides of the cake pan. Bake for 50-60 minutes or until set. Let it cool completely.",
+          "Chill: Refrigerate the cheesecake for at least 4 hours or overnight.",
+          "Unmold: Run a knife around the edges of the pan to loosen the cheesecake. Invert onto a serving plate.",
+          "Decorate: Garnish with fresh berries and mint leaves before serving."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 60,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 480,
+        "tags": ["Cheesecake", "Caramel", "Flan", "Chocolate", "Dessert"],
+        "userId": 105,
+        "images": ["/images/recipes/14-1.jpg"],
+        "rating": 4.9,
+        "views": 5200,
+        "reactions": {
+          "likes": 3200,
+          "dislikes": 70
+        },
+        "reviewCount": 220,
+        "meta": {
+          "createdAt": "2024-05-23T16:00:00.000Z",
+          "updatedAt": "2024-05-23T16:00:00.000Z"
+        }
+      },
+      "15": {
+        "id": 15,
+        "name": "Luscious Lemon-Lime Cherry Pistachio Cheesecake",
+        "category": ["Desserts", "Cheesecake"],
+        "description": "A vibrant and refreshing cheesecake with zesty lemon-lime flavors, a crunchy pistachio crust, and a luscious cherry topping for the perfect sweet-tart balance.",
+        "ingredients": [
+          "150g digestive biscuits, crushed",
+          "70g ground pistachios",
+          "100g unsalted butter, melted",
+          "500g cream cheese",
+          "150g sugar",
+          "2 eggs",
+          "200ml heavy cream",
+          "2 tbsp cornstarch",
+          "1 tbsp vanilla extract",
+          "2 tbsp lemon zest",
+          "3 tbsp lime juice",
+          "200g cherry compote (for topping)",
+          "50g chopped pistachios (for garnish)"
+        ],
+        "instructions": [
+          "Preheat oven to 160°C (320°F) and grease a springform pan.",
+          "Mix crushed biscuits, ground pistachios, and melted butter, then press into the pan to form the crust.",
+          "In a bowl, beat cream cheese, sugar, and vanilla until smooth.",
+          "Add eggs one at a time, mixing well after each addition.",
+          "Mix in heavy cream, cornstarch, lemon zest, and lime juice.",
+          "Pour batter over the crust and bake for 50-55 minutes until set but slightly jiggly in the center.",
+          "Let the cheesecake cool completely, then refrigerate for at least 4 hours.",
+          "Before serving, spread cherry compote over the top and garnish with chopped pistachios."
+        ],
+        "prepTimeMinutes": 25,
+        "cookTimeMinutes": 55,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 410,
+        "tags": ["Cheesecake", "Lemon-Lime", "Pistachio", "Cherry"],
+        "userId": 210,
+        "images": ["/images/recipes/15-1.jpg"],
+        "rating": 4.8,
+        "views": 3874,
+        "reactions": {
+          "likes": 3261,
+          "dislikes": 12
+        },
+        "reviewCount": 121,
+        "meta": {
+          "createdAt": "2024-05-23T23:45:29.619Z",
+          "updatedAt": "2024-05-23T23:45:29.619Z"
+        }
+      },
+      "16": {
+        "id": 16,
+        "name": "Date Coffee Loaf Cake with Walnuts and Rich Espresso Glaze",
+        "category": ["Desserts", "Cakes", "Loaf Cakes"],
+        "description": "A moist and flavorful loaf cake infused with the natural sweetness of dates, the richness of coffee, and the crunch of walnuts. Topped with a luxurious espresso glaze, this cake is perfect for coffee lovers.",
+        "ingredients": [
+          "200g pitted dates, chopped",
+          "240ml hot strong brewed coffee",
+          "200g all-purpose flour",
+          "1 tsp baking powder",
+          "1/2 tsp baking soda",
+          "1/2 tsp salt",
+          "100g unsalted butter, softened",
+          "150g brown sugar",
+          "2 large eggs",
+          "1 tsp vanilla extract",
+          "100g walnuts, chopped",
+          "100g powdered sugar",
+          "2 tbsp espresso (for glaze)",
+          "1 tbsp milk (for glaze)",
+          "Walnut halves (for garnish)"
+        ],
+        "instructions": [
+          "Preheat the oven to 180°C (350°F). Grease and flour a 9x5-inch loaf pan.",
+          "Soak the dates: Place chopped dates in a bowl and pour hot brewed coffee over them. Let them soak for 15 minutes, then mash slightly with a fork.",
+          "Mix dry ingredients: In a separate bowl, whisk together flour, baking powder, baking soda, and salt.",
+          "Cream butter and sugar: In a large bowl, beat butter and brown sugar until light and fluffy. Add eggs one at a time, mixing well after each addition. Stir in vanilla extract.",
+          "Combine wet and dry ingredients: Gradually add the dry ingredients to the butter mixture, mixing until just combined. Fold in the soaked dates and chopped walnuts.",
+          "Bake: Pour the batter into the prepared loaf pan. Bake for 45-50 minutes or until a toothpick inserted into the center comes out clean. Let the cake cool in the pan for 10 minutes, then transfer to a wire rack to cool completely.",
+          "Make the espresso glaze: In a small bowl, whisk together powdered sugar, espresso, and milk until smooth. Adjust the consistency by adding more milk if needed.",
+          "Glaze the cake: Drizzle the espresso glaze over the cooled loaf cake. Garnish with walnut halves.",
+          "Serve: Slice and enjoy with a cup of coffee or tea."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 50,
+        "servings": 8,
+        "difficulty": "Medium",
+        "cuisine": "International",
+        "caloriesPerServing": 320,
+        "tags": ["Coffee", "Dates", "Walnuts", "Loaf Cake", "Dessert"],
+        "userId": 110,
+        "images": ["/images/recipes/16-1.jpg"],
+        "rating": 4.7,
+        "views": 3600,
+        "reactions": {
+          "likes": 2100,
+          "dislikes": 45
+        },
+        "reviewCount": 140,
+        "meta": {
+          "createdAt": "2024-05-23T17:00:00.000Z",
+          "updatedAt": "2024-05-23T17:00:00.000Z"
+        }
+      },
+      "17": {
+        "id": 17,
+        "name": "Mini Crème Brûlée Cheesecakes",
+        "category": ["Desserts", "Cheesecake", "Mini Bites"],
+        "description": "These adorable mini cheesecakes combine the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for parties or as an elegant individual dessert.",
+        "ingredients": [
+          "150g digestive biscuits, crushed",
+          "50g unsalted butter, melted",
+          "250g cream cheese, softened",
+          "100g granulated sugar",
+          "1 tsp vanilla extract",
+          "2 large eggs",
+          "100ml heavy cream",
+          "1 tsp vanilla bean paste",
+          "50g granulated sugar (for caramelizing)",
+          "Fresh berries (for garnish)",
+          "Mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the base: Mix crushed digestive biscuits with melted butter. Press into the bottom of mini cupcake molds or silicone molds. Chill for 15 minutes.",
+          "Make the cheesecake filling: Beat cream cheese, sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition.",
+          "Incorporate cream: Gradually add heavy cream and vanilla bean paste to the cream cheese mixture. Mix until well combined.",
+          "Assemble: Spoon the filling over the chilled biscuit bases. Smooth the tops with a spatula.",
+          "Bake: Preheat the oven to 160°C (325°F). Bake the mini cheesecakes in a water bath for 20-25 minutes or until set. Let them cool completely.",
+          "Chill: Refrigerate for at least 2 hours or until firm.",
+          "Caramelize the top: Sprinkle a thin, even layer of granulated sugar over the top of each mini cheesecake. Use a kitchen torch to caramelize the sugar until it forms a golden crust.",
+          "Decorate: Garnish with fresh berries and mint leaves before serving."
+        ],
+        "prepTimeMinutes": 25,
+        "cookTimeMinutes": 25,
+        "servings": 12,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 220,
+        "tags": [
+          "Cheesecake",
+          "Crème Brûlée",
+          "Mini Bites",
+          "Dessert",
+          "Caramelized"
+        ],
+        "userId": 115,
+        "images": ["/images/recipes/17-1.jpg"],
+        "rating": 4.8,
+        "views": 4000,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 50
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-05-23T18:00:00.000Z",
+          "updatedAt": "2024-05-23T18:00:00.000Z"
+        }
+      },
+      "18": {
+        "id": 18,
+        "name": "Decadent Chocolatey Cherry Bliss Cake",
+        "category": ["Desserts", "Cakes"],
+        "description": "A rich and indulgent chocolate cake layered with luscious cherry filling and topped with a smooth chocolate ganache. Perfect for chocolate and cherry lovers, this cake is a true delight.",
+        "ingredients": [
+          "200g all-purpose flour",
+          "200g granulated sugar",
+          "100g unsweetened cocoa powder",
+          "1 tsp baking powder",
+          "1 tsp baking soda",
+          "1/2 tsp salt",
+          "2 large eggs",
+          "240ml buttermilk",
+          "120ml vegetable oil",
+          "2 tsp vanilla extract",
+          "240ml hot water",
+          "200g fresh cherries, pitted",
+          "100g cherry jam",
+          "200g dark chocolate, chopped",
+          "200ml heavy cream",
+          "Fresh cherries (for garnish)",
+          "Mint leaves (for garnish)"
+        ],
+        "instructions": [
+          "Preheat the oven to 180°C (350°F). Grease and flour two 9-inch round cake pans.",
+          "Mix dry ingredients: In a large bowl, whisk together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+          "Add wet ingredients: Add eggs, buttermilk, oil, and vanilla extract to the dry ingredients. Mix until well combined.",
+          "Incorporate hot water: Gradually add hot water to the batter, mixing until smooth. The batter will be thin.",
+          "Bake: Divide the batter evenly between the prepared pans. Bake for 30-35 minutes or until a toothpick inserted into the center comes out clean. Let the cakes cool in the pans for 10 minutes, then transfer to a wire rack to cool completely.",
+          "Prepare the cherry filling: Mix pitted cherries with cherry jam and set aside.",
+          "Make the ganache: Place chopped dark chocolate in a bowl. Heat heavy cream until just boiling, then pour over the chocolate. Let it sit for 2 minutes, then stir until smooth.",
+          "Assemble the cake: Place one cake layer on a serving plate. Spread the cherry filling over the top. Place the second cake layer on top and cover the entire cake with the chocolate ganache.",
+          "Decorate: Garnish with fresh cherries and mint leaves before serving."
+        ],
+        "prepTimeMinutes": 40,
+        "cookTimeMinutes": 35,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "International",
+        "caloriesPerServing": 460,
+        "tags": ["Chocolate", "Cherry", "Cake", "Dessert", "Ganache"],
+        "userId": 120,
+        "images": ["/images/recipes/18-1.jpg"],
+        "rating": 4.9,
+        "views": 5000,
+        "reactions": {
+          "likes": 3000,
+          "dislikes": 60
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-05-23T19:00:00.000Z",
+          "updatedAt": "2024-05-23T19:00:00.000Z"
+        }
+      },
+      "19": {
+        "id": 19,
+        "name": "Pistachio Baklava Cheesecake",
+        "category": ["Desserts", "Cheesecake", "Cakes"],
+        "description": "A luxurious fusion of creamy cheesecake and the nutty, flaky layers of baklava. This dessert combines the richness of pistachios with the sweetness of honey, creating a truly indulgent treat.",
+        "ingredients": [
+          "200g phyllo dough sheets",
+          "100g unsalted butter, melted",
+          "150g pistachios, finely chopped",
+          "100g granulated sugar",
+          "1 tsp ground cinnamon",
+          "500g cream cheese, softened",
+          "150g granulated sugar",
+          "1 tsp vanilla extract",
+          "3 large eggs",
+          "200ml heavy cream",
+          "100g honey",
+          "1 tsp orange blossom water (optional)",
+          "Extra pistachios (for garnish)",
+          "Edible rose petals (for garnish)"
+        ],
+        "instructions": [
+          "Prepare the baklava base: Preheat the oven to 180°C (350°F). Brush each phyllo sheet with melted butter and layer them in a 9-inch springform pan. Sprinkle a mixture of chopped pistachios, sugar, and cinnamon between every few layers.",
+          "Bake the base: Bake the phyllo layers for 15-20 minutes or until golden and crisp. Let it cool slightly.",
+          "Make the cheesecake filling: Beat cream cheese, sugar, and vanilla extract until smooth. Add eggs one at a time, mixing well after each addition. Gradually add heavy cream and mix until combined.",
+          "Assemble: Pour the cheesecake filling over the baked phyllo base. Smooth the top with a spatula.",
+          "Bake: Reduce the oven temperature to 160°C (325°F). Bake the cheesecake in a water bath for 50-60 minutes or until set. Let it cool completely.",
+          "Prepare the honey syrup: In a small saucepan, heat honey and orange blossom water (if using) until warm and slightly runny.",
+          "Glaze the cake: Drizzle the warm honey syrup over the cooled cheesecake.",
+          "Decorate: Garnish with extra chopped pistachios and edible rose petals before serving.",
+          "Chill: Refrigerate for at least 4 hours before serving."
+        ],
+        "prepTimeMinutes": 40,
+        "cookTimeMinutes": 60,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "Fusion",
+        "caloriesPerServing": 480,
+        "tags": ["Cheesecake", "Baklava", "Pistachio", "Dessert", "Honey"],
+        "userId": 125,
+        "images": ["/images/recipes/19-1.jpg"],
+        "rating": 4.9,
+        "views": 4500,
+        "reactions": {
+          "likes": 2800,
+          "dislikes": 50
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-05-23T20:00:00.000Z",
+          "updatedAt": "2024-05-23T20:00:00.000Z"
+        }
+      },
+      "20": {
+        "id": 20,
+        "name": "Mini Greek-Baklava Inspired Delights",
+        "category": ["Pastries", "Desserts", "Mediterranean"],
+        "description": "Tiny morsels of flaky phyllo pastry, layered with a rich blend of walnuts, cinnamon, and cloves, drizzled with a honey-lemon syrup. A perfect bite-sized indulgence that captures the essence of Greek tradition.",
+        "ingredients": [
+          "Phyllo pastry sheets",
+          "Walnuts, finely chopped",
+          "Cinnamon, ground",
+          "Cloves, ground",
+          "Unsalted butter, melted",
+          "Honey",
+          "Sugar",
+          "Water",
+          "Lemon juice",
+          "Orange zest (optional)"
+        ],
+        "instructions": [
+          "Preheat oven to 175°C (350°F).",
+          "Combine walnuts, cinnamon, and cloves in a bowl.",
+          "Melt butter. Lightly brush phyllo sheets with butter and layer them.",
+          "Cut phyllo layers into small squares or triangles.",
+          "Place a teaspoon of the walnut mixture on each piece.",
+          "Fold or roll the phyllo to create small bites.",
+          "Bake for 20-25 minutes, until golden brown.",
+          "While baking, prepare the syrup by simmering honey, sugar, water, and lemon juice.",
+          "Pour the hot syrup over the baked baklava bites immediately.",
+          "Allow to cool and absorb the syrup before serving.",
+          "Optional: Garnish with orange zest for added aroma."
+        ],
+        "prepTimeMinutes": 30,
+        "cookTimeMinutes": 25,
+        "servings": 24,
+        "difficulty": "Medium",
+        "cuisine": "Greek",
+        "caloriesPerServing": 150,
+        "tags": ["Baklava", "Greek", "Dessert", "Mini Bites", "Nuts", "Honey"],
+        "userId": 42,
+        "images": ["/images/recipes/20-1.jpg"],
+        "rating": 4.8,
+        "views": 3578,
+        "reactions": {
+          "likes": 2890,
+          "dislikes": 15
+        },
+        "reviewCount": 156,
+        "meta": {
+          "createdAt": "2024-05-23T09:15:42.987Z",
+          "updatedAt": "2024-05-23T09:15:42.987Z"
+        }
+      },
+      "21": {
+        "id": 21,
+        "name": "No Bake Pumpkin Cheesecake Balls",
+        "category": ["Desserts", "Cheesecake", "No Bake"],
+        "description": "These delightful no-bake pumpkin cheesecake balls are a perfect treat for fall. Combining the flavors of pumpkin, cream cheese, and warm spices, they are easy to make and irresistibly delicious.",
+        "ingredients": [
+          "200g graham crackers, crushed",
+          "250g cream cheese, softened",
+          "100g powdered sugar",
+          "100g pumpkin puree",
+          "1 tsp vanilla extract",
+          "1 tsp ground cinnamon",
+          "1/2 tsp ground nutmeg",
+          "1/4 tsp ground cloves",
+          "200g white chocolate, melted",
+          "1 tbsp coconut oil",
+          "Crushed graham crackers or cinnamon sugar (for coating)"
+        ],
+        "instructions": [
+          "Prepare the base: In a large bowl, mix crushed graham crackers, cream cheese, powdered sugar, pumpkin puree, vanilla extract, cinnamon, nutmeg, and cloves until well combined.",
+          "Form the balls: Scoop out tablespoon-sized portions of the mixture and roll them into balls. Place them on a baking sheet lined with parchment paper.",
+          "Chill: Freeze the balls for at least 1 hour to firm up.",
+          "Prepare the coating: In a small bowl, mix melted white chocolate with coconut oil until smooth.",
+          "Coat the balls: Dip each chilled cheesecake ball into the melted white chocolate, ensuring it is fully coated. Allow the excess to drip off.",
+          "Add the final touch: Roll the coated balls in crushed graham crackers or cinnamon sugar for an extra layer of flavor.",
+          "Set: Place the coated balls back on the parchment paper and let them set in the refrigerator for about 30 minutes.",
+          "Serve: Enjoy these delightful pumpkin cheesecake balls as a festive treat!"
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 0,
+        "servings": 12,
+        "difficulty": "Easy",
+        "cuisine": "American",
+        "caloriesPerServing": 220,
+        "tags": ["Cheesecake", "Pumpkin", "No Bake", "Dessert", "Fall"],
+        "userId": 130,
+        "images": ["/images/recipes/21-1.jpg"],
+        "rating": 4.8,
+        "views": 3800,
+        "reactions": {
+          "likes": 2300,
+          "dislikes": 40
+        },
+        "reviewCount": 150,
+        "meta": {
+          "createdAt": "2024-05-23T21:00:00.000Z",
+          "updatedAt": "2024-05-23T21:00:00.000Z"
+        }
+      },
+      "22": {
+        "id": 22,
+        "name": "Salted Caramel Cheesecake",
+        "category": ["Desserts", "Cheesecake"],
+        "description": "A decadent cheesecake with a creamy, smooth filling, swirled with rich salted caramel. The perfect balance of sweet and salty, resting on a buttery graham cracker crust. A truly indulgent treat.",
+        "ingredients": [
+          "Graham cracker crumbs",
+          "Unsalted butter, melted",
+          "Cream cheese, softened",
+          "Granulated sugar",
+          "Eggs",
+          "Vanilla extract",
+          "Heavy cream",
+          "Salted caramel sauce",
+          "Coarse sea salt (for garnish)"
+        ],
+        "instructions": [
+          "Preheat oven to 175°C (350°F).",
+          "Combine graham cracker crumbs and melted butter for the crust. Press into the bottom of a springform pan.",
+          "Bake crust for 10 minutes, then let cool.",
+          "Beat cream cheese and sugar until smooth.",
+          "Add eggs one at a time, mixing well after each addition.",
+          "Stir in vanilla extract and heavy cream.",
+          "Pour half of the cheesecake batter into the crust.",
+          "Drizzle half of the salted caramel sauce over the batter.",
+          "Pour the remaining batter and swirl with the rest of the caramel.",
+          "Bake for 50-60 minutes, or until the center is just set.",
+          "Let cool completely in the oven with the door slightly ajar.",
+          "Refrigerate for at least 4 hours, or preferably overnight.",
+          "Drizzle with extra caramel and sprinkle with sea salt before serving."
+        ],
+        "prepTimeMinutes": 45,
+        "cookTimeMinutes": 60,
+        "servings": 10,
+        "difficulty": "Medium",
+        "cuisine": "American",
+        "caloriesPerServing": 450,
+        "tags": ["Cheesecake", "Salted Caramel", "Dessert", "Creamy"],
+        "userId": 78,
+        "images": ["/images/recipes/22-1.jpg"],
+        "rating": 4.9,
+        "views": 5210,
+        "reactions": {
+          "likes": 4895,
+          "dislikes": 23
+        },
+        "reviewCount": 210,
+        "meta": {
+          "createdAt": "2024-05-23T09:30:15.123Z",
+          "updatedAt": "2024-05-23T09:30:15.123Z"
+        }
+      },
+      "23": {
+        "id": 23,
+        "name": "Red Velvet Brownies",
+        "category": ["Desserts", "Brownies"],
+        "description": "These rich and fudgy red velvet brownies combine the classic flavors of red velvet cake with the dense, chocolatey texture of brownies. Topped with a creamy cheesecake swirl, they are a decadent treat for any occasion.",
+        "ingredients": [
+          "150g unsalted butter",
+          "200g granulated sugar",
+          "2 large eggs",
+          "1 tsp vanilla extract",
+          "1 tbsp red food coloring",
+          "150g all-purpose flour",
+          "30g unsweetened cocoa powder",
+          "1/2 tsp salt",
+          "200g cream cheese, softened",
+          "50g granulated sugar",
+          "1 large egg yolk",
+          "1/2 tsp vanilla extract"
+        ],
+        "instructions": [
+          "Preheat the oven to 180°C (350°F). Grease and line an 8x8-inch baking pan with parchment paper.",
+          "Make the brownie batter: In a saucepan, melt the butter over low heat. Remove from heat and stir in 200g sugar, eggs, vanilla extract, and red food coloring until well combined.",
+          "Add dry ingredients: Sift in flour, cocoa powder, and salt. Mix until just combined. Pour the batter into the prepared pan.",
+          "Make the cheesecake swirl: In a separate bowl, beat cream cheese, 50g sugar, egg yolk, and vanilla extract until smooth.",
+          "Assemble: Drop spoonfuls of the cheesecake mixture onto the brownie batter. Use a knife to swirl the cheesecake mixture into the brownie batter.",
+          "Bake: Bake for 25-30 minutes or until a toothpick inserted into the center comes out with a few moist crumbs.",
+          "Cool: Let the brownies cool completely in the pan before cutting into squares.",
+          "Serve: Enjoy these rich and fudgy red velvet brownies with a glass of milk or a cup of coffee."
+        ],
+        "prepTimeMinutes": 20,
+        "cookTimeMinutes": 30,
+        "servings": 9,
+        "difficulty": "Medium",
+        "cuisine": "American",
+        "caloriesPerServing": 280,
+        "tags": [
+          "Brownies",
+          "Red Velvet",
+          "Cheesecake",
+          "Dessert",
+          "Chocolate"
+        ],
+        "userId": 135,
+        "images": ["/images/recipes/23-1.jpg"],
+        "rating": 4.7,
+        "views": 4200,
+        "reactions": {
+          "likes": 2600,
+          "dislikes": 55
+        },
+        "reviewCount": 170,
+        "meta": {
+          "createdAt": "2024-05-23T22:00:00.000Z",
+          "updatedAt": "2024-05-23T22:00:00.000Z"
+        }
+      }
     },
-    "rules": {
-        "users": {
-            ".create": false,
-            ".read": [
-                "Owner"
-            ],
-            ".update": false,
-            ".delete": false
+    "blog": {
+      "1": {
+        "id": 1,
+        "title": "Rainbow Macaron Tower: A Sweet Symphony of Colors",
+        "category": ["Food presentation", "Gourmet"],
+        "tags": ["Colorful", "Sweet", "Vegetarian"],
+        "content": [
+          "Imagine a tower of delicate, colorful macarons, each one a tiny masterpiece of flavor and artistry. Rainbow macaron towers are not just desserts; they are a feast for the eyes and a celebration of creativity. Perfect for weddings, birthdays, or any special occasion, these towers are a showstopper that will leave your guests in awe.",
+          "The secret to a perfect macaron lies in its texture—crispy on the outside, chewy on the inside, and filled with a creamy ganache or buttercream. But what truly sets rainbow macarons apart is their vibrant colors. Using natural food dyes like matcha for green, beetroot for pink, and turmeric for yellow, you can create a stunning spectrum that mimics the beauty of a rainbow.",
+          "Creating a macaron tower requires patience and precision. Each macaron must be uniform in size and shape to ensure the tower stands tall and proud. Once assembled, the tower can be decorated with edible flowers, gold leaf, or even a drizzle of chocolate for an extra touch of elegance. Whether you're a professional pastry chef or a home baker, this dessert is sure to impress."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "French",
+        "userId": 78,
+        "images": ["/images/blog/1-1.jpg"],
+        "rating": 4.9,
+        "views": 4200,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 40
         },
-        "members": {
-            ".update": "isOwner(user, get('teams', data.teamId))",
-            ".delete": "isOwner(user, get('teams', data.teamId)) || isOwner(user, data)",
-            "*": {
-                "teamId": {
-                    ".update": "newData.teamId = data.teamId"
-                },
-                "status": {
-                    ".create": "newData.status = 'pending'"
-                }
-            }
+        "reviewCount": 150,
+        "meta": {
+          "createdAt": "2024-05-24T10:30:00.000Z",
+          "updatedAt": "2024-05-24T10:30:00.000Z"
         }
+      },
+      "2": {
+        "id": 2,
+        "title": "Edible Flowers: A Guide to Garnishing Your Dishes with Nature's Beauty",
+        "category": ["Food presentation", "Cooking Tips", "Gourmet"],
+        "tags": ["Healthy", "Vegetarian", "Elegant"],
+        "content": [
+          "Edible flowers have been used in culinary arts for centuries, adding a touch of elegance and a burst of color to dishes. From vibrant pansies to delicate rose petals, these natural beauties can transform an ordinary meal into a visual masterpiece. But before you start sprinkling flowers on your plate, it's important to know which ones are safe to eat and how to use them effectively.",
+          "Not all flowers are edible, so it's crucial to choose the right ones. Some popular edible flowers include nasturtiums, marigolds, violets, and lavender. Each flower has its own unique flavor profile—nasturtiums are peppery, while lavender adds a subtle floral sweetness. Always ensure that the flowers you use are grown organically and free from pesticides.",
+          "When it comes to garnishing, less is often more. A few carefully placed petals can elevate a dish without overwhelming it. Use edible flowers to decorate salads, desserts, cocktails, or even main courses. For a stunning presentation, pair colorful flowers with neutral-toned dishes to make them truly stand out. Remember, the goal is to enhance the dish, not overpower it."
+        ],
+        "readingTimeMinutes": 12,
+        "cuisine": "International",
+        "userId": 89,
+        "images": ["/images/blog/2-1.jpg"],
+        "rating": 4.7,
+        "views": 3800,
+        "reactions": {
+          "likes": 2200,
+          "dislikes": 35
+        },
+        "reviewCount": 130,
+        "meta": {
+          "createdAt": "2024-05-25T11:45:00.000Z",
+          "updatedAt": "2024-05-25T11:45:00.000Z"
+        }
+      },
+      "3": {
+        "id": 3,
+        "title": "The Science of Searing: Achieving Perfect Caramelization and Flavor",
+        "category": ["Cooking Tips"],
+        "tags": [
+          "Searing",
+          "Caramelization",
+          "Flavor",
+          "Cooking Techniques",
+          "Meat"
+        ],
+        "content": [
+          "Searing, often hailed as the cornerstone of flavor development, is a culinary technique that transforms the surface of food through intense heat. This process isn't just about aesthetics; it's a chemical reaction known as the Maillard reaction, where amino acids and sugars interact to create hundreds of new flavor compounds. Understanding this science is key to unlocking the full potential of your ingredients, whether it's a steak, vegetables, or even fruit.",
+          "The key to successful searing lies in achieving the right balance of heat and moisture. A dry surface is crucial, as moisture will hinder the Maillard reaction and lead to steaming rather than searing. High heat, typically from a preheated pan or grill, is essential for rapid caramelization. This intense heat not only creates a beautiful crust but also locks in the natural juices of the food, resulting in a tender and flavorful interior. The type of fat used also plays a role; fats with high smoke points, like clarified butter or grapeseed oil, are ideal for searing.",
+          "Beyond the Maillard reaction, searing also contributes to the overall texture of a dish. The crisp, caramelized exterior provides a delightful contrast to the tender interior, creating a multi-sensory experience. Experimenting with different searing techniques, such as pan-searing, grilling, or even using a blowtorch, can yield diverse flavor profiles and textures. Mastering the art of searing is not just about following a recipe; it's about understanding the underlying science and using it to elevate your culinary creations.",
+          "Finally, don't forget the importance of resting. After searing, especially with meats, allowing the food to rest for a few minutes is crucial. This allows the juices to redistribute, resulting in a more tender and flavorful final product. This simple step can make a significant difference in the overall quality of your dish, transforming a good sear into a truly exceptional culinary experience."
+        ],
+        "readingTimeMinutes": 10,
+        "cuisine": "General",
+        "userId": 12,
+        "images": ["/images/blog/3-1.jpg"],
+        "rating": 4.7,
+        "views": 2800,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 30
+        },
+        "reviewCount": 90,
+        "meta": {
+          "createdAt": "2024-05-23T10:00:00.000Z",
+          "updatedAt": "2024-05-23T10:00:00.000Z"
+        }
+      },
+      "4": {
+        "id": 4,
+        "title": "A Culinary Journey Through Italy: Exploring Regional Specialties and Hidden Gems",
+        "category": ["Food Travel", "Food Stories"],
+        "tags": ["Italian Cuisine", "Travel", "Gourmet"],
+        "content": [
+          "Italy is a country that needs no introduction when it comes to food. From the rich, hearty dishes of the north to the fresh, vibrant flavors of the south, every region offers a unique culinary experience. Join us on a journey through Italy as we explore the regional specialties and hidden gems that make this country a food lover's paradise.",
+          "In the north, the region of Lombardy is famous for its creamy risottos and ossobuco, while Piedmont is known for its truffles and robust Barolo wine. Moving south, Tuscany offers rustic dishes like ribollita and bistecca alla Fiorentina, paired perfectly with a glass of Chianti. Each region has its own distinct flavors and traditions, shaped by the local ingredients and history.",
+          "But Italy's culinary treasures aren't limited to its well-known dishes. Hidden gems await in small villages and family-run trattorias. From the saffron-infused dishes of Abruzzo to the seafood delights of Sicily, there's always something new to discover. Whether you're savoring a plate of handmade pasta or indulging in a scoop of artisanal gelato, every bite tells a story of tradition, passion, and love for food."
+        ],
+        "readingTimeMinutes": 20,
+        "cuisine": "Italian",
+        "userId": 102,
+        "images": ["/images/blog/4-1.jpg"],
+        "rating": 4.8,
+        "views": 4500,
+        "reactions": {
+          "likes": 2800,
+          "dislikes": 45
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-05-26T14:00:00.000Z",
+          "updatedAt": "2024-05-26T14:00:00.000Z"
+        }
+      },
+      "5": {
+        "id": 5,
+        "title": "The Secrets of Michelin-Starred Desserts: Deconstructing the Techniques and Flavors",
+        "category": ["Gourmet", "Food presentation"],
+        "tags": ["Desserts", "Fine Dining", "Culinary Art"],
+        "content": [
+          "Michelin-starred desserts are more than just sweet treats—they are masterpieces of culinary art. Combining precision, creativity, and the finest ingredients, these desserts are designed to delight both the palate and the eyes. But what makes them so special? Let's dive into the secrets behind these exquisite creations.",
+          "One of the key techniques used in Michelin-starred desserts is 'deconstruction.' This involves breaking down a classic dessert into its core components and presenting them in a new, innovative way. For example, a traditional tiramisu might be reimagined as a delicate sphere of mascarpone mousse, accompanied by coffee gel and cocoa soil. This approach allows chefs to play with textures, temperatures, and flavors, creating a multi-sensory experience.",
+          "Another secret lies in the use of high-quality, often unexpected ingredients. From rare spices to edible flowers and exotic fruits, Michelin-starred chefs are constantly pushing the boundaries of flavor. Pairing these ingredients with advanced techniques like molecular gastronomy results in desserts that are not only delicious but also visually stunning. Whether it's a perfectly plated chocolate fondant or a whimsical interpretation of a childhood favorite, these desserts are a testament to the artistry and skill of their creators."
+        ],
+        "readingTimeMinutes": 18,
+        "cuisine": "International",
+        "userId": 115,
+        "images": ["/images/blog/5-1.jpg"],
+        "rating": 4.9,
+        "views": 5000,
+        "reactions": {
+          "likes": 3200,
+          "dislikes": 60
+        },
+        "reviewCount": 220,
+        "meta": {
+          "createdAt": "2024-05-27T16:30:00.000Z",
+          "updatedAt": "2024-05-27T16:30:00.000Z"
+        }
+      },
+      "6": {
+        "id": 6,
+        "title": "The Power of Food to Connect: How a Shared Meal Can Bridge Cultures and Create Lasting Memories",
+        "category": ["Food Stories", "Food Travel"],
+        "tags": ["Cultural Exchange", "Community", "Memories"],
+        "content": [
+          "Food is more than just sustenance—it is a universal language that transcends borders and brings people together. Whether it's a family dinner, a street food feast, or a gourmet tasting menu, sharing a meal creates a sense of connection and belonging. In a world that often feels divided, food has the power to bridge cultures and foster understanding.",
+          "One of the most beautiful aspects of food is its ability to tell stories. Every dish carries with it a history, a tradition, and a piece of someone's identity. When we share a meal with someone from a different culture, we are not just tasting their food—we are experiencing their heritage. From the spicy curries of India to the comforting pasta dishes of Italy, each bite is an opportunity to learn and grow.",
+          "Creating lasting memories through food doesn't require a fancy restaurant or elaborate preparation. Sometimes, the most meaningful meals are the simplest ones—a picnic in the park, a potluck with friends, or a home-cooked meal with loved ones. These moments remind us that food is not just about nourishment; it's about connection, love, and the joy of being together."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 128,
+        "images": ["/images/blog/6-1.jpg"],
+        "rating": 4.8,
+        "views": 4700,
+        "reactions": {
+          "likes": 2900,
+          "dislikes": 50
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-05-28T18:00:00.000Z",
+          "updatedAt": "2024-05-28T18:00:00.000Z"
+        }
+      },
+      "7": {
+        "id": 7,
+        "title": "A Culinary Adventure in the Amazon: Discovering Unique Ingredients and Ancient Cooking Techniques",
+        "category": ["Food Travel", "Food Stories"],
+        "tags": ["Amazon", "Exotic Ingredients", "Traditional Cooking"],
+        "content": [
+          "The Amazon rainforest is not only a treasure trove of biodiversity but also a culinary paradise waiting to be explored. From exotic fruits and nuts to ancient cooking techniques passed down through generations, the Amazon offers a unique gastronomic experience that is both fascinating and delicious. Join us on a journey through the heart of the rainforest as we uncover its culinary secrets.",
+          "One of the most intriguing aspects of Amazonian cuisine is its use of ingredients that are rarely found outside the region. Fruits like açaí, camu camu, and cupuaçu are packed with nutrients and have unique flavors that are both refreshing and complex. Nuts such as Brazil nuts and sapucaia are not only delicious but also play a vital role in the local diet. These ingredients are often used in traditional dishes that have been perfected over centuries.",
+          "Ancient cooking techniques are another highlight of Amazonian cuisine. Methods like smoking, fermenting, and roasting over open flames are still widely used today, preserving the authenticity and flavor of the food. Indigenous communities have a deep connection to their culinary heritage, and their knowledge offers valuable insights into sustainable and respectful food practices. Whether it's a hearty fish stew cooked in banana leaves or a refreshing drink made from wild fruits, every dish tells a story of the Amazon's rich cultural and natural history."
+        ],
+        "readingTimeMinutes": 20,
+        "cuisine": "Amazonian",
+        "userId": 135,
+        "images": ["/images/blog/7-1.jpg"],
+        "rating": 4.9,
+        "views": 4900,
+        "reactions": {
+          "likes": 3100,
+          "dislikes": 55
+        },
+        "reviewCount": 210,
+        "meta": {
+          "createdAt": "2024-05-29T19:00:00.000Z",
+          "updatedAt": "2024-05-29T19:00:00.000Z"
+        }
+      },
+      "8": {
+        "id": 8,
+        "title": "Food Photography 101: Tips and Tricks for Capturing Stunning Food Images",
+        "category": ["Food presentation", "Cooking Tips"],
+        "tags": ["Photography", "Food Styling", "Social Media"],
+        "content": [
+          "In the age of social media, food photography has become an essential skill for food lovers, bloggers, and chefs alike. A well-captured image can make your dish look irresistible, but achieving that perfect shot requires more than just a good camera. Here are some tips and tricks to help you capture stunning food images that will leave your audience craving more.",
+          "Lighting is the most important factor in food photography. Natural light is your best friend—it brings out the true colors and textures of your dish. Avoid harsh shadows by shooting near a window or outdoors on a cloudy day. If natural light isn't available, invest in a softbox or diffuser to create a similar effect. Remember, the goal is to make the food look as appetizing as possible.",
+          "Composition and styling are equally crucial. Use the rule of thirds to create a balanced and visually appealing image. Add props like cutlery, napkins, or fresh ingredients to tell a story and add depth to your photo. Don't be afraid to experiment with angles—overhead shots work well for flat lays, while a 45-degree angle can highlight the layers and textures of your dish. Finally, edit your photos to enhance colors and contrast, but keep it natural to maintain the authenticity of the food."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 142,
+        "images": ["/images/blog/8-1.jpg"],
+        "rating": 4.7,
+        "views": 4300,
+        "reactions": {
+          "likes": 2700,
+          "dislikes": 40
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-05-30T20:00:00.000Z",
+          "updatedAt": "2024-05-30T20:00:00.000Z"
+        }
+      },
+      "9": {
+        "id": 9,
+        "title": "The Art of Layering: Creating Visually Stunning Desserts",
+        "category": ["Food presentation", "Gourmet"],
+        "tags": ["Desserts", "Plating Techniques", "Visual Appeal"],
+        "content": [
+          "Layering is more than just a technique—it's an art form that can transform a simple dessert into a visually stunning masterpiece. By carefully arranging different textures, colors, and flavors, you can create desserts that are as beautiful as they are delicious. Whether you're a professional pastry chef or a home baker, mastering the art of layering will elevate your desserts to the next level.",
+          "The key to successful layering is balance. Each layer should complement the others, both in flavor and appearance. Start with a solid base, such as a crumbly biscuit or a moist sponge cake. Add a creamy layer, like mousse or custard, to create contrast. Finally, top it off with something light and airy, such as whipped cream or a delicate fruit gel. The goal is to create a harmonious blend of textures and flavors that delight the senses.",
+          "Presentation is just as important as taste. Use clear glasses or jars to showcase the layers, or experiment with molds to create intricate shapes. Garnish with fresh fruits, edible flowers, or a drizzle of sauce to add the finishing touch. Remember, the beauty of layering lies in its versatility—there are endless possibilities to explore and create."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 150,
+        "images": ["/images/blog/9-1.jpg"],
+        "rating": 4.8,
+        "views": 4600,
+        "reactions": {
+          "likes": 2900,
+          "dislikes": 50
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-05-31T21:00:00.000Z",
+          "updatedAt": "2024-05-31T21:00:00.000Z"
+        }
+      },
+      "10": {
+        "id": 10,
+        "title": "Cooking with Seasonal Ingredients: Savoring the Flavors of Each Season",
+        "category": ["Cooking Tips", "Food Stories"],
+        "tags": ["Seasonal Cooking", "Healthy", "Sustainability"],
+        "content": [
+          "Cooking with seasonal ingredients is not only a delicious way to enjoy fresh, flavorful food, but it's also a sustainable and budget-friendly approach to eating. Each season brings its own bounty of fruits, vegetables, and herbs, offering endless opportunities to create vibrant and nutritious meals. Let's explore how you can make the most of seasonal produce and savor the flavors of each season.",
+          "In the spring, take advantage of tender greens like asparagus, peas, and spinach. These ingredients are perfect for light, refreshing dishes such as salads, soups, and pastas. Summer is the time for juicy tomatoes, sweet corn, and berries, which can be used in everything from grilled dishes to desserts. Embrace the warmth of the season with vibrant, colorful meals that celebrate the abundance of fresh produce.",
+          "As the weather cools in autumn, root vegetables like carrots, beets, and squash take center stage. These hearty ingredients are ideal for comforting stews, roasts, and pies. Winter brings citrus fruits, kale, and Brussels sprouts, which can brighten up even the coldest days. By cooking with seasonal ingredients, you not only enjoy the best flavors of the year but also support local farmers and reduce your environmental impact."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 155,
+        "images": ["/images/blog/10-1.jpg"],
+        "rating": 4.7,
+        "views": 4400,
+        "reactions": {
+          "likes": 2600,
+          "dislikes": 45
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-06-01T22:00:00.000Z",
+          "updatedAt": "2024-06-01T22:00:00.000Z"
+        }
+      },
+      "11": {
+        "id": 11,
+        "title": "Plating for Instagram: Tips and Tricks for Food Photography",
+        "category": ["Food presentation", "Cooking Tips"],
+        "tags": ["Food Photography", "Social Media", "Plating Techniques"],
+        "content": [
+          "In the age of Instagram, food presentation has become an art form. A beautifully plated dish can stop a scrolling thumb in its tracks, but creating that perfect shot requires more than just good food. Here are some tips and tricks to help you plate your dishes like a pro and capture stunning photos that will make your Instagram feed pop.",
+          "First, consider the color palette of your dish. Bright, vibrant colors are more likely to catch the eye, so incorporate a variety of colorful ingredients. Use contrasting colors to make your dish stand out—think green herbs on a red sauce or yellow lemon zest on a dark chocolate dessert. Remember, the more visually appealing your dish is, the more likely it is to get noticed.",
+          "Next, think about the composition of your plate. Use the rule of thirds to create a balanced and visually appealing image. Arrange your food in a way that guides the viewer's eye through the photo. Add props like cutlery, napkins, or fresh ingredients to tell a story and add depth to your image. Don't be afraid to experiment with different angles—overhead shots work well for flat lays, while a 45-degree angle can highlight the layers and textures of your dish."
+        ],
+        "readingTimeMinutes": 12,
+        "cuisine": "International",
+        "userId": 160,
+        "images": ["/images/blog/11-1.jpg"],
+        "rating": 4.6,
+        "views": 4100,
+        "reactions": {
+          "likes": 2400,
+          "dislikes": 40
+        },
+        "reviewCount": 170,
+        "meta": {
+          "createdAt": "2024-06-02T23:00:00.000Z",
+          "updatedAt": "2024-06-02T23:00:00.000Z"
+        }
+      },
+      "12": {
+        "id": 12,
+        "title": "A Culinary Safari in South Africa: Savoring the Flavors of the African Bush",
+        "category": ["Food Travel", "Food Stories"],
+        "tags": ["South Africa", "Exotic Cuisine", "Cultural Experience"],
+        "content": [
+          "South Africa is a land of breathtaking landscapes, rich cultural heritage, and a culinary scene as diverse as its people. From the vibrant streets of Cape Town to the remote corners of the African bush, the flavors of South Africa are a feast for the senses. Join us on a culinary safari as we explore the unique dishes and traditions that make this country a food lover's paradise.",
+          "One of the highlights of South African cuisine is its fusion of flavors. Influenced by indigenous tribes, Dutch settlers, Indian laborers, and Malay immigrants, the food is a melting pot of cultures. Dishes like bobotie (a spiced minced meat bake), bunny chow (a hollowed-out loaf of bread filled with curry), and biltong (dried cured meat) showcase this diversity. Each bite tells a story of the country's complex history and vibrant present.",
+          "A culinary safari in South Africa isn't complete without experiencing a traditional braai (barbecue). This social event is more than just a meal—it's a celebration of community and togetherness. Picture this: the sun setting over the savanna, the smell of grilled meat filling the air, and the sound of laughter and storytelling around the fire. It's an experience that captures the heart and soul of South Africa."
+        ],
+        "readingTimeMinutes": 18,
+        "cuisine": "South African",
+        "userId": 165,
+        "images": ["/images/blog/12-1.jpg"],
+        "rating": 4.8,
+        "views": 4800,
+        "reactions": {
+          "likes": 3000,
+          "dislikes": 50
+        },
+        "reviewCount": 210,
+        "meta": {
+          "createdAt": "2024-06-03T12:00:00.000Z",
+          "updatedAt": "2024-06-03T12:00:00.000Z"
+        }
+      },
+      "13": {
+        "id": 13,
+        "title": "Edible Art: Transforming Food into Culinary Masterpieces",
+        "category": ["Food presentation", "Gourmet"],
+        "tags": ["Culinary Art", "Plating Techniques", "Visual Appeal"],
+        "content": [
+          "Food is more than just sustenance—it is a canvas for creativity and expression. Edible art transforms ordinary ingredients into extraordinary masterpieces, blending taste and aesthetics in ways that delight both the palate and the eyes. From intricate sugar sculptures to meticulously plated dishes, culinary artists around the world are pushing the boundaries of what food can be.",
+          "One of the key elements of edible art is precision. Every detail, from the placement of a single herb leaf to the swirl of a sauce, is carefully considered. Techniques like molecular gastronomy allow chefs to experiment with textures and forms, creating dishes that are as surprising as they are delicious. The result is a dining experience that engages all the senses and leaves a lasting impression.",
+          "But edible art isn't just for professional chefs. With a little practice and creativity, anyone can turn their meals into works of art. Start by playing with colors and textures, using fresh ingredients to add vibrancy to your dishes. Experiment with different plating techniques, such as layering, stacking, or using negative space. Remember, the goal is to create something that is not only delicious but also visually stunning. After all, we eat with our eyes first."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 170,
+        "images": ["/images/blog/13-1.jpg"],
+        "rating": 4.7,
+        "views": 4500,
+        "reactions": {
+          "likes": 2700,
+          "dislikes": 45
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-06-04T14:00:00.000Z",
+          "updatedAt": "2024-06-04T14:00:00.000Z"
+        }
+      },
+      "14": {
+        "id": 14,
+        "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
+        "category": ["Gourmet", "Food Stories"],
+        "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
+        "content": [
+          "Modern cuisine is a fascinating blend of tradition and innovation, where age-old recipes meet cutting-edge techniques. Chefs around the world are redefining what it means to cook, drawing inspiration from their cultural heritage while embracing new technologies and ingredients. This evolution has given rise to a culinary landscape that is as diverse as it is exciting.",
+          "One of the hallmarks of modern cuisine is the use of molecular gastronomy. Techniques like spherification, foaming, and sous-vide cooking allow chefs to transform familiar ingredients into entirely new experiences. Imagine a cocktail that bursts in your mouth like caviar or a dessert that looks like a garden but tastes like a symphony of flavors. These innovations are not just about novelty—they are about pushing the boundaries of what food can be.",
+          "But modern cuisine is not just about technology; it's also about sustainability and respect for ingredients. Chefs are increasingly focusing on local, seasonal produce and reducing food waste. By blending traditional methods with modern sensibilities, they are creating dishes that are not only delicious but also environmentally conscious. The result is a culinary movement that honors the past while looking boldly to the future."
+        ],
+        "readingTimeMinutes": 20,
+        "cuisine": "International",
+        "userId": 175,
+        "images": ["/images/blog/14-1.jpg"],
+        "rating": 4.8,
+        "views": 4700,
+        "reactions": {
+          "likes": 2900,
+          "dislikes": 50
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-06-05T15:00:00.000Z",
+          "updatedAt": "2024-06-05T15:00:00.000Z"
+        }
+      },
+      "15": {
+        "id": 15,
+        "title": "The Art of Molecular Gastronomy: Exploring the Science of Cooking",
+        "category": ["Gourmet", "Cooking Tips"],
+        "tags": ["Molecular Gastronomy", "Culinary Science", "Innovation"],
+        "content": [
+          "Molecular gastronomy is where science meets the kitchen, transforming the way we think about food. This innovative approach to cooking combines physics, chemistry, and culinary arts to create dishes that are as surprising as they are delicious. From foams and gels to liquid nitrogen and spherification, molecular gastronomy pushes the boundaries of traditional cooking.",
+          "At its core, molecular gastronomy is about understanding the chemical and physical processes that occur during cooking. By manipulating these processes, chefs can create textures and flavors that were once unimaginable. Imagine a cocktail that turns into a gel in your mouth or a dessert that looks like a cloud but tastes like a fruit explosion. These techniques not only enhance the dining experience but also challenge our perceptions of what food can be.",
+          "But molecular gastronomy isn't just for professional chefs. With the right tools and a bit of curiosity, anyone can experiment with these techniques at home. Start with simple recipes like caviar-like spheres made from fruit juice or a foam infused with herbs. The key is to have fun and embrace the unexpected. After all, cooking is as much about creativity as it is about precision."
+        ],
+        "readingTimeMinutes": 18,
+        "cuisine": "International",
+        "userId": 180,
+        "images": ["/images/blog/15-1.jpg"],
+        "rating": 4.9,
+        "views": 4900,
+        "reactions": {
+          "likes": 3100,
+          "dislikes": 55
+        },
+        "reviewCount": 220,
+        "meta": {
+          "createdAt": "2024-06-06T16:00:00.000Z",
+          "updatedAt": "2024-06-06T16:00:00.000Z"
+        }
+      },
+      "16": {
+        "id": 16,
+        "title": "The Power of Texture: Creating Dynamic and Engaging Dishes",
+        "category": ["Food presentation", "Cooking Tips"],
+        "tags": ["Texture", "Plating Techniques", "Culinary Art"],
+        "content": [
+          "Texture is one of the most underrated yet essential elements of a great dish. It can elevate a meal from ordinary to extraordinary, adding depth and complexity to every bite. Whether it's the crunch of a perfectly seared crust, the creaminess of a velvety sauce, or the pop of a caviar-like sphere, texture plays a crucial role in creating a memorable dining experience.",
+          "Understanding how to balance textures is key to creating dynamic dishes. A well-composed plate should have a mix of contrasting textures—soft and crunchy, smooth and rough, creamy and crisp. For example, pairing a tender piece of fish with a crispy skin and a silky puree creates a harmonious balance that delights the palate. Experimenting with different textures can also add an element of surprise, making each bite an adventure.",
+          "Incorporating texture into your cooking doesn't require fancy techniques or ingredients. Simple additions like toasted nuts, fresh herbs, or a drizzle of infused oil can transform a dish. Pay attention to the textures of your ingredients and think about how they can complement each other. Remember, the goal is to create a dish that is not only delicious but also engaging and exciting to eat."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 185,
+        "images": ["/images/blog/16-1.jpg"],
+        "rating": 4.7,
+        "views": 4300,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 40
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-06-07T17:00:00.000Z",
+          "updatedAt": "2024-06-07T17:00:00.000Z"
+        }
+      },
+      "17": {
+        "id": 17,
+        "title": "The Ultimate Guide to Spice Blends: Creating Flavorful and Aromatic Dishes",
+        "category": ["Cooking Tips"],
+        "tags": ["Spices", "Flavor", "Culinary Techniques"],
+        "content": [
+          "Spices are the heart and soul of many cuisines around the world. They have the power to transform a simple dish into a flavorful masterpiece, adding depth, complexity, and aroma. But with so many spices available, how do you know which ones to use and how to combine them? This guide will help you unlock the secrets of spice blends and take your cooking to the next level.",
+          "Understanding the flavor profiles of different spices is the first step to creating your own blends. Warm spices like cinnamon, nutmeg, and cloves are perfect for sweet dishes, while bold spices like cumin, coriander, and paprika add depth to savory recipes. Experiment with combinations to find what works best for you. For example, a classic curry blend might include turmeric, cumin, coriander, and chili powder, while a Mediterranean blend could feature oregano, thyme, and rosemary.",
+          "Once you've mastered the basics, don't be afraid to get creative. Add a pinch of smoked paprika for a smoky flavor, or a dash of cardamom for a floral note. Store your blends in airtight containers to preserve their freshness and potency. With a well-stocked spice cabinet and a bit of experimentation, you can create dishes that are bursting with flavor and aroma."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 190,
+        "images": ["/images/blog/17-1.jpg"],
+        "rating": 4.8,
+        "views": 4400,
+        "reactions": {
+          "likes": 2600,
+          "dislikes": 45
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-06-08T18:00:00.000Z",
+          "updatedAt": "2024-06-08T18:00:00.000Z"
+        }
+      },
+      "18": {
+        "id": 18,
+        "title": "A Culinary Adventure Through Japan: Exploring the Flavors of Tokyo and Beyond",
+        "category": ["Food Travel", "Food Stories"],
+        "tags": ["Japan", "Sushi", "Ramen", "Cultural Experience"],
+        "content": [
+          "Japan is a country where food is not just sustenance but a way of life. From the bustling streets of Tokyo to the serene countryside, every region offers a unique culinary experience. Join us on a journey through Japan as we explore the flavors, traditions, and hidden gems that make this country a food lover's paradise.",
+          "Tokyo, the heart of Japan, is a culinary wonderland. Here, you can find everything from world-class sushi to humble street food. Visit Tsukiji Market for the freshest seafood, or indulge in a bowl of ramen at a tiny, hole-in-the-wall shop. Each bite tells a story of precision, tradition, and passion. But Tokyo is just the beginning—venture beyond the city to discover regional specialties like Osaka's takoyaki or Kyoto's kaiseki cuisine.",
+          "Japanese cuisine is deeply rooted in seasonality and respect for ingredients. Whether it's the delicate flavors of sashimi or the comforting warmth of a hot pot, every dish is a celebration of nature's bounty. As you travel through Japan, you'll not only savor incredible food but also gain a deeper appreciation for the culture and traditions that shape it. This culinary adventure is one you'll never forget."
+        ],
+        "readingTimeMinutes": 20,
+        "cuisine": "Japanese",
+        "userId": 195,
+        "images": ["/images/blog/18-1.jpg"],
+        "rating": 4.9,
+        "views": 5000,
+        "reactions": {
+          "likes": 3200,
+          "dislikes": 60
+        },
+        "reviewCount": 230,
+        "meta": {
+          "createdAt": "2024-06-09T19:00:00.000Z",
+          "updatedAt": "2024-06-09T19:00:00.000Z"
+        }
+      },
+      "19": {
+        "id": 19,
+        "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
+        "category": ["Gourmet", "Food Stories"],
+        "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
+        "content": [
+          "Modern cuisine is a fascinating blend of tradition and innovation, where age-old recipes meet cutting-edge techniques. Chefs around the world are redefining what it means to cook, drawing inspiration from their cultural heritage while embracing new technologies and ingredients. This evolution has given rise to a culinary landscape that is as diverse as it is exciting.",
+          "One of the hallmarks of modern cuisine is the use of molecular gastronomy. Techniques like spherification, foaming, and sous-vide cooking allow chefs to transform familiar ingredients into entirely new experiences. Imagine a cocktail that bursts in your mouth like caviar or a dessert that looks like a garden but tastes like a symphony of flavors. These innovations are not just about novelty—they are about pushing the boundaries of what food can be.",
+          "But modern cuisine is not just about technology; it's also about sustainability and respect for ingredients. Chefs are increasingly focusing on local, seasonal produce and reducing food waste. By blending traditional methods with modern sensibilities, they are creating dishes that are not only delicious but also environmentally conscious. The result is a culinary movement that honors the past while looking boldly to the future."
+        ],
+        "readingTimeMinutes": 18,
+        "cuisine": "International",
+        "userId": 200,
+        "images": ["/images/blog/19-1.jpg"],
+        "rating": 4.8,
+        "views": 4800,
+        "reactions": {
+          "likes": 3000,
+          "dislikes": 50
+        },
+        "reviewCount": 210,
+        "meta": {
+          "createdAt": "2024-06-10T20:00:00.000Z",
+          "updatedAt": "2024-06-10T20:00:00.000Z"
+        }
+      },
+      "20": {
+        "id": 20,
+        "title": "The Ultimate Foodie's Guide to Kyoto: From Kaiseki to Street Food",
+        "category": ["Food Travel", "Food Stories"],
+        "tags": ["Kyoto", "Kaiseki", "Street Food", "Cultural Experience"],
+        "content": [
+          "Kyoto, the cultural heart of Japan, is a city where tradition and modernity coexist in perfect harmony. Known for its ancient temples, serene gardens, and rich history, Kyoto is also a paradise for food lovers. From the refined elegance of kaiseki cuisine to the vibrant flavors of street food, this city offers a culinary journey like no other.",
+          "Kaiseki, the pinnacle of Japanese haute cuisine, is an art form that celebrates seasonality and precision. Each course is meticulously prepared and presented, reflecting the natural beauty of the seasons. Dining at a kaiseki restaurant is not just a meal—it's an experience that engages all the senses. But Kyoto's culinary delights don't stop there. The city's bustling markets and street food stalls offer a taste of everyday life, with dishes like yuba (tofu skin), matcha-flavored treats, and savory okonomiyaki.",
+          "As you wander through Kyoto's narrow streets, you'll discover a world of flavors that tell the story of this historic city. Whether you're savoring a multi-course kaiseki meal or grabbing a quick bite from a street vendor, every dish offers a glimpse into Kyoto's rich culinary heritage. This guide will help you navigate the city's food scene and make the most of your culinary adventure in Kyoto."
+        ],
+        "readingTimeMinutes": 20,
+        "cuisine": "Japanese",
+        "userId": 205,
+        "images": ["/images/blog/20-1.jpg"],
+        "rating": 4.9,
+        "views": 5100,
+        "reactions": {
+          "likes": 3300,
+          "dislikes": 55
+        },
+        "reviewCount": 240,
+        "meta": {
+          "createdAt": "2024-06-11T21:00:00.000Z",
+          "updatedAt": "2024-06-11T21:00:00.000Z"
+        }
+      },
+      "22": {
+        "id": 22,
+        "title": "The Secrets of Michelin-Starred Sauces: Deconstructing the Techniques",
+        "category": ["Gourmet", "Cooking Tips"],
+        "tags": ["Sauces", "Michelin-Starred", "Culinary Techniques"],
+        "content": [
+          "Sauces are the unsung heroes of the culinary world, capable of transforming a good dish into an extraordinary one. In Michelin-starred kitchens, sauces are crafted with precision and care, often taking hours—or even days—to perfect. But what makes these sauces so special? Let's dive into the secrets behind Michelin-starred sauces and the techniques that elevate them to art.",
+          "One of the key techniques in creating exceptional sauces is reduction. By simmering a liquid—whether it's stock, wine, or cream—chefs concentrate the flavors, resulting in a rich and intense sauce. Another essential method is emulsification, which combines ingredients like oil and vinegar into a smooth, cohesive mixture. Think of the velvety texture of a classic hollandaise or béarnaise sauce. These techniques require patience and practice, but the results are worth it.",
+          "But it's not just about technique; it's also about the quality of ingredients. Michelin-starred chefs often use homemade stocks, fresh herbs, and high-quality fats to create their sauces. They also pay attention to balance, ensuring that each sauce complements the dish without overpowering it. Whether it's a delicate beurre blanc or a robust demi-glace, these sauces are a testament to the skill and creativity of their creators."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 215,
+        "images": ["/images/blog/22-1.jpg"],
+        "rating": 4.7,
+        "views": 4500,
+        "reactions": {
+          "likes": 2700,
+          "dislikes": 45
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-06-13T23:00:00.000Z",
+          "updatedAt": "2024-06-13T23:00:00.000Z"
+        }
+      },
+      "23": {
+        "id": 23,
+        "title": "The Healing Power of Spices: How Aromatics Can Transform Your Health",
+        "category": ["Cooking Tips", "Healthy Eating"],
+        "tags": ["Spices", "Health Benefits", "Wellness"],
+        "content": [
+          "Spices have been used for centuries not only to enhance the flavor of food but also for their medicinal properties. From ancient Ayurvedic practices to modern holistic medicine, spices like turmeric, ginger, and cinnamon have been celebrated for their healing powers. Let's explore how these aromatic wonders can transform your health and well-being.",
+          "Turmeric, with its active compound curcumin, is renowned for its anti-inflammatory and antioxidant properties. It has been used to treat a variety of conditions, from arthritis to digestive issues. Ginger, another powerful spice, is known for its ability to soothe nausea and improve digestion. Cinnamon, on the other hand, has been shown to help regulate blood sugar levels and improve heart health.",
+          "Incorporating these spices into your daily diet is easier than you might think. Add a pinch of turmeric to your morning smoothie, brew a cup of ginger tea, or sprinkle cinnamon on your oatmeal. Not only will these spices add depth and flavor to your meals, but they will also provide a host of health benefits. Embrace the healing power of spices and take a step towards a healthier, more vibrant life."
+        ],
+        "readingTimeMinutes": 12,
+        "cuisine": "International",
+        "userId": 220,
+        "images": ["/images/blog/23-1.jpg"],
+        "rating": 4.6,
+        "views": 4200,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 40
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-06-14T10:00:00.000Z",
+          "updatedAt": "2024-06-14T10:00:00.000Z"
+        }
+      },
+      "24": {
+        "id": 24,
+        "title": "The Science of Baking with Gluten-Free Flours: Tips and Tricks",
+        "category": ["Cooking Tips", "Healthy Eating"],
+        "tags": ["Gluten-Free", "Baking", "Science of Cooking"],
+        "content": [
+          "Baking with gluten-free flours can be a challenge, but with the right knowledge and techniques, you can create delicious and satisfying treats. Understanding the science behind gluten-free baking is key to achieving the perfect texture and flavor. Let's dive into the world of gluten-free flours and discover how to master the art of gluten-free baking.",
+          "Gluten, a protein found in wheat, barley, and rye, provides elasticity and structure to baked goods. When baking gluten-free, it's important to replicate these properties using alternative flours and binders. Common gluten-free flours include almond flour, coconut flour, and rice flour, each with its own unique characteristics. To mimic the binding properties of gluten, ingredients like xanthan gum or psyllium husk are often used.",
+          "Here are some tips for successful gluten-free baking: First, use a blend of gluten-free flours to achieve a balanced texture. Second, add moisture-rich ingredients like eggs, yogurt, or applesauce to prevent dryness. Finally, don't be afraid to experiment and adjust recipes to suit your taste. With practice and patience, you can create gluten-free baked goods that are just as delicious as their traditional counterparts."
+        ],
+        "readingTimeMinutes": 15,
+        "cuisine": "International",
+        "userId": 225,
+        "images": ["/images/blog/24-1.jpg"],
+        "rating": 4.7,
+        "views": 4300,
+        "reactions": {
+          "likes": 2600,
+          "dislikes": 45
+        },
+        "reviewCount": 190,
+        "meta": {
+          "createdAt": "2024-06-15T11:00:00.000Z",
+          "updatedAt": "2024-06-15T11:00:00.000Z"
+        }
+      },
+      "25": {
+        "id": 25,
+        "title": "Using Textures and Contrasts: Elevating Your Food Presentation",
+        "category": ["Food presentation", "Cooking Tips"],
+        "tags": ["Texture", "Plating Techniques", "Visual Appeal"],
+        "content": [
+          "Food presentation is an art form that goes beyond taste. It's about creating a visual experience that entices and excites the diner. One of the most effective ways to elevate your food presentation is by using textures and contrasts. These elements can transform a simple dish into a visually stunning masterpiece.",
+          "Texture plays a crucial role in how we perceive food. A combination of crunchy, creamy, and smooth textures can make each bite more interesting and enjoyable. For example, pairing a crispy fried element with a velvety sauce or a tender piece of meat with a crunchy garnish can create a delightful contrast that enhances the overall dining experience.",
+          "Contrasts in color and shape are equally important. Bright, vibrant colors can make a dish pop, while a mix of shapes and sizes adds visual interest. Think about how a sprinkle of fresh herbs can add a burst of green to a monochromatic dish, or how a drizzle of sauce can create elegant patterns on a plate. By thoughtfully incorporating textures and contrasts, you can create dishes that are as beautiful as they are delicious."
+        ],
+        "readingTimeMinutes": 12,
+        "cuisine": "International",
+        "userId": 230,
+        "images": ["/images/blog/25-1.jpg"],
+        "rating": 4.7,
+        "views": 4400,
+        "reactions": {
+          "likes": 2700,
+          "dislikes": 40
+        },
+        "reviewCount": 200,
+        "meta": {
+          "createdAt": "2024-06-16T12:00:00.000Z",
+          "updatedAt": "2024-06-16T12:00:00.000Z"
+        }
+      },
+      "26": {
+        "id": 26,
+        "title": "Garnishing with Microgreens: Adding Freshness and Visual Appeal",
+        "category": ["Food presentation", "Cooking Tips"],
+        "tags": ["Microgreens", "Garnishing", "Visual Appeal"],
+        "content": [
+          "Microgreens are more than just a trendy garnish—they are a powerhouse of flavor, nutrition, and visual appeal. These tiny, tender greens are harvested just after the first leaves have developed, making them packed with nutrients and vibrant flavors. Whether you're a professional chef or a home cook, microgreens can elevate your dishes to a whole new level.",
+          "One of the greatest advantages of microgreens is their versatility. They come in a variety of flavors, from peppery arugula to mild pea shoots, allowing you to choose the perfect match for your dish. Sprinkle them over salads, soups, or main courses to add a burst of color and freshness. Their delicate texture and vibrant hues make them an ideal garnish for both savory and sweet dishes.",
+          "When using microgreens, less is often more. A small handful can transform a simple plate into a visually stunning creation. Pair them with contrasting textures and colors to make your dish pop. For example, a sprinkle of bright green microgreens on a creamy risotto or a vibrant red beet soup can create a striking visual contrast. Embrace the beauty and flavor of microgreens, and watch your dishes come to life."
+        ],
+        "readingTimeMinutes": 10,
+        "cuisine": "International",
+        "userId": 235,
+        "images": ["/images/blog/26-1.jpg"],
+        "rating": 4.6,
+        "views": 4100,
+        "reactions": {
+          "likes": 2500,
+          "dislikes": 35
+        },
+        "reviewCount": 180,
+        "meta": {
+          "createdAt": "2024-06-17T13:00:00.000Z",
+          "updatedAt": "2024-06-17T13:00:00.000Z"
+        }
+      }
+    },
+    "likes": {},
+    "comments": {}
+  },
+  "rules": {
+    "users": {
+      ".create": false,
+      ".read": ["Owner"],
+      ".update": false,
+      ".delete": false
+    },
+    "members": {
+      ".update": "isOwner(user, get('teams', data.teamId))",
+      ".delete": "isOwner(user, get('teams', data.teamId)) || isOwner(user, data)",
+      "*": {
+        "teamId": {
+          ".update": "newData.teamId = data.teamId"
+        },
+        "status": {
+          ".create": "newData.status = 'pending'"
+        }
+      }
     }
+  }
 }
