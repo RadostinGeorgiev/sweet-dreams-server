@@ -23,7 +23,7 @@
   "seedData": {
     "recipes": {
       "1": {
-        "id": 1,
+        "_id": 1,
         "name": "Pistachio and Raspberry Cheesecake Domes",
         "category": ["Desserts", "Cheesecake"],
         "description": "A luxurious and visually stunning dessert, combining the nutty richness of pistachio with the tangy sweetness of raspberry. These domes are perfect for special occasions or as a gourmet treat.",
@@ -58,7 +58,7 @@
         "cuisine": "Fusion",
         "caloriesPerServing": 320,
         "tags": ["Cheesecake", "Dessert", "Gourmet", "Pistachio", "Raspberry"],
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/recipes/1-1.jpg"],
         "rating": 4.8,
         "views": 3450,
@@ -73,7 +73,7 @@
         }
       },
       "2": {
-        "id": 2,
+        "_id": 2,
         "name": "Indulgent Red Velvet Strawberry Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A decadent fusion of red velvet cake and creamy strawberry cheesecake, layered to perfection. This dessert is a showstopper, combining rich flavors with a stunning visual appeal.",
@@ -115,7 +115,7 @@
           "Dessert",
           "Indulgent"
         ],
-        "userId": 17,
+        "_authorId": 17,
         "images": ["/images/recipes/2-1.jpg", "/images/recipes/2-2.jpg"],
         "rating": 4.9,
         "views": 4200,
@@ -130,7 +130,7 @@
         }
       },
       "3": {
-        "id": 3,
+        "_id": 3,
         "name": "Beetroot Feta Cheesecake with Dill & Pistachio Dust",
         "category": ["Appetizers", "Savory Cheesecake"],
         "description": "A stunning and flavorful savory cheesecake featuring earthy beetroot, tangy feta cheese, and fresh dill, finished with a crunchy pistachio dust for an elegant texture and taste contrast.",
@@ -168,7 +168,7 @@
           "Pistachio",
           "Appetizer"
         ],
-        "userId": 4,
+        "_authorId": 4,
         "images": ["/images/recipes/3-1.jpg"],
         "rating": 4.8,
         "views": 2954,
@@ -183,7 +183,7 @@
         }
       },
       "4": {
-        "id": 4,
+        "_id": 4,
         "name": "Decadent Chocolate Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and moist chocolate cake that is perfect for any occasion. This cake is layered with a smooth chocolate ganache and topped with fresh berries for a touch of elegance.",
@@ -221,7 +221,7 @@
         "cuisine": "International",
         "caloriesPerServing": 380,
         "tags": ["Chocolate", "Cake", "Dessert", "Ganache"],
-        "userId": 9,
+        "_authorId": 9,
         "images": ["/images/recipes/4-1.jpg", "/images/recipes/4-2.jpg"],
         "rating": 4.7,
         "views": 3800,
@@ -236,7 +236,7 @@
         }
       },
       "5": {
-        "id": 5,
+        "_id": 5,
         "name": "Pistachio Lemon Breakfast Bread",
         "category": ["Breakfast", "Breads"],
         "description": "A moist and nutty breakfast bread infused with zesty lemon and crunchy pistachios. Perfect for a light morning treat with a cup of coffee or tea.",
@@ -272,7 +272,7 @@
         "cuisine": "Mediterranean",
         "caloriesPerServing": 290,
         "tags": ["Breakfast", "Pistachio", "Lemon", "Quick Bread"],
-        "userId": 5,
+        "_authorId": 5,
         "images": ["/images/recipes/5-1.jpg"],
         "rating": 4.7,
         "views": 3127,
@@ -287,7 +287,7 @@
         }
       },
       "6": {
-        "id": 6,
+        "_id": 6,
         "name": "Mini Dragon Fruit Cheesecake Bites",
         "category": ["Desserts", "Cheesecake", "Mini Bites"],
         "description": "These vibrant and creamy mini cheesecake bites are made with dragon fruit, offering a unique and tropical twist. Perfect for parties or as a light, elegant dessert.",
@@ -328,7 +328,7 @@
           "Dessert",
           "Tropical"
         ],
-        "userId": 12,
+        "_authorId": 12,
         "images": ["/images/recipes/6-1.jpg"],
         "rating": 4.8,
         "views": 3100,
@@ -343,7 +343,7 @@
         }
       },
       "7": {
-        "id": 7,
+        "_id": 7,
         "name": "Raspberry Zinger Poke Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A light and fluffy vanilla cake soaked with tangy raspberry syrup, topped with a creamy coconut frosting and shredded coconut for the ultimate nostalgic treat.",
@@ -383,7 +383,7 @@
         "cuisine": "American",
         "caloriesPerServing": 320,
         "tags": ["Poke Cake", "Raspberry", "Coconut", "Dessert"],
-        "userId": 6,
+        "_authorId": 6,
         "images": ["/images/recipes/7-1.jpg"],
         "rating": 4.8,
         "views": 3456,
@@ -398,7 +398,7 @@
         }
       },
       "8": {
-        "id": 8,
+        "_id": 8,
         "name": "Black Forest Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious fusion of classic Black Forest cake and creamy cheesecake. Layers of chocolate, cherries, and creamy filling create a decadent dessert that's perfect for any celebration.",
@@ -440,7 +440,7 @@
           "Cherries",
           "Dessert"
         ],
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/recipes/8-1.jpg"],
         "rating": 4.9,
         "views": 4500,
@@ -455,7 +455,7 @@
         }
       },
       "9": {
-        "id": 9,
+        "_id": 9,
         "name": "Luscious Lemon Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A rich and velvety lemon cheesecake with a buttery biscuit crust, topped with a tangy lemon curd for an irresistibly refreshing citrus burst.",
@@ -489,7 +489,7 @@
         "cuisine": "American",
         "caloriesPerServing": 380,
         "tags": ["Cheesecake", "Lemon", "Dessert", "Creamy"],
-        "userId": 7,
+        "_authorId": 7,
         "images": ["/images/recipes/9-1.jpg"],
         "rating": 4.9,
         "views": 3897,
@@ -504,7 +504,7 @@
         }
       },
       "10": {
-        "id": 10,
+        "_id": 10,
         "name": "Crème Brûlée Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious dessert that combines the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for those who love a sophisticated twist on classic flavors.",
@@ -537,7 +537,7 @@
         "cuisine": "Fusion",
         "caloriesPerServing": 400,
         "tags": ["Cheesecake", "Crème Brûlée", "Dessert", "Caramelized"],
-        "userId": 18,
+        "_authorId": 18,
         "images": ["/images/recipes/10-1.jpg"],
         "rating": 4.9,
         "views": 5000,
@@ -552,7 +552,7 @@
         }
       },
       "11": {
-        "id": 11,
+        "_id": 11,
         "name": "Decadent Chocolate Cake with Silky Mousse",
         "category": ["Desserts", "Cakes", "Chocolate"],
         "description": "An indulgent, rich chocolate cake layered with velvety chocolate mousse and topped with a glossy ganache for the ultimate chocolate lover’s dream.",
@@ -592,7 +592,7 @@
         "cuisine": "French",
         "caloriesPerServing": 420,
         "tags": ["Chocolate Cake", "Mousse", "Ganache", "Indulgent"],
-        "userId": 8,
+        "_authorId": 8,
         "images": ["/images/recipes/11-1.jpg"],
         "rating": 4.9,
         "views": 4321,
@@ -607,7 +607,7 @@
         }
       },
       "12": {
-        "id": 12,
+        "_id": 12,
         "name": "Raspberry Chocolate Ganache Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and indulgent chocolate cake layered with tangy raspberry filling and topped with a smooth chocolate ganache. Perfect for chocolate lovers and special occasions.",
@@ -648,7 +648,7 @@
         "cuisine": "International",
         "caloriesPerServing": 450,
         "tags": ["Chocolate", "Raspberry", "Cake", "Dessert", "Ganache"],
-        "userId": 10,
+        "_authorId": 10,
         "images": ["/images/recipes/12-1.jpg"],
         "rating": 4.8,
         "views": 4800,
@@ -663,7 +663,7 @@
         }
       },
       "13": {
-        "id": 13,
+        "_id": 13,
         "name": "Crème Brûlée Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A luscious fusion of creamy cheesecake and classic crème brûlée, featuring a rich vanilla custard filling and a crisp caramelized sugar topping.",
@@ -696,7 +696,7 @@
         "cuisine": "French-American",
         "caloriesPerServing": 390,
         "tags": ["Cheesecake", "Crème Brûlée", "Caramelized", "Vanilla"],
-        "userId": 13,
+        "_authorId": 13,
         "images": ["/images/recipes/13-1.jpg"],
         "rating": 4.9,
         "views": 4152,
@@ -711,7 +711,7 @@
         }
       },
       "14": {
-        "id": 14,
+        "_id": 14,
         "name": "Caramel Flan Cheesecake with a Chocolate Twist",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A decadent fusion of creamy caramel flan and rich cheesecake, with a delightful chocolate twist. This dessert is perfect for those who love the combination of caramel, cheese, and chocolate.",
@@ -744,7 +744,7 @@
         "cuisine": "Fusion",
         "caloriesPerServing": 480,
         "tags": ["Cheesecake", "Caramel", "Flan", "Chocolate", "Dessert"],
-        "userId": 5,
+        "_authorId": 5,
         "images": ["/images/recipes/14-1.jpg"],
         "rating": 4.9,
         "views": 5200,
@@ -759,7 +759,7 @@
         }
       },
       "15": {
-        "id": 15,
+        "_id": 15,
         "name": "Luscious Lemon-Lime Cherry Pistachio Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A vibrant and refreshing cheesecake with zesty lemon-lime flavors, a crunchy pistachio crust, and a luscious cherry topping for the perfect sweet-tart balance.",
@@ -795,7 +795,7 @@
         "cuisine": "Fusion",
         "caloriesPerServing": 410,
         "tags": ["Cheesecake", "Lemon-Lime", "Pistachio", "Cherry"],
-        "userId": 10,
+        "_authorId": 10,
         "images": ["/images/recipes/15-1.jpg"],
         "rating": 4.8,
         "views": 3874,
@@ -810,7 +810,7 @@
         }
       },
       "16": {
-        "id": 16,
+        "_id": 16,
         "name": "Date Coffee Loaf Cake with Walnuts and Rich Espresso Glaze",
         "category": ["Desserts", "Cakes", "Loaf Cakes"],
         "description": "A moist and flavorful loaf cake infused with the natural sweetness of dates, the richness of coffee, and the crunch of walnuts. Topped with a luxurious espresso glaze, this cake is perfect for coffee lovers.",
@@ -849,7 +849,7 @@
         "cuisine": "International",
         "caloriesPerServing": 320,
         "tags": ["Coffee", "Dates", "Walnuts", "Loaf Cake", "Dessert"],
-        "userId": 10,
+        "_authorId": 10,
         "images": ["/images/recipes/16-1.jpg"],
         "rating": 4.7,
         "views": 3600,
@@ -864,7 +864,7 @@
         }
       },
       "17": {
-        "id": 17,
+        "_id": 17,
         "name": "Mini Crème Brûlée Cheesecakes",
         "category": ["Desserts", "Cheesecake", "Mini Bites"],
         "description": "These adorable mini cheesecakes combine the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for parties or as an elegant individual dessert.",
@@ -904,7 +904,7 @@
           "Dessert",
           "Caramelized"
         ],
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/recipes/17-1.jpg"],
         "rating": 4.8,
         "views": 4000,
@@ -919,7 +919,7 @@
         }
       },
       "18": {
-        "id": 18,
+        "_id": 18,
         "name": "Decadent Chocolatey Cherry Bliss Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and indulgent chocolate cake layered with luscious cherry filling and topped with a smooth chocolate ganache. Perfect for chocolate and cherry lovers, this cake is a true delight.",
@@ -960,7 +960,7 @@
         "cuisine": "International",
         "caloriesPerServing": 460,
         "tags": ["Chocolate", "Cherry", "Cake", "Dessert", "Ganache"],
-        "userId": 2,
+        "_authorId": 2,
         "images": ["/images/recipes/18-1.jpg"],
         "rating": 4.9,
         "views": 5000,
@@ -975,7 +975,7 @@
         }
       },
       "19": {
-        "id": 19,
+        "_id": 19,
         "name": "Pistachio Baklava Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious fusion of creamy cheesecake and the nutty, flaky layers of baklava. This dessert combines the richness of pistachios with the sweetness of honey, creating a truly indulgent treat.",
@@ -1013,7 +1013,7 @@
         "cuisine": "Fusion",
         "caloriesPerServing": 480,
         "tags": ["Cheesecake", "Baklava", "Pistachio", "Dessert", "Honey"],
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/recipes/19-1.jpg"],
         "rating": 4.9,
         "views": 4500,
@@ -1028,7 +1028,7 @@
         }
       },
       "20": {
-        "id": 20,
+        "_id": 20,
         "name": "Mini Greek-Baklava Inspired Delights",
         "category": ["Pastries", "Desserts", "Mediterranean"],
         "description": "Tiny morsels of flaky phyllo pastry, layered with a rich blend of walnuts, cinnamon, and cloves, drizzled with a honey-lemon syrup. A perfect bite-sized indulgence that captures the essence of Greek tradition.",
@@ -1064,7 +1064,7 @@
         "cuisine": "Greek",
         "caloriesPerServing": 150,
         "tags": ["Baklava", "Greek", "Dessert", "Mini Bites", "Nuts", "Honey"],
-        "userId": 2,
+        "_authorId": 2,
         "images": ["/images/recipes/20-1.jpg"],
         "rating": 4.8,
         "views": 3578,
@@ -1079,7 +1079,7 @@
         }
       },
       "21": {
-        "id": 21,
+        "_id": 21,
         "name": "No Bake Pumpkin Cheesecake Balls",
         "category": ["Desserts", "Cheesecake", "No Bake"],
         "description": "These delightful no-bake pumpkin cheesecake balls are a perfect treat for fall. Combining the flavors of pumpkin, cream cheese, and warm spices, they are easy to make and irresistibly delicious.",
@@ -1113,7 +1113,7 @@
         "cuisine": "American",
         "caloriesPerServing": 220,
         "tags": ["Cheesecake", "Pumpkin", "No Bake", "Dessert", "Fall"],
-        "userId": 13,
+        "_authorId": 13,
         "images": ["/images/recipes/21-1.jpg"],
         "rating": 4.8,
         "views": 3800,
@@ -1128,7 +1128,7 @@
         }
       },
       "22": {
-        "id": 22,
+        "_id": 22,
         "name": "Salted Caramel Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A decadent cheesecake with a creamy, smooth filling, swirled with rich salted caramel. The perfect balance of sweet and salty, resting on a buttery graham cracker crust. A truly indulgent treat.",
@@ -1165,7 +1165,7 @@
         "cuisine": "American",
         "caloriesPerServing": 450,
         "tags": ["Cheesecake", "Salted Caramel", "Dessert", "Creamy"],
-        "userId": 7,
+        "_authorId": 7,
         "images": ["/images/recipes/22-1.jpg"],
         "rating": 4.9,
         "views": 5210,
@@ -1180,7 +1180,7 @@
         }
       },
       "23": {
-        "id": 23,
+        "_id": 23,
         "name": "Red Velvet Brownies",
         "category": ["Desserts", "Brownies"],
         "description": "These rich and fudgy red velvet brownies combine the classic flavors of red velvet cake with the dense, chocolatey texture of brownies. Topped with a creamy cheesecake swirl, they are a decadent treat for any occasion.",
@@ -1221,7 +1221,7 @@
           "Dessert",
           "Chocolate"
         ],
-        "userId": 9,
+        "_authorId": 9,
         "images": ["/images/recipes/23-1.jpg"],
         "rating": 4.7,
         "views": 4200,
@@ -1238,7 +1238,7 @@
     },
     "blog": {
       "1": {
-        "id": 1,
+        "_id": 1,
         "title": "Rainbow Macaron Tower: A Sweet Symphony of Colors",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Colorful", "Sweet", "Vegetarian"],
@@ -1249,7 +1249,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "French",
-        "userId": 8,
+        "_authorId": 8,
         "images": ["/images/blog/1-1.jpg"],
         "rating": 4.9,
         "views": 4200,
@@ -1264,7 +1264,7 @@
         }
       },
       "2": {
-        "id": 2,
+        "_id": 2,
         "title": "Edible Flowers: A Guide to Garnishing Your Dishes with Nature's Beauty",
         "category": ["Food presentation", "Cooking Tips", "Gourmet"],
         "tags": ["Healthy", "Vegetarian", "Elegant"],
@@ -1275,7 +1275,7 @@
         ],
         "readingTimeMinutes": 12,
         "cuisine": "International",
-        "userId": 9,
+        "_authorId": 9,
         "images": ["/images/blog/2-1.jpg"],
         "rating": 4.7,
         "views": 3800,
@@ -1290,7 +1290,7 @@
         }
       },
       "3": {
-        "id": 3,
+        "_id": 3,
         "title": "The Science of Searing: Achieving Perfect Caramelization and Flavor",
         "category": ["Cooking Tips"],
         "tags": [
@@ -1308,7 +1308,7 @@
         ],
         "readingTimeMinutes": 10,
         "cuisine": "General",
-        "userId": 12,
+        "_authorId": 12,
         "images": ["/images/blog/3-1.jpg"],
         "rating": 4.7,
         "views": 2800,
@@ -1323,7 +1323,7 @@
         }
       },
       "4": {
-        "id": 4,
+        "_id": 4,
         "title": "A Culinary Journey Through Italy: Exploring Regional Specialties and Hidden Gems",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Italian Cuisine", "Travel", "Gourmet"],
@@ -1334,7 +1334,7 @@
         ],
         "readingTimeMinutes": 20,
         "cuisine": "Italian",
-        "userId": 12,
+        "_authorId": 12,
         "images": ["/images/blog/4-1.jpg"],
         "rating": 4.8,
         "views": 4500,
@@ -1349,7 +1349,7 @@
         }
       },
       "5": {
-        "id": 5,
+        "_id": 5,
         "title": "The Secrets of Michelin-Starred Desserts: Deconstructing the Techniques and Flavors",
         "category": ["Gourmet", "Food presentation"],
         "tags": ["Desserts", "Fine Dining", "Culinary Art"],
@@ -1360,7 +1360,7 @@
         ],
         "readingTimeMinutes": 18,
         "cuisine": "International",
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/blog/5-1.jpg"],
         "rating": 4.9,
         "views": 5000,
@@ -1375,7 +1375,7 @@
         }
       },
       "6": {
-        "id": 6,
+        "_id": 6,
         "title": "The Power of Food to Connect: How a Shared Meal Can Bridge Cultures and Create Lasting Memories",
         "category": ["Food Stories", "Food Travel"],
         "tags": ["Cultural Exchange", "Community", "Memories"],
@@ -1386,7 +1386,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 8,
+        "_authorId": 8,
         "images": ["/images/blog/6-1.jpg"],
         "rating": 4.8,
         "views": 4700,
@@ -1401,7 +1401,7 @@
         }
       },
       "7": {
-        "id": 7,
+        "_id": 7,
         "title": "A Culinary Adventure in the Amazon: Discovering Unique Ingredients and Ancient Cooking Techniques",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Amazon", "Exotic Ingredients", "Traditional Cooking"],
@@ -1412,7 +1412,7 @@
         ],
         "readingTimeMinutes": 20,
         "cuisine": "Amazonian",
-        "userId": 5,
+        "_authorId": 5,
         "images": ["/images/blog/7-1.jpg"],
         "rating": 4.9,
         "views": 4900,
@@ -1427,7 +1427,7 @@
         }
       },
       "8": {
-        "id": 8,
+        "_id": 8,
         "title": "Food Photography 101: Tips and Tricks for Capturing Stunning Food Images",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Photography", "Food Styling", "Social Media"],
@@ -1438,7 +1438,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 12,
+        "_authorId": 12,
         "images": ["/images/blog/8-1.jpg"],
         "rating": 4.7,
         "views": 4300,
@@ -1453,7 +1453,7 @@
         }
       },
       "9": {
-        "id": 9,
+        "_id": 9,
         "title": "The Art of Layering: Creating Visually Stunning Desserts",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Desserts", "Plating Techniques", "Visual Appeal"],
@@ -1464,7 +1464,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/blog/9-1.jpg"],
         "rating": 4.8,
         "views": 4600,
@@ -1479,7 +1479,7 @@
         }
       },
       "10": {
-        "id": 10,
+        "_id": 10,
         "title": "Cooking with Seasonal Ingredients: Savoring the Flavors of Each Season",
         "category": ["Cooking Tips", "Food Stories"],
         "tags": ["Seasonal Cooking", "Healthy", "Sustainability"],
@@ -1490,7 +1490,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 16,
+        "_authorId": 16,
         "images": ["/images/blog/10-1.jpg"],
         "rating": 4.7,
         "views": 4400,
@@ -1505,7 +1505,7 @@
         }
       },
       "11": {
-        "id": 11,
+        "_id": 11,
         "title": "Plating for Instagram: Tips and Tricks for Food Photography",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Food Photography", "Social Media", "Plating Techniques"],
@@ -1516,7 +1516,7 @@
         ],
         "readingTimeMinutes": 12,
         "cuisine": "International",
-        "userId": 16,
+        "_authorId": 16,
         "images": ["/images/blog/11-1.jpg"],
         "rating": 4.6,
         "views": 4100,
@@ -1531,7 +1531,7 @@
         }
       },
       "12": {
-        "id": 12,
+        "_id": 12,
         "title": "A Culinary Safari in South Africa: Savoring the Flavors of the African Bush",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["South Africa", "Exotic Cuisine", "Cultural Experience"],
@@ -1542,7 +1542,7 @@
         ],
         "readingTimeMinutes": 18,
         "cuisine": "South African",
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/blog/12-1.jpg"],
         "rating": 4.8,
         "views": 4800,
@@ -1557,7 +1557,7 @@
         }
       },
       "13": {
-        "id": 13,
+        "_id": 13,
         "title": "Edible Art: Transforming Food into Culinary Masterpieces",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Culinary Art", "Plating Techniques", "Visual Appeal"],
@@ -1568,7 +1568,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 17,
+        "_authorId": 17,
         "images": ["/images/blog/13-1.jpg"],
         "rating": 4.7,
         "views": 4500,
@@ -1583,7 +1583,7 @@
         }
       },
       "14": {
-        "id": 14,
+        "_id": 14,
         "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
         "category": ["Gourmet", "Food Stories"],
         "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
@@ -1594,7 +1594,7 @@
         ],
         "readingTimeMinutes": 20,
         "cuisine": "International",
-        "userId": 11,
+        "_authorId": 11,
         "images": ["/images/blog/14-1.jpg"],
         "rating": 4.8,
         "views": 4700,
@@ -1609,7 +1609,7 @@
         }
       },
       "15": {
-        "id": 15,
+        "_id": 15,
         "title": "The Art of Molecular Gastronomy: Exploring the Science of Cooking",
         "category": ["Gourmet", "Cooking Tips"],
         "tags": ["Molecular Gastronomy", "Culinary Science", "Innovation"],
@@ -1620,7 +1620,7 @@
         ],
         "readingTimeMinutes": 18,
         "cuisine": "International",
-        "userId": 18,
+        "_authorId": 18,
         "images": ["/images/blog/15-1.jpg"],
         "rating": 4.9,
         "views": 4900,
@@ -1635,7 +1635,7 @@
         }
       },
       "16": {
-        "id": 16,
+        "_id": 16,
         "title": "The Power of Texture: Creating Dynamic and Engaging Dishes",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Texture", "Plating Techniques", "Culinary Art"],
@@ -1646,7 +1646,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 18,
+        "_authorId": 18,
         "images": ["/images/blog/16-1.jpg"],
         "rating": 4.7,
         "views": 4300,
@@ -1661,7 +1661,7 @@
         }
       },
       "17": {
-        "id": 17,
+        "_id": 17,
         "title": "The Ultimate Guide to Spice Blends: Creating Flavorful and Aromatic Dishes",
         "category": ["Cooking Tips"],
         "tags": ["Spices", "Flavor", "Culinary Techniques"],
@@ -1672,7 +1672,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 19,
+        "_authorId": 19,
         "images": ["/images/blog/17-1.jpg"],
         "rating": 4.8,
         "views": 4400,
@@ -1687,7 +1687,7 @@
         }
       },
       "18": {
-        "id": 18,
+        "_id": 18,
         "title": "A Culinary Adventure Through Japan: Exploring the Flavors of Tokyo and Beyond",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Japan", "Sushi", "Ramen", "Cultural Experience"],
@@ -1698,7 +1698,7 @@
         ],
         "readingTimeMinutes": 20,
         "cuisine": "Japanese",
-        "userId": 19,
+        "_authorId": 19,
         "images": ["/images/blog/18-1.jpg"],
         "rating": 4.9,
         "views": 5000,
@@ -1713,7 +1713,7 @@
         }
       },
       "19": {
-        "id": 19,
+        "_id": 19,
         "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
         "category": ["Gourmet", "Food Stories"],
         "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
@@ -1724,7 +1724,7 @@
         ],
         "readingTimeMinutes": 18,
         "cuisine": "International",
-        "userId": 20,
+        "_authorId": 20,
         "images": ["/images/blog/19-1.jpg"],
         "rating": 4.8,
         "views": 4800,
@@ -1739,7 +1739,7 @@
         }
       },
       "20": {
-        "id": 20,
+        "_id": 20,
         "title": "The Ultimate Foodie's Guide to Kyoto: From Kaiseki to Street Food",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Kyoto", "Kaiseki", "Street Food", "Cultural Experience"],
@@ -1750,7 +1750,7 @@
         ],
         "readingTimeMinutes": 20,
         "cuisine": "Japanese",
-        "userId": 20,
+        "_authorId": 20,
         "images": ["/images/blog/20-1.jpg"],
         "rating": 4.9,
         "views": 5100,
@@ -1765,7 +1765,7 @@
         }
       },
       "22": {
-        "id": 22,
+        "_id": 22,
         "title": "The Secrets of Michelin-Starred Sauces: Deconstructing the Techniques",
         "category": ["Gourmet", "Cooking Tips"],
         "tags": ["Sauces", "Michelin-Starred", "Culinary Techniques"],
@@ -1776,7 +1776,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 5,
+        "_authorId": 5,
         "images": ["/images/blog/22-1.jpg"],
         "rating": 4.7,
         "views": 4500,
@@ -1791,7 +1791,7 @@
         }
       },
       "23": {
-        "id": 23,
+        "_id": 23,
         "title": "The Healing Power of Spices: How Aromatics Can Transform Your Health",
         "category": ["Cooking Tips", "Healthy Eating"],
         "tags": ["Spices", "Health Benefits", "Wellness"],
@@ -1802,7 +1802,7 @@
         ],
         "readingTimeMinutes": 12,
         "cuisine": "International",
-        "userId": 10,
+        "_authorId": 10,
         "images": ["/images/blog/23-1.jpg"],
         "rating": 4.6,
         "views": 4200,
@@ -1817,7 +1817,7 @@
         }
       },
       "24": {
-        "id": 24,
+        "_id": 24,
         "title": "The Science of Baking with Gluten-Free Flours: Tips and Tricks",
         "category": ["Cooking Tips", "Healthy Eating"],
         "tags": ["Gluten-Free", "Baking", "Science of Cooking"],
@@ -1828,7 +1828,7 @@
         ],
         "readingTimeMinutes": 15,
         "cuisine": "International",
-        "userId": 15,
+        "_authorId": 15,
         "images": ["/images/blog/24-1.jpg"],
         "rating": 4.7,
         "views": 4300,
@@ -1843,7 +1843,7 @@
         }
       },
       "25": {
-        "id": 25,
+        "_id": 25,
         "title": "Using Textures and Contrasts: Elevating Your Food Presentation",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Texture", "Plating Techniques", "Visual Appeal"],
@@ -1854,7 +1854,7 @@
         ],
         "readingTimeMinutes": 12,
         "cuisine": "International",
-        "userId": 13,
+        "_authorId": 13,
         "images": ["/images/blog/25-1.jpg"],
         "rating": 4.7,
         "views": 4400,
@@ -1869,7 +1869,7 @@
         }
       },
       "26": {
-        "id": 26,
+        "_id": 26,
         "title": "Garnishing with Microgreens: Adding Freshness and Visual Appeal",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Microgreens", "Garnishing", "Visual Appeal"],
@@ -1880,7 +1880,7 @@
         ],
         "readingTimeMinutes": 10,
         "cuisine": "International",
-        "userId": 17,
+        "_authorId": 17,
         "images": ["/images/blog/26-1.jpg"],
         "rating": 4.6,
         "views": 4100,
@@ -1897,7 +1897,7 @@
     },
     "authors": {
       "1": {
-        "id": 1,
+        "_id": 1,
         "firstName": "Emily",
         "lastName": "Johnson",
         "maidenName": "Smith",
@@ -1967,7 +1967,7 @@
         "role": "admin"
       },
       "2": {
-        "id": 2,
+        "_id": 2,
         "firstName": "Michael",
         "lastName": "Williams",
         "maidenName": "",
@@ -2037,7 +2037,7 @@
         "role": "admin"
       },
       "3": {
-        "id": 3,
+        "_id": 3,
         "firstName": "Sophia",
         "lastName": "Brown",
         "maidenName": "",
@@ -2107,7 +2107,7 @@
         "role": "admin"
       },
       "4": {
-        "id": 4,
+        "_id": 4,
         "firstName": "James",
         "lastName": "Davis",
         "maidenName": "",
@@ -2177,7 +2177,7 @@
         "role": "admin"
       },
       "5": {
-        "id": 5,
+        "_id": 5,
         "firstName": "Emma",
         "lastName": "Miller",
         "maidenName": "Johnson",
@@ -2227,7 +2227,7 @@
             "address": "1460 Sixth Street",
             "city": "San Antonio",
             "state": "Idaho",
-            "stateCode": "ID",
+            "stateCode": "_id",
             "postalCode": "21965",
             "coordinates": {
               "lat": 44.346545,
@@ -2247,7 +2247,7 @@
         "role": "admin"
       },
       "6": {
-        "id": 6,
+        "_id": 6,
         "firstName": "Olivia",
         "lastName": "Wilson",
         "maidenName": "",
@@ -2317,7 +2317,7 @@
         "role": "moderator"
       },
       "7": {
-        "id": 7,
+        "_id": 7,
         "firstName": "Alexander",
         "lastName": "Jones",
         "maidenName": "",
@@ -2387,7 +2387,7 @@
         "role": "moderator"
       },
       "8": {
-        "id": 8,
+        "_id": 8,
         "firstName": "Ava",
         "lastName": "Taylor",
         "maidenName": "",
@@ -2457,7 +2457,7 @@
         "role": "moderator"
       },
       "9": {
-        "id": 9,
+        "_id": 9,
         "firstName": "Ethan",
         "lastName": "Martinez",
         "maidenName": "",
@@ -2527,7 +2527,7 @@
         "role": "moderator"
       },
       "10": {
-        "id": 10,
+        "_id": 10,
         "firstName": "Isabella",
         "lastName": "Anderson",
         "maidenName": "Davis",
@@ -2597,7 +2597,7 @@
         "role": "moderator"
       },
       "11": {
-        "id": 11,
+        "_id": 11,
         "firstName": "Liam",
         "lastName": "Garcia",
         "maidenName": "",
@@ -2667,7 +2667,7 @@
         "role": "moderator"
       },
       "12": {
-        "id": 12,
+        "_id": 12,
         "firstName": "Mia",
         "lastName": "Rodriguez",
         "maidenName": "",
@@ -2737,7 +2737,7 @@
         "role": "moderator"
       },
       "13": {
-        "id": 13,
+        "_id": 13,
         "firstName": "Noah",
         "lastName": "Hernandez",
         "maidenName": "",
@@ -2807,7 +2807,7 @@
         "role": "moderator"
       },
       "14": {
-        "id": 14,
+        "_id": 14,
         "firstName": "Charlotte",
         "lastName": "Lopez",
         "maidenName": "Martinez",
@@ -2877,7 +2877,7 @@
         "role": "moderator"
       },
       "15": {
-        "id": 15,
+        "_id": 15,
         "firstName": "William",
         "lastName": "Gonzalez",
         "maidenName": "",
@@ -2947,7 +2947,7 @@
         "role": "moderator"
       },
       "16": {
-        "id": 16,
+        "_id": 16,
         "firstName": "Avery",
         "lastName": "Perez",
         "maidenName": "",
@@ -3017,7 +3017,7 @@
         "role": "user"
       },
       "17": {
-        "id": 17,
+        "_id": 17,
         "firstName": "Evelyn",
         "lastName": "Sanchez",
         "maidenName": "",
@@ -3087,7 +3087,7 @@
         "role": "user"
       },
       "18": {
-        "id": 18,
+        "_id": 18,
         "firstName": "Logan",
         "lastName": "Torres",
         "maidenName": "",
@@ -3157,7 +3157,7 @@
         "role": "user"
       },
       "19": {
-        "id": 19,
+        "_id": 19,
         "firstName": "Abigail",
         "lastName": "Rivera",
         "maidenName": "",
@@ -3227,7 +3227,7 @@
         "role": "user"
       },
       "20": {
-        "id": 20,
+        "_id": 20,
         "firstName": "Jackson",
         "lastName": "Evans",
         "maidenName": "",
