@@ -1895,7 +1895,7 @@
         }
       }
     },
-    "users": {
+    "authors": {
       "1": {
         "id": 1,
         "firstName": "Emily",
