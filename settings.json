@@ -3297,8 +3297,219 @@
         "role": "user"
       }
     },
-    "likes": {},
-    "comments": {}
+    "comments": {
+      "1": {
+        "id": 1,
+        "body": "This is some awesome thinking!",
+        "postId": 24,
+        "likes": 3,
+        "userId": 5
+      },
+      "2": {
+        "id": 2,
+        "body": "What terrific math skills you're showing!",
+        "postId": 24,
+        "likes": 4,
+        "userId": 3
+      },
+      "3": {
+        "id": 3,
+        "body": "You are an amazing writer!",
+        "postId": 15,
+        "likes": 2,
+        "userId": 1
+      },
+      "4": {
+        "id": 4,
+        "body": "Wow! You have improved so much!",
+        "postId": 11,
+        "likes": 1,
+        "userId": 9
+      },
+      "5": {
+        "id": 5,
+        "body": "Nice idea!",
+        "postId": 12,
+        "likes": 1,
+        "userId": 1
+      },
+      "6": {
+        "id": 6,
+        "body": "You are showing excellent understanding!",
+        "postId": 18,
+        "likes": 5,
+        "userId": 11
+      },
+      "7": {
+        "id": 7,
+        "body": "This is clear, concise, and complete!",
+        "postId": 17,
+        "likes": 1,
+        "userId": 4
+      },
+      "8": {
+        "id": 8,
+        "body": "What a powerful argument!",
+        "postId": 23,
+        "likes": 0,
+        "userId": 14
+      },
+      "9": {
+        "id": 9,
+        "body": "I knew you could do it!",
+        "postId": 7,
+        "likes": 3,
+        "userId": 7
+      },
+      "10": {
+        "id": 10,
+        "body": "Wonderful ideas!",
+        "postId": 8,
+        "likes": 0,
+        "userId": 16
+      },
+      "11": {
+        "id": 11,
+        "body": "It was a pleasure to grade this!",
+        "postId": 15,
+        "likes": 8,
+        "userId": 2
+      },
+      "12": {
+        "id": 12,
+        "body": "Keep up the incredible work!",
+        "postId": 19,
+        "likes": 10,
+        "userId": 9
+      },
+      "13": {
+        "id": 13,
+        "body": "My goodness, how impressive!",
+        "postId": 10,
+        "likes": 10,
+        "userId": 8
+      },
+      "14": {
+        "id": 14,
+        "body": "You're showing inventive ideas!",
+        "postId": 20,
+        "likes": 8,
+        "userId": 7
+      },
+      "15": {
+        "id": 15,
+        "body": "You've shown so much growth!",
+        "postId": 6,
+        "likes": 2,
+        "userId": 17
+      },
+      "16": {
+        "id": 16,
+        "body": "Interesting thoughts!",
+        "postId": 14,
+        "likes": 5,
+        "userId": 9
+      },
+      "17": {
+        "id": 17,
+        "body": "I love your neat work!",
+        "postId": 22,
+        "likes": 7,
+        "userId": 5
+      },
+      "18": {
+        "id": 18,
+        "body": "Doesn't it feel good to do such great work?",
+        "postId": 22,
+        "likes": 6,
+        "userId": 14
+      },
+      "19": {
+        "id": 19,
+        "body": "First-rate work!",
+        "postId": 15,
+        "likes": 1,
+        "userId": 13
+      },
+      "20": {
+        "id": 20,
+        "body": "This is fascinating information!",
+        "postId": 16,
+        "likes": 4,
+        "userId": 19
+      },
+      "21": {
+        "id": 21,
+        "body": "You inspire me!",
+        "postId": 229,
+        "likes": 0,
+        "userId": 11
+      },
+      "22": {
+        "id": 22,
+        "body": "This is right on target!",
+        "postId": 9,
+        "likes": 5,
+        "userId": 11
+      },
+      "23": {
+        "id": 23,
+        "body": "What an astounding observation!",
+        "postId": 3,
+        "likes": 1,
+        "userId": 15
+      },
+      "24": {
+        "id": 24,
+        "body": "This is very well thought out!",
+        "postId": 11,
+        "likes": 1,
+        "userId": 16
+      },
+      "25": {
+        "id": 25,
+        "body": "I can tell you've been practicing!",
+        "postId": 7,
+        "likes": 9,
+        "userId": 16
+      },
+      "26": {
+        "id": 26,
+        "body": "You've come a long way!",
+        "postId": 9,
+        "likes": 7,
+        "userId": 12
+      },
+      "27": {
+        "id": 27,
+        "body": "I can tell you've been paying attention!",
+        "postId": 5,
+        "likes": 9,
+        "userId": 7
+      },
+      "28": {
+        "id": 28,
+        "body": "Reading this made my day!",
+        "postId": 20,
+        "likes": 8,
+        "userId": 17
+      },
+      "29": {
+        "id": 29,
+        "body": "This is very perceptive!",
+        "postId": 21,
+        "likes": 2,
+        "userId": 18
+      },
+      "30": {
+        "id": 30,
+        "body": "What an accomplishment!",
+        "postId": 16,
+        "likes": 8,
+        "userId": 9
+      }
+    },
+    "likes": {}
   },
   "rules": {
     "users": {
