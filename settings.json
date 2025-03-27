@@ -3205,7 +3205,7 @@
       "1": {
         "_id": "1",
         "postId": "5",
-        "parentId": "",
+        "parentId": null,
         "authorId": "12",
         "content": "This chocolate lava cake recipe changed my life! Perfect texture.",
         "createdAt": "2024-05-24T10:30:00.000Z"
@@ -3229,7 +3229,7 @@
       "4": {
         "_id": "4",
         "postId": "8",
-        "parentId": "",
+        "parentId": null,
         "authorId": "3",
         "content": "Has anyone tried substituting almond flour in the cheesecake recipe?",
         "createdAt": "2024-05-24T12:00:00.000Z"
@@ -3245,7 +3245,7 @@
       "6": {
         "_id": "6",
         "postId": "3",
-        "parentId": "",
+        "parentId": null,
         "authorId": "25",
         "content": "The tiramisu looks divine! What coffee brand do you recommend?",
         "createdAt": "2024-05-24T13:10:00.000Z"
@@ -3261,7 +3261,7 @@
       "8": {
         "_id": "8",
         "postId": "15",
-        "parentId": "",
+        "parentId": null,
         "authorId": "7",
         "content": "My macarons always crack. Any troubleshooting tips?",
         "createdAt": "2024-05-24T14:20:00.000Z"
@@ -3285,7 +3285,7 @@
       "11": {
         "_id": "11",
         "postId": "2",
-        "parentId": "",
+        "parentId": null,
         "authorId": "19",
         "content": "Best crème brûlée I've ever made! Torch technique was perfect.",
         "createdAt": "2024-05-24T16:10:00.000Z"
@@ -3301,7 +3301,7 @@
       "13": {
         "_id": "13",
         "postId": "23",
-        "parentId": "",
+        "parentId": null,
         "authorId": "9",
         "content": "Pavlova newbie here - why did mine collapse after cooling?",
         "createdAt": "2024-05-24T17:20:00.000Z"
@@ -3317,7 +3317,7 @@
       "15": {
         "_id": "15",
         "postId": "7",
-        "parentId": "",
+        "parentId": null,
         "authorId": "27",
         "content": "The vegan brownies are surprisingly fudgy! What's your secret?",
         "createdAt": "2024-05-24T18:30:00.000Z"
@@ -3333,7 +3333,7 @@
       "17": {
         "_id": "17",
         "postId": "12",
-        "parentId": "",
+        "parentId": null,
         "authorId": "20",
         "content": "Can the panna cotta be made with agar-agar instead of gelatin?",
         "createdAt": "2024-05-24T20:00:00.000Z"
@@ -3357,7 +3357,7 @@
       "20": {
         "_id": "20",
         "postId": "18",
-        "parentId": "",
+        "parentId": null,
         "authorId": "23",
         "content": "My lemon tart filling curdled. Help!",
         "createdAt": "2024-05-24T22:00:00.000Z"
@@ -3373,7 +3373,7 @@
       "22": {
         "_id": "22",
         "postId": "1",
-        "parentId": "",
+        "parentId": null,
         "authorId": "28",
         "content": "The salted caramel sauce is perfect for gifting! How long does it keep?",
         "createdAt": "2024-05-24T23:15:00.000Z"
@@ -3389,7 +3389,7 @@
       "24": {
         "_id": "24",
         "postId": "9",
-        "parentId": "",
+        "parentId": null,
         "authorId": "15",
         "content": "Has anyone made the baklava with pistachios only?",
         "createdAt": "2024-05-25T09:20:00.000Z"
@@ -3413,7 +3413,7 @@
       "27": {
         "_id": "27",
         "postId": "14",
-        "parentId": "",
+        "parentId": null,
         "authorId": "29",
         "content": "The flourless cake sank in the middle. Overmixed?",
         "createdAt": "2024-05-25T11:30:00.000Z"
@@ -3429,7 +3429,7 @@
       "29": {
         "_id": "29",
         "postId": "20",
-        "parentId": "",
+        "parentId": null,
         "authorId": "21",
         "content": "Can I use frozen berries for the clafoutis?",
         "createdAt": "2024-05-25T13:00:00.000Z"
@@ -3445,7 +3445,7 @@
       "31": {
         "_id": "31",
         "postId": "4",
-        "parentId": "",
+        "parentId": null,
         "authorId": "24",
         "content": "The churros recipe says to pipe with a star tip - is this mandatory?",
         "createdAt": "2024-05-25T14:30:00.000Z"
@@ -3461,7 +3461,7 @@
       "33": {
         "_id": "33",
         "postId": "11",
-        "parentId": "",
+        "parentId": null,
         "authorId": "26",
         "content": "My mousse au chocolat won't stiffen. Whipping cream problem?",
         "createdAt": "2024-05-25T16:00:00.000Z"
@@ -3477,7 +3477,7 @@
       "35": {
         "_id": "35",
         "postId": "6",
-        "parentId": "",
+        "parentId": null,
         "authorId": "4",
         "content": "The poached pears recipe saved my dinner party! Elegant yet easy.",
         "createdAt": "2024-05-25T17:30:00.000Z"
@@ -3501,7 +3501,7 @@
       "38": {
         "_id": "38",
         "postId": "16",
-        "parentId": "",
+        "parentId": null,
         "authorId": "9",
         "content": "The soufflé rose beautifully but then immediately deflated. Normal?",
         "createdAt": "2024-05-25T19:45:00.000Z"
@@ -3517,7 +3517,7 @@
       "40": {
         "_id": "40",
         "postId": "21",
-        "parentId": "",
+        "parentId": null,
         "authorId": "17",
         "content": "The mango sorbet was icy. How to make it creamier?",
         "createdAt": "2024-05-25T21:15:00.000Z"
