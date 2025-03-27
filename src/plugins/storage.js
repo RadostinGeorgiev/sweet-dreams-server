@@ -231,10 +231,17 @@ function deepCopy(value) {
 
   if (Array.isArray(value)) return value.map(deepCopy);
 
-  return Object.keys(value).reduce((acc, key) => {
-    acc[key] = deepCopy(value[key]);
-    return acc;
-  }, {});
+  if (Object.keys(value).every((key) => !isNaN(Number(key)))) {
+    const result = {};
+    for (const key in value) {
+      result[key] = deepCopy(value[key]);
+    }
+    return result;
+  }
+
+  return Object.fromEntries(
+    Object.entries(value).map(([k, v]) => [k, deepCopy(v)])
+  );
 }
 
 module.exports = initPlugin;
