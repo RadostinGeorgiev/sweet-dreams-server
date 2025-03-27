@@ -227,21 +227,16 @@ function assignClean(target, entry, ...rest) {
 }
 
 function deepCopy(value) {
-  if (value === null || typeof value !== "object") return value;
-
-  if (Array.isArray(value)) return value.map(deepCopy);
-
-  if (Object.keys(value).every((key) => !isNaN(Number(key)))) {
-    const result = {};
-    for (const key in value) {
-      result[key] = deepCopy(value[key]);
-    }
-    return result;
+  if (Array.isArray(value)) {
+    return value.map(deepCopy);
+  } else if (typeof value == "object") {
+    return [...Object.entries(value)].reduce(
+      (p, [k, v]) => Object.assign(p, { [k]: deepCopy(v) }),
+      {}
+    );
+  } else {
+    return value;
   }
-
-  return Object.fromEntries(
-    Object.entries(value).map(([k, v]) => [k, deepCopy(v)])
-  );
 }
 
 module.exports = initPlugin;
