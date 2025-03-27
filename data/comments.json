@@ -1,212 +1,322 @@
 {
   "1": {
-    "id": 1,
-    "body": "This is some awesome thinking!",
-    "postId": 24,
-    "likes": 3,
-    "userId": 5
+    "_id": "1",
+    "postId": "5",
+    "parentId": null,
+    "authorId": "12",
+    "content": "This chocolate lava cake recipe changed my life! Perfect texture.",
+    "createdAt": "2024-05-24T10:30:00.000Z"
   },
   "2": {
-    "id": 2,
-    "body": "What terrific math skills you're showing!",
-    "postId": 24,
-    "likes": 4,
-    "userId": 3
+    "_id": "2",
+    "postId": "5",
+    "parentId": "1",
+    "authorId": "8",
+    "content": "How long did you bake yours? Mine came out too runny.",
+    "createdAt": "2024-05-24T11:15:00.000Z"
   },
   "3": {
-    "id": 3,
-    "body": "You are an amazing writer!",
-    "postId": 15,
-    "likes": 2,
-    "userId": 1
+    "_id": "3",
+    "postId": "5",
+    "parentId": "2",
+    "authorId": "12",
+    "content": "Exactly 12 minutes at 375°F. Use a toothpick test!",
+    "createdAt": "2024-05-24T11:45:00.000Z"
   },
   "4": {
-    "id": 4,
-    "body": "Wow! You have improved so much!",
-    "postId": 11,
-    "likes": 1,
-    "userId": 9
+    "_id": "4",
+    "postId": "8",
+    "parentId": null,
+    "authorId": "3",
+    "content": "Has anyone tried substituting almond flour in the cheesecake recipe?",
+    "createdAt": "2024-05-24T12:00:00.000Z"
   },
   "5": {
-    "id": 5,
-    "body": "Nice idea!",
-    "postId": 12,
-    "likes": 1,
-    "userId": 1
+    "_id": "5",
+    "postId": "8",
+    "parentId": "4",
+    "authorId": "17",
+    "content": "Yes! Use 1:1 ratio but add 1 extra egg for binding.",
+    "createdAt": "2024-05-24T12:30:00.000Z"
   },
   "6": {
-    "id": 6,
-    "body": "You are showing excellent understanding!",
-    "postId": 18,
-    "likes": 5,
-    "userId": 11
+    "_id": "6",
+    "postId": "3",
+    "parentId": null,
+    "authorId": "25",
+    "content": "The tiramisu looks divine! What coffee brand do you recommend?",
+    "createdAt": "2024-05-24T13:10:00.000Z"
   },
   "7": {
-    "id": 7,
-    "body": "This is clear, concise, and complete!",
-    "postId": 17,
-    "likes": 1,
-    "userId": 4
+    "_id": "7",
+    "postId": "3",
+    "parentId": "6",
+    "authorId": "30",
+    "content": "Illy or Lavazza work best for authentic Italian flavor.",
+    "createdAt": "2024-05-24T13:45:00.000Z"
   },
   "8": {
-    "id": 8,
-    "body": "What a powerful argument!",
-    "postId": 23,
-    "likes": 0,
-    "userId": 14
+    "_id": "8",
+    "postId": "15",
+    "parentId": null,
+    "authorId": "7",
+    "content": "My macarons always crack. Any troubleshooting tips?",
+    "createdAt": "2024-05-24T14:20:00.000Z"
   },
   "9": {
-    "id": 9,
-    "body": "I knew you could do it!",
-    "postId": 7,
-    "likes": 3,
-    "userId": 7
+    "_id": "9",
+    "postId": "15",
+    "parentId": "8",
+    "authorId": "22",
+    "content": "Let the piped shells rest for 45 mins before baking!",
+    "createdAt": "2024-05-24T15:00:00.000Z"
   },
   "10": {
-    "id": 10,
-    "body": "Wonderful ideas!",
-    "postId": 8,
-    "likes": 0,
-    "userId": 16
+    "_id": "10",
+    "postId": "15",
+    "parentId": "8",
+    "authorId": "4",
+    "content": "Also check your oven temp with a thermometer.",
+    "createdAt": "2024-05-24T15:30:00.000Z"
   },
   "11": {
-    "id": 11,
-    "body": "It was a pleasure to grade this!",
-    "postId": 15,
-    "likes": 8,
-    "userId": 2
+    "_id": "11",
+    "postId": "2",
+    "parentId": null,
+    "authorId": "19",
+    "content": "Best crème brûlée I've ever made! Torch technique was perfect.",
+    "createdAt": "2024-05-24T16:10:00.000Z"
   },
   "12": {
-    "id": 12,
-    "body": "Keep up the incredible work!",
-    "postId": 19,
-    "likes": 10,
-    "userId": 9
+    "_id": "12",
+    "postId": "2",
+    "parentId": "11",
+    "authorId": "11",
+    "content": "How thick was your sugar layer? Mine caramelized unevenly.",
+    "createdAt": "2024-05-24T16:45:00.000Z"
   },
   "13": {
-    "id": 13,
-    "body": "My goodness, how impressive!",
-    "postId": 10,
-    "likes": 10,
-    "userId": 8
+    "_id": "13",
+    "postId": "23",
+    "parentId": null,
+    "authorId": "9",
+    "content": "Pavlova newbie here - why did mine collapse after cooling?",
+    "createdAt": "2024-05-24T17:20:00.000Z"
   },
   "14": {
-    "id": 14,
-    "body": "You're showing inventive ideas!",
-    "postId": 20,
-    "likes": 8,
-    "userId": 7
+    "_id": "14",
+    "postId": "23",
+    "parentId": "13",
+    "authorId": "14",
+    "content": "Did you open the oven door while baking? That's usually the culprit.",
+    "createdAt": "2024-05-24T18:00:00.000Z"
   },
   "15": {
-    "id": 15,
-    "body": "You've shown so much growth!",
-    "postId": 6,
-    "likes": 2,
-    "userId": 17
+    "_id": "15",
+    "postId": "7",
+    "parentId": null,
+    "authorId": "27",
+    "content": "The vegan brownies are surprisingly fudgy! What's your secret?",
+    "createdAt": "2024-05-24T18:30:00.000Z"
   },
   "16": {
-    "id": 16,
-    "body": "Interesting thoughts!",
-    "postId": 14,
-    "likes": 5,
-    "userId": 9
+    "_id": "16",
+    "postId": "7",
+    "parentId": "15",
+    "authorId": "5",
+    "content": "Black beans instead of flour! Sounds weird but works magic.",
+    "createdAt": "2024-05-24T19:15:00.000Z"
   },
   "17": {
-    "id": 17,
-    "body": "I love your neat work!",
-    "postId": 22,
-    "likes": 7,
-    "userId": 5
+    "_id": "17",
+    "postId": "12",
+    "parentId": null,
+    "authorId": "20",
+    "content": "Can the panna cotta be made with agar-agar instead of gelatin?",
+    "createdAt": "2024-05-24T20:00:00.000Z"
   },
   "18": {
-    "id": 18,
-    "body": "Doesn't it feel good to do such great work?",
-    "postId": 22,
-    "likes": 6,
-    "userId": 14
+    "_id": "18",
+    "postId": "12",
+    "parentId": "17",
+    "authorId": "1",
+    "content": "Yes! Use 1 tsp agar powder per 2 cups liquid.",
+    "createdAt": "2024-05-24T20:45:00.000Z"
   },
   "19": {
-    "id": 19,
-    "body": "First-rate work!",
-    "postId": 15,
-    "likes": 1,
-    "userId": 13
+    "_id": "19",
+    "postId": "12",
+    "parentId": "17",
+    "authorId": "16",
+    "content": "Note: Agar sets firmer than gelatin. Reduce by 20% for similar texture.",
+    "createdAt": "2024-05-24T21:30:00.000Z"
   },
   "20": {
-    "id": 20,
-    "body": "This is fascinating information!",
-    "postId": 16,
-    "likes": 4,
-    "userId": 19
+    "_id": "20",
+    "postId": "18",
+    "parentId": null,
+    "authorId": "23",
+    "content": "My lemon tart filling curdled. Help!",
+    "createdAt": "2024-05-24T22:00:00.000Z"
   },
   "21": {
-    "id": 21,
-    "body": "You inspire me!",
-    "postId": 229,
-    "likes": 0,
-    "userId": 11
+    "_id": "21",
+    "postId": "18",
+    "parentId": "20",
+    "authorId": "10",
+    "content": "Temper your eggs slowly next time - pour hot liquid in a thin stream.",
+    "createdAt": "2024-05-24T22:30:00.000Z"
   },
   "22": {
-    "id": 22,
-    "body": "This is right on target!",
-    "postId": 9,
-    "likes": 5,
-    "userId": 11
+    "_id": "22",
+    "postId": "1",
+    "parentId": null,
+    "authorId": "28",
+    "content": "The salted caramel sauce is perfect for gifting! How long does it keep?",
+    "createdAt": "2024-05-24T23:15:00.000Z"
   },
   "23": {
-    "id": 23,
-    "body": "What an astounding observation!",
-    "postId": 3,
-    "likes": 1,
-    "userId": 15
+    "_id": "23",
+    "postId": "1",
+    "parentId": "22",
+    "authorId": "6",
+    "content": "2 weeks refrigerated, or freeze for 3 months.",
+    "createdAt": "2024-05-25T08:00:00.000Z"
   },
   "24": {
-    "id": 24,
-    "body": "This is very well thought out!",
-    "postId": 11,
-    "likes": 1,
-    "userId": 16
+    "_id": "24",
+    "postId": "9",
+    "parentId": null,
+    "authorId": "15",
+    "content": "Has anyone made the baklava with pistachios only?",
+    "createdAt": "2024-05-25T09:20:00.000Z"
   },
   "25": {
-    "id": 25,
-    "body": "I can tell you've been practicing!",
-    "postId": 7,
-    "likes": 9,
-    "userId": 16
+    "_id": "25",
+    "postId": "9",
+    "parentId": "24",
+    "authorId": "2",
+    "content": "I did! Toast them first for deeper flavor.",
+    "createdAt": "2024-05-25T10:00:00.000Z"
   },
   "26": {
-    "id": 26,
-    "body": "You've come a long way!",
-    "postId": 9,
-    "likes": 7,
-    "userId": 12
+    "_id": "26",
+    "postId": "9",
+    "parentId": "25",
+    "authorId": "15",
+    "content": "Great tip! Did you adjust the syrup amount?",
+    "createdAt": "2024-05-25T10:45:00.000Z"
   },
   "27": {
-    "id": 27,
-    "body": "I can tell you've been paying attention!",
-    "postId": 5,
-    "likes": 9,
-    "userId": 7
+    "_id": "27",
+    "postId": "14",
+    "parentId": null,
+    "authorId": "29",
+    "content": "The flourless cake sank in the middle. Overmixed?",
+    "createdAt": "2024-05-25T11:30:00.000Z"
   },
   "28": {
-    "id": 28,
-    "body": "Reading this made my day!",
-    "postId": 20,
-    "likes": 8,
-    "userId": 17
+    "_id": "28",
+    "postId": "14",
+    "parentId": "27",
+    "authorId": "13",
+    "content": "More likely underbaked. Try 5 extra minutes next time.",
+    "createdAt": "2024-05-25T12:15:00.000Z"
   },
   "29": {
-    "id": 29,
-    "body": "This is very perceptive!",
-    "postId": 21,
-    "likes": 2,
-    "userId": 18
+    "_id": "29",
+    "postId": "20",
+    "parentId": null,
+    "authorId": "21",
+    "content": "Can I use frozen berries for the clafoutis?",
+    "createdAt": "2024-05-25T13:00:00.000Z"
   },
   "30": {
-    "id": 30,
-    "body": "What an accomplishment!",
-    "postId": 16,
-    "likes": 8,
-    "userId": 9
+    "_id": "30",
+    "postId": "20",
+    "parentId": "29",
+    "authorId": "18",
+    "content": "Absolutely! No need to thaw - just bake 5 mins longer.",
+    "createdAt": "2024-05-25T13:45:00.000Z"
+  },
+  "31": {
+    "_id": "31",
+    "postId": "4",
+    "parentId": null,
+    "authorId": "24",
+    "content": "The churros recipe says to pipe with a star tip - is this mandatory?",
+    "createdAt": "2024-05-25T14:30:00.000Z"
+  },
+  "32": {
+    "_id": "32",
+    "postId": "4",
+    "parentId": "31",
+    "authorId": "7",
+    "content": "Yes! The ridges help them crisp evenly.",
+    "createdAt": "2024-05-25T15:15:00.000Z"
+  },
+  "33": {
+    "_id": "33",
+    "postId": "11",
+    "parentId": null,
+    "authorId": "26",
+    "content": "My mousse au chocolat won't stiffen. Whipping cream problem?",
+    "createdAt": "2024-05-25T16:00:00.000Z"
+  },
+  "34": {
+    "_id": "34",
+    "postId": "11",
+    "parentId": "33",
+    "authorId": "3",
+    "content": "Chill your bowl and beaters first! Also check cream fat % (needs 35%+).",
+    "createdAt": "2024-05-25T16:45:00.000Z"
+  },
+  "35": {
+    "_id": "35",
+    "postId": "6",
+    "parentId": null,
+    "authorId": "4",
+    "content": "The poached pears recipe saved my dinner party! Elegant yet easy.",
+    "createdAt": "2024-05-25T17:30:00.000Z"
+  },
+  "36": {
+    "_id": "36",
+    "postId": "6",
+    "parentId": "35",
+    "authorId": "19",
+    "content": "What wine did you use for poaching?",
+    "createdAt": "2024-05-25T18:15:00.000Z"
+  },
+  "37": {
+    "_id": "37",
+    "postId": "6",
+    "parentId": "36",
+    "authorId": "4",
+    "content": "A cheap but drinkable Pinot Noir worked perfectly!",
+    "createdAt": "2024-05-25T19:00:00.000Z"
+  },
+  "38": {
+    "_id": "38",
+    "postId": "16",
+    "parentId": null,
+    "authorId": "9",
+    "content": "The soufflé rose beautifully but then immediately deflated. Normal?",
+    "createdAt": "2024-05-25T19:45:00.000Z"
+  },
+  "39": {
+    "_id": "39",
+    "postId": "16",
+    "parentId": "38",
+    "authorId": "12",
+    "content": "Totally normal - they're meant to be eaten immediately!",
+    "createdAt": "2024-05-25T20:30:00.000Z"
+  },
+  "40": {
+    "_id": "40",
+    "postId": "22",
+    "parentId": null,
+    "authorId": "17",
+    "content": "The mango sorbet was icy. How to make it creamier?",
+    "createdAt": "2024-05-25T21:15:00.000Z"
   }
 }
