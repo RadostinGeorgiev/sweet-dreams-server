@@ -3207,7 +3207,7 @@
         "_postId": "5",
         "_parentId": null,
         "_authorId": "12",
-        "content": "This chocolate lava cake recipe changed my life! Perfect texture.",
+        "content": "The deconstructed tiramisu technique in this article is revolutionary! The coffee foam alone is worth the effort.",
         "createdAt": "2024-05-24T10:30:00.000Z"
       },
       "2": {
@@ -3215,7 +3215,7 @@
         "_postId": "5",
         "_parentId": "1",
         "_authorId": "8",
-        "content": "How long did you bake yours? Mine came out too runny.",
+        "content": "How long should I whip the mascarpone for optimal texture? Mine came out too runny.",
         "createdAt": "2024-05-24T11:15:00.000Z"
       },
       "3": {
@@ -3223,31 +3223,31 @@
         "_postId": "5",
         "_parentId": "2",
         "_authorId": "12",
-        "content": "Exactly 12 minutes at 375°F. Use a toothpick test!",
+        "content": "Whip just until soft peaks form - about 90 seconds on medium speed. Overwhipping causes separation!",
         "createdAt": "2024-05-24T11:45:00.000Z"
       },
       "4": {
         "_id": "4",
-        "_postId": "8",
+        "_postId": "5",
         "_parentId": null,
         "_authorId": "3",
-        "content": "Has anyone tried substituting almond flour in the cheesecake recipe?",
+        "content": "The molecular gastronomy techniques seem intimidating. Any beginner-friendly alternatives?",
         "createdAt": "2024-05-24T12:00:00.000Z"
       },
       "5": {
         "_id": "5",
-        "_postId": "8",
+        "_postId": "5",
         "_parentId": "4",
         "_authorId": "17",
-        "content": "Yes! Use 1:1 ratio but add 1 extra egg for binding.",
+        "content": "Try the simplified version with agar-agar instead of sodium alginate - much easier to find!",
         "createdAt": "2024-05-24T12:30:00.000Z"
       },
       "6": {
         "_id": "6",
-        "_postId": "3",
+        "_postId": "5",
         "_parentId": null,
         "_authorId": "25",
-        "content": "The tiramisu looks divine! What coffee brand do you recommend?",
+        "content": "The flavor pairing chart is exceptional. Have you considered adding umami elements to dessert pairings?",
         "createdAt": "2024-05-24T13:10:00.000Z"
       },
       "7": {
