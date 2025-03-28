@@ -23,7 +23,7 @@
   "seedData": {
     "recipes": {
       "1": {
-        "_id": 1,
+        "_id": "1",
         "name": "Pistachio and Raspberry Cheesecake Domes",
         "category": ["Desserts", "Cheesecake"],
         "description": "A luxurious and visually stunning dessert, combining the nutty richness of pistachio with the tangy sweetness of raspberry. These domes are perfect for special occasions or as a gourmet treat.",
@@ -71,7 +71,7 @@
         "updatedAt": "2024-05-23T09:15:42.123Z"
       },
       "2": {
-        "_id": 2,
+        "_id": "2",
         "name": "Indulgent Red Velvet Strawberry Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A decadent fusion of red velvet cake and creamy strawberry cheesecake, layered to perfection. This dessert is a showstopper, combining rich flavors with a stunning visual appeal.",
@@ -126,7 +126,7 @@
         "updatedAt": "2024-05-23T10:00:00.000Z"
       },
       "3": {
-        "_id": 3,
+        "_id": "3",
         "name": "Beetroot Feta Cheesecake with Dill & Pistachio Dust",
         "category": ["Appetizers", "Savory Cheesecake"],
         "description": "A stunning and flavorful savory cheesecake featuring earthy beetroot, tangy feta cheese, and fresh dill, finished with a crunchy pistachio dust for an elegant texture and taste contrast.",
@@ -177,7 +177,7 @@
         "updatedAt": "2024-05-23T14:42:10.619Z"
       },
       "4": {
-        "_id": 4,
+        "_id": "4",
         "name": "Decadent Chocolate Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and moist chocolate cake that is perfect for any occasion. This cake is layered with a smooth chocolate ganache and topped with fresh berries for a touch of elegance.",
@@ -228,7 +228,7 @@
         "updatedAt": "2024-05-23T11:00:00.000Z"
       },
       "5": {
-        "_id": 5,
+        "_id": "5",
         "name": "Pistachio Lemon Breakfast Bread",
         "category": ["Breakfast", "Breads"],
         "description": "A moist and nutty breakfast bread infused with zesty lemon and crunchy pistachios. Perfect for a light morning treat with a cup of coffee or tea.",
@@ -277,7 +277,7 @@
         "updatedAt": "2024-05-23T16:23:55.619Z"
       },
       "6": {
-        "_id": 6,
+        "_id": "6",
         "name": "Mini Dragon Fruit Cheesecake Bites",
         "category": ["Desserts", "Cheesecake", "Mini Bites"],
         "description": "These vibrant and creamy mini cheesecake bites are made with dragon fruit, offering a unique and tropical twist. Perfect for parties or as a light, elegant dessert.",
@@ -331,7 +331,7 @@
         "updatedAt": "2024-05-23T12:00:00.000Z"
       },
       "7": {
-        "_id": 7,
+        "_id": "7",
         "name": "Raspberry Zinger Poke Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A light and fluffy vanilla cake soaked with tangy raspberry syrup, topped with a creamy coconut frosting and shredded coconut for the ultimate nostalgic treat.",
@@ -384,7 +384,7 @@
         "updatedAt": "2024-05-23T18:10:42.619Z"
       },
       "8": {
-        "_id": 8,
+        "_id": "8",
         "name": "Black Forest Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious fusion of classic Black Forest cake and creamy cheesecake. Layers of chocolate, cherries, and creamy filling create a decadent dessert that's perfect for any celebration.",
@@ -439,7 +439,7 @@
         "updatedAt": "2024-05-23T13:00:00.000Z"
       },
       "9": {
-        "_id": 9,
+        "_id": "9",
         "name": "Luscious Lemon Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A rich and velvety lemon cheesecake with a buttery biscuit crust, topped with a tangy lemon curd for an irresistibly refreshing citrus burst.",
@@ -486,7 +486,7 @@
         "updatedAt": "2024-05-23T19:45:37.619Z"
       },
       "10": {
-        "_id": 10,
+        "_id": "10",
         "name": "Crème Brûlée Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious dessert that combines the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for those who love a sophisticated twist on classic flavors.",
@@ -532,7 +532,7 @@
         "updatedAt": "2024-05-23T14:00:00.000Z"
       },
       "11": {
-        "_id": 11,
+        "_id": "11",
         "name": "Decadent Chocolate Cake with Silky Mousse",
         "category": ["Desserts", "Cakes", "Chocolate"],
         "description": "An indulgent, rich chocolate cake layered with velvety chocolate mousse and topped with a glossy ganache for the ultimate chocolate lover’s dream.",
@@ -585,7 +585,7 @@
         "updatedAt": "2024-05-23T21:12:44.619Z"
       },
       "12": {
-        "_id": 12,
+        "_id": "12",
         "name": "Raspberry Chocolate Ganache Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and indulgent chocolate cake layered with tangy raspberry filling and topped with a smooth chocolate ganache. Perfect for chocolate lovers and special occasions.",
@@ -639,7 +639,7 @@
         "updatedAt": "2024-05-23T15:00:00.000Z"
       },
       "13": {
-        "_id": 13,
+        "_id": "13",
         "name": "Crème Brûlée Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A luscious fusion of creamy cheesecake and classic crème brûlée, featuring a rich vanilla custard filling and a crisp caramelized sugar topping.",
@@ -685,7 +685,7 @@
         "updatedAt": "2024-05-23T22:30:17.619Z"
       },
       "14": {
-        "_id": 14,
+        "_id": "14",
         "name": "Caramel Flan Cheesecake with a Chocolate Twist",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A decadent fusion of creamy caramel flan and rich cheesecake, with a delightful chocolate twist. This dessert is perfect for those who love the combination of caramel, cheese, and chocolate.",
@@ -731,7 +731,7 @@
         "updatedAt": "2024-05-23T16:00:00.000Z"
       },
       "15": {
-        "_id": 15,
+        "_id": "15",
         "name": "Luscious Lemon-Lime Cherry Pistachio Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A vibrant and refreshing cheesecake with zesty lemon-lime flavors, a crunchy pistachio crust, and a luscious cherry topping for the perfect sweet-tart balance.",
@@ -780,7 +780,7 @@
         "updatedAt": "2024-05-23T23:45:29.619Z"
       },
       "16": {
-        "_id": 16,
+        "_id": "16",
         "name": "Date Coffee Loaf Cake with Walnuts and Rich Espresso Glaze",
         "category": ["Desserts", "Cakes", "Loaf Cakes"],
         "description": "A moist and flavorful loaf cake infused with the natural sweetness of dates, the richness of coffee, and the crunch of walnuts. Topped with a luxurious espresso glaze, this cake is perfect for coffee lovers.",
@@ -832,7 +832,7 @@
         "updatedAt": "2024-05-23T17:00:00.000Z"
       },
       "17": {
-        "_id": 17,
+        "_id": "17",
         "name": "Mini Crème Brûlée Cheesecakes",
         "category": ["Desserts", "Cheesecake", "Mini Bites"],
         "description": "These adorable mini cheesecakes combine the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for parties or as an elegant individual dessert.",
@@ -885,7 +885,7 @@
         "updatedAt": "2024-05-23T18:00:00.000Z"
       },
       "18": {
-        "_id": 18,
+        "_id": "18",
         "name": "Decadent Chocolatey Cherry Bliss Cake",
         "category": ["Desserts", "Cakes"],
         "description": "A rich and indulgent chocolate cake layered with luscious cherry filling and topped with a smooth chocolate ganache. Perfect for chocolate and cherry lovers, this cake is a true delight.",
@@ -939,7 +939,7 @@
         "updatedAt": "2024-05-23T19:00:00.000Z"
       },
       "19": {
-        "_id": 19,
+        "_id": "19",
         "name": "Pistachio Baklava Cheesecake",
         "category": ["Desserts", "Cheesecake", "Cakes"],
         "description": "A luxurious fusion of creamy cheesecake and the nutty, flaky layers of baklava. This dessert combines the richness of pistachios with the sweetness of honey, creating a truly indulgent treat.",
@@ -990,7 +990,7 @@
         "updatedAt": "2024-05-23T20:00:00.000Z"
       },
       "20": {
-        "_id": 20,
+        "_id": "20",
         "name": "Mini Greek-Baklava Inspired Delights",
         "category": ["Pastries", "Desserts", "Mediterranean"],
         "description": "Tiny morsels of flaky phyllo pastry, layered with a rich blend of walnuts, cinnamon, and cloves, drizzled with a honey-lemon syrup. A perfect bite-sized indulgence that captures the essence of Greek tradition.",
@@ -1039,7 +1039,7 @@
         "updatedAt": "2024-05-23T09:15:42.987Z"
       },
       "21": {
-        "_id": 21,
+        "_id": "21",
         "name": "No Bake Pumpkin Cheesecake Balls",
         "category": ["Desserts", "Cheesecake", "No Bake"],
         "description": "These delightful no-bake pumpkin cheesecake balls are a perfect treat for fall. Combining the flavors of pumpkin, cream cheese, and warm spices, they are easy to make and irresistibly delicious.",
@@ -1086,7 +1086,7 @@
         "updatedAt": "2024-05-23T21:00:00.000Z"
       },
       "22": {
-        "_id": 22,
+        "_id": "22",
         "name": "Salted Caramel Cheesecake",
         "category": ["Desserts", "Cheesecake"],
         "description": "A decadent cheesecake with a creamy, smooth filling, swirled with rich salted caramel. The perfect balance of sweet and salty, resting on a buttery graham cracker crust. A truly indulgent treat.",
@@ -1136,7 +1136,7 @@
         "updatedAt": "2024-05-23T09:30:15.123Z"
       },
       "23": {
-        "_id": 23,
+        "_id": "23",
         "name": "Red Velvet Brownies",
         "category": ["Desserts", "Brownies"],
         "description": "These rich and fudgy red velvet brownies combine the classic flavors of red velvet cake with the dense, chocolatey texture of brownies. Topped with a creamy cheesecake swirl, they are a decadent treat for any occasion.",
@@ -1192,7 +1192,7 @@
     },
     "blog": {
       "1": {
-        "_id": 1,
+        "_id": "1",
         "title": "Rainbow Macaron Tower: A Sweet Symphony of Colors",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Colorful", "Sweet", "Vegetarian"],
@@ -1216,7 +1216,7 @@
         "updatedAt": "2024-05-24T10:30:00.000Z"
       },
       "2": {
-        "_id": 2,
+        "_id": "2",
         "title": "Edible Flowers: A Guide to Garnishing Your Dishes with Nature's Beauty",
         "category": ["Food presentation", "Cooking Tips", "Gourmet"],
         "tags": ["Healthy", "Vegetarian", "Elegant"],
@@ -1240,7 +1240,7 @@
         "updatedAt": "2024-05-25T11:45:00.000Z"
       },
       "3": {
-        "_id": 3,
+        "_id": "3",
         "title": "The Science of Searing: Achieving Perfect Caramelization and Flavor",
         "category": ["Cooking Tips"],
         "tags": [
@@ -1271,7 +1271,7 @@
         "updatedAt": "2024-05-23T10:00:00.000Z"
       },
       "4": {
-        "_id": 4,
+        "_id": "4",
         "title": "A Culinary Journey Through Italy: Exploring Regional Specialties and Hidden Gems",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Italian Cuisine", "Travel", "Gourmet"],
@@ -1295,7 +1295,7 @@
         "updatedAt": "2024-05-26T14:00:00.000Z"
       },
       "5": {
-        "_id": 5,
+        "_id": "5",
         "title": "The Secrets of Michelin-Starred Desserts: Deconstructing the Techniques and Flavors",
         "category": ["Gourmet", "Food presentation"],
         "tags": ["Desserts", "Fine Dining", "Culinary Art"],
@@ -1319,7 +1319,7 @@
         "updatedAt": "2024-05-27T16:30:00.000Z"
       },
       "6": {
-        "_id": 6,
+        "_id": "6",
         "title": "The Power of Food to Connect: How a Shared Meal Can Bridge Cultures and Create Lasting Memories",
         "category": ["Food Stories", "Food Travel"],
         "tags": ["Cultural Exchange", "Community", "Memories"],
@@ -1343,7 +1343,7 @@
         "updatedAt": "2024-05-28T18:00:00.000Z"
       },
       "7": {
-        "_id": 7,
+        "_id": "7",
         "title": "A Culinary Adventure in the Amazon: Discovering Unique Ingredients and Ancient Cooking Techniques",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Amazon", "Exotic Ingredients", "Traditional Cooking"],
@@ -1367,7 +1367,7 @@
         "updatedAt": "2024-05-29T19:00:00.000Z"
       },
       "8": {
-        "_id": 8,
+        "_id": "8",
         "title": "Food Photography 101: Tips and Tricks for Capturing Stunning Food Images",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Photography", "Food Styling", "Social Media"],
@@ -1391,7 +1391,7 @@
         "updatedAt": "2024-05-30T20:00:00.000Z"
       },
       "9": {
-        "_id": 9,
+        "_id": "9",
         "title": "The Art of Layering: Creating Visually Stunning Desserts",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Desserts", "Plating Techniques", "Visual Appeal"],
@@ -1415,7 +1415,7 @@
         "updatedAt": "2024-05-31T21:00:00.000Z"
       },
       "10": {
-        "_id": 10,
+        "_id": "10",
         "title": "Cooking with Seasonal Ingredients: Savoring the Flavors of Each Season",
         "category": ["Cooking Tips", "Food Stories"],
         "tags": ["Seasonal Cooking", "Healthy", "Sustainability"],
@@ -1439,7 +1439,7 @@
         "updatedAt": "2024-06-01T22:00:00.000Z"
       },
       "11": {
-        "_id": 11,
+        "_id": "11",
         "title": "Plating for Instagram: Tips and Tricks for Food Photography",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Food Photography", "Social Media", "Plating Techniques"],
@@ -1463,7 +1463,7 @@
         "updatedAt": "2024-06-02T23:00:00.000Z"
       },
       "12": {
-        "_id": 12,
+        "_id": "12",
         "title": "A Culinary Safari in South Africa: Savoring the Flavors of the African Bush",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["South Africa", "Exotic Cuisine", "Cultural Experience"],
@@ -1487,7 +1487,7 @@
         "updatedAt": "2024-06-03T12:00:00.000Z"
       },
       "13": {
-        "_id": 13,
+        "_id": "13",
         "title": "Edible Art: Transforming Food into Culinary Masterpieces",
         "category": ["Food presentation", "Gourmet"],
         "tags": ["Culinary Art", "Plating Techniques", "Visual Appeal"],
@@ -1511,7 +1511,7 @@
         "updatedAt": "2024-06-04T14:00:00.000Z"
       },
       "14": {
-        "_id": 14,
+        "_id": "14",
         "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
         "category": ["Gourmet", "Food Stories"],
         "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
@@ -1535,7 +1535,7 @@
         "updatedAt": "2024-06-05T15:00:00.000Z"
       },
       "15": {
-        "_id": 15,
+        "_id": "15",
         "title": "The Art of Molecular Gastronomy: Exploring the Science of Cooking",
         "category": ["Gourmet", "Cooking Tips"],
         "tags": ["Molecular Gastronomy", "Culinary Science", "Innovation"],
@@ -1559,7 +1559,7 @@
         "updatedAt": "2024-06-06T16:00:00.000Z"
       },
       "16": {
-        "_id": 16,
+        "_id": "16",
         "title": "The Power of Texture: Creating Dynamic and Engaging Dishes",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Texture", "Plating Techniques", "Culinary Art"],
@@ -1583,7 +1583,7 @@
         "updatedAt": "2024-06-07T17:00:00.000Z"
       },
       "17": {
-        "_id": 17,
+        "_id": "17",
         "title": "The Ultimate Guide to Spice Blends: Creating Flavorful and Aromatic Dishes",
         "category": ["Cooking Tips"],
         "tags": ["Spices", "Flavor", "Culinary Techniques"],
@@ -1607,7 +1607,7 @@
         "updatedAt": "2024-06-08T18:00:00.000Z"
       },
       "18": {
-        "_id": 18,
+        "_id": "18",
         "title": "A Culinary Adventure Through Japan: Exploring the Flavors of Tokyo and Beyond",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Japan", "Sushi", "Ramen", "Cultural Experience"],
@@ -1631,7 +1631,7 @@
         "updatedAt": "2024-06-09T19:00:00.000Z"
       },
       "19": {
-        "_id": 19,
+        "_id": "19",
         "title": "The Evolution of Modern Cuisine: Blending Tradition with Innovation",
         "category": ["Gourmet", "Food Stories"],
         "tags": ["Modern Cuisine", "Culinary Innovation", "Tradition"],
@@ -1655,7 +1655,7 @@
         "updatedAt": "2024-06-10T20:00:00.000Z"
       },
       "20": {
-        "_id": 20,
+        "_id": "20",
         "title": "The Ultimate Foodie's Guide to Kyoto: From Kaiseki to Street Food",
         "category": ["Food Travel", "Food Stories"],
         "tags": ["Kyoto", "Kaiseki", "Street Food", "Cultural Experience"],
@@ -1679,7 +1679,7 @@
         "updatedAt": "2024-06-11T21:00:00.000Z"
       },
       "22": {
-        "_id": 22,
+        "_id": "22",
         "title": "The Secrets of Michelin-Starred Sauces: Deconstructing the Techniques",
         "category": ["Gourmet", "Cooking Tips"],
         "tags": ["Sauces", "Michelin-Starred", "Culinary Techniques"],
@@ -1703,7 +1703,7 @@
         "updatedAt": "2024-06-13T23:00:00.000Z"
       },
       "23": {
-        "_id": 23,
+        "_id": "23",
         "title": "The Healing Power of Spices: How Aromatics Can Transform Your Health",
         "category": ["Cooking Tips", "Healthy Eating"],
         "tags": ["Spices", "Health Benefits", "Wellness"],
@@ -1727,7 +1727,7 @@
         "updatedAt": "2024-06-14T10:00:00.000Z"
       },
       "24": {
-        "_id": 24,
+        "_id": "24",
         "title": "The Science of Baking with Gluten-Free Flours: Tips and Tricks",
         "category": ["Cooking Tips", "Healthy Eating"],
         "tags": ["Gluten-Free", "Baking", "Science of Cooking"],
@@ -1751,7 +1751,7 @@
         "updatedAt": "2024-06-15T11:00:00.000Z"
       },
       "25": {
-        "_id": 25,
+        "_id": "25",
         "title": "Using Textures and Contrasts: Elevating Your Food Presentation",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Texture", "Plating Techniques", "Visual Appeal"],
@@ -1775,7 +1775,7 @@
         "updatedAt": "2024-06-16T12:00:00.000Z"
       },
       "26": {
-        "_id": 26,
+        "_id": "26",
         "title": "Garnishing with Microgreens: Adding Freshness and Visual Appeal",
         "category": ["Food presentation", "Cooking Tips"],
         "tags": ["Microgreens", "Garnishing", "Visual Appeal"],
