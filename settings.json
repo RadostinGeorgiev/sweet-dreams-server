@@ -3229,10 +3229,10 @@
   },
   "rules": {
     "users": {
-      ".create": true,
-      ".read": true,
-      ".update": true,
-      ".delete": true
+      ".create": false,
+      ".read": ["Owner"],
+      ".update": false,
+      ".delete": false
     },
     "members": {
       ".update": "isOwner(user, get('teams', data.teamId))",
