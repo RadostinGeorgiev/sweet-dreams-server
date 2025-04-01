@@ -165,7 +165,7 @@ function get(context, tokens, query, body) {
 
             if (relationTokens.includes("$")) {
               [idSource, collection, foreignKey] = relationTokens
-                .split(/[:$]/)
+                .split("$")
                 .map((item) => item.trim());
             } else {
               [idSource, collection] = relationTokens
