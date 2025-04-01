@@ -159,9 +159,19 @@ function get(context, tokens, query, body) {
               return;
             }
 
-            const [idSource, collection] = relationTokens
-              .split(":")
-              .map((item) => item.trim());
+            let idSource,
+              collection,
+              foreignKey = "id";
+
+            if (relationTokens.includes("$")) {
+              [idSource, collection, foreignKey] = relationTokens
+                .split(/[:$]/)
+                .map((item) => item.trim());
+            } else {
+              [idSource, collection] = relationTokens
+                .split(":")
+                .map((item) => item.trim());
+            }
 
             if (!idSource || !collection) {
               console.warn(`Invalid relation syntax: ${relationTokens}`);
@@ -200,7 +210,14 @@ function get(context, tokens, query, body) {
       }
     }
 
-    function transform(record, propName, idSource, collection, storageSource) {
+    function transform(
+      record,
+      propName,
+      idSource,
+      collection,
+      storageSource,
+      foreignKey = "id"
+    ) {
       try {
         const seekId = record[idSource];
         if (!seekId) {
@@ -208,9 +225,15 @@ function get(context, tokens, query, body) {
           return record;
         }
 
-        const related = storageSource.get(collection, seekId);
+        const related =
+          foreignKey === "id"
+            ? storageSource.get(collection, seekId)
+            : storageSource
+                .getAll(collection)
+                .find((item) => item[foreignKey] === seekId);
+
         if (!related) {
-          console.warn(`No ${collection} found with id ${seekId}`);
+          console.warn(`No ${collection} found with ${foreignKey} = ${seekId}`);
           return record;
         }
 
