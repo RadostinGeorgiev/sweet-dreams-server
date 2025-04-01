@@ -160,13 +160,20 @@ function get(context, tokens, query, body) {
             }
 
             let idSource,
-              collection,
-              foreignKey = "id";
+              collection = "id";
 
             if (relationTokens.includes("$")) {
-              [idSource, collection, foreignKey] = relationTokens
-                .split(/[:$]/)
-                .map((item) => item.trim());
+              const [leftPart, foreignKey] = relationTokens
+                .split("$")
+                .map((s) => s.trim());
+              [idSource, collection] = leftPart.split(":").map((s) => s.trim());
+
+              if (!foreignKey) {
+                console.warn(
+                  `Missing foreignKey after $ in: ${relationTokens}`
+                );
+                foreignKey = "id";
+              }
             } else {
               [idSource, collection] = relationTokens
                 .split(":")
