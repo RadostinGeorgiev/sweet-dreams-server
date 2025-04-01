@@ -142,123 +142,27 @@ function get(context, tokens, query, body) {
     }
 
     if (query.load) {
-      try {
-        const props = query.load
-          .split(",")
-          .filter((p) => p.trim() !== "")
-          .filter((p) => p.includes("="));
+      const props = query.load.split(",").filter((p) => p != "");
+      props.map((prop) => {
+        const [propName, relationTokens] = prop.split("=");
+        const [idSource, collection] = relationTokens.split(":");
+        console.log(
+          `Loading related records from "${collection}" into "${propName}", joined on "_id"="${idSource}"`
+        );
+        const storageSource =
+          collection == "users" ? context.protectedStorage : context.storage;
+        responseData = Array.isArray(responseData)
+          ? responseData.map(transform)
+          : transform(responseData);
 
-        props.forEach((prop) => {
-          try {
-            const [propName, relationTokens] = prop
-              .split("=")
-              .map((item) => item.trim());
-
-            if (!propName || !relationTokens) {
-              console.warn(`Invalid load syntax: ${prop}`);
-              return;
-            }
-
-            let idSource,
-              collection,
-              foreignKey = "id";
-
-            if (relationTokens.includes("$")) {
-              const [leftPart, fk] = relationTokens
-                .split("$")
-                .map((s) => s.trim());
-              [idSource, collection] = leftPart.split(":").map((s) => s.trim());
-              foreignKey = fk || "id";
-            } else {
-              [idSource, collection] = relationTokens
-                .split(":")
-                .map((item) => item.trim());
-            }
-
-            if (!idSource || !collection) {
-              console.warn(`Invalid relation syntax: ${relationTokens}`);
-              return;
-            }
-
-            console.log(
-              `Loading related records from "${collection}" into "${propName}", joined on "${idSource}" = "${foreignKey}"`
-            );
-
-            const storageSource =
-              collection === "users"
-                ? context.protectedStorage
-                : context.storage;
-
-            responseData = Array.isArray(responseData)
-              ? responseData.map((r) =>
-                  transform(
-                    r,
-                    propName,
-                    idSource,
-                    collection,
-                    storageSource,
-                    foreignKey
-                  )
-                )
-              : transform(
-                  responseData,
-                  propName,
-                  idSource,
-                  collection,
-                  storageSource,
-                  foreignKey
-                );
-          } catch (innerError) {
-            console.error(
-              `Error processing load property "${prop}":`,
-              innerError
-            );
-          }
-        });
-      } catch (outerError) {
-        console.error("Error processing load parameter:", outerError);
-      }
-    }
-
-    function transform(
-      record,
-      propName,
-      idSource,
-      collection,
-      storageSource,
-      foreignKey = "id"
-    ) {
-      try {
-        const seekId = record[idSource];
-        if (!seekId) {
-          console.warn(`Missing ${idSource} in record`, record);
-          return record;
+        function transform(r) {
+          const seekId = r[idSource];
+          const related = storageSource.get(collection, seekId);
+          delete related.hashedPassword;
+          r[propName] = related;
+          return r;
         }
-
-        const allItems = storageSource.getAll(collection);
-        console.log(`Available items in ${collection}:`, allItems);
-
-        const related = allItems.find((item) => {
-          const itemKey = item[foreignKey];
-          console.log(
-            `Comparing ${itemKey} (${typeof itemKey}) with ${seekId} (${typeof seekId})`
-          );
-          return String(item[foreignKey]) === String(seekId);
-        });
-
-        if (!related) {
-          console.warn(`No ${collection} found with ${foreignKey} = ${seekId}`);
-          return record;
-        }
-
-        const transformed = { ...record };
-        transformed[propName] = { ...related };
-        delete transformed[propName].hashedPassword;
-        return transformed;
-      } catch (error) {
-        console.error(`Transform error for ${propName}:`, error);
-        return record;
-      }
+      });
     }
   } catch (err) {
     console.error(err);
