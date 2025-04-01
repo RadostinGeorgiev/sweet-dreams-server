@@ -160,7 +160,8 @@ function get(context, tokens, query, body) {
             }
 
             let idSource,
-              collection = "id";
+              collection,
+              foreignKey = "id";
 
             if (relationTokens.includes("$")) {
               const [leftPart, fk] = relationTokens
@@ -180,7 +181,7 @@ function get(context, tokens, query, body) {
             }
 
             console.log(
-              `Loading related records from "${collection}" into "${propName}", joined on "${idSource}"`
+              `Loading related records from "${collection}" into "${propName}", joined on "${idSource}" = "${foreignKey}"`
             );
 
             const storageSource =
@@ -190,14 +191,22 @@ function get(context, tokens, query, body) {
 
             responseData = Array.isArray(responseData)
               ? responseData.map((r) =>
-                  transform(r, propName, idSource, collection, storageSource)
+                  transform(
+                    r,
+                    propName,
+                    idSource,
+                    collection,
+                    storageSource,
+                    foreignKey
+                  )
                 )
               : transform(
                   responseData,
                   propName,
                   idSource,
                   collection,
-                  storageSource
+                  storageSource,
+                  foreignKey
                 );
           } catch (innerError) {
             console.error(
@@ -226,9 +235,16 @@ function get(context, tokens, query, body) {
           return record;
         }
 
-        const related = storageSource
-          .getAll(collection)
-          .find((item) => String(item[foreignKey]) === String(seekId));
+        const allItems = storageSource.getAll(collection);
+        console.log(`Available items in ${collection}:`, allItems);
+
+        const related = allItems.find((item) => {
+          const itemKey = item[foreignKey];
+          console.log(
+            `Comparing ${itemKey} (${typeof itemKey}) with ${seekId} (${typeof seekId})`
+          );
+          return String(item[foreignKey]) === String(seekId);
+        });
 
         if (!related) {
           console.warn(`No ${collection} found with ${foreignKey} = ${seekId}`);
