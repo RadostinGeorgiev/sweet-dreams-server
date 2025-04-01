@@ -163,17 +163,11 @@ function get(context, tokens, query, body) {
               collection = "id";
 
             if (relationTokens.includes("$")) {
-              const [leftPart, foreignKey] = relationTokens
+              const [leftPart, fk] = relationTokens
                 .split("$")
                 .map((s) => s.trim());
               [idSource, collection] = leftPart.split(":").map((s) => s.trim());
-
-              if (!foreignKey) {
-                console.warn(
-                  `Missing foreignKey after $ in: ${relationTokens}`
-                );
-                foreignKey = "id";
-              }
+              foreignKey = fk || "id";
             } else {
               [idSource, collection] = relationTokens
                 .split(":")
@@ -232,12 +226,9 @@ function get(context, tokens, query, body) {
           return record;
         }
 
-        const related =
-          foreignKey === "id"
-            ? storageSource.get(collection, seekId)
-            : storageSource
-                .getAll(collection)
-                .find((item) => item[foreignKey] === seekId);
+        const related = storageSource
+          .getAll(collection)
+          .find((item) => String(item[foreignKey]) === String(seekId));
 
         if (!related) {
           console.warn(`No ${collection} found with ${foreignKey} = ${seekId}`);
