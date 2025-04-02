@@ -141,26 +141,46 @@ function get(context, tokens, query, body) {
       }
     }
 
-    if (query.load) {
-      const props = query.load.split(",").filter((p) => p != "");
-      props.map((prop) => {
-        const [propName, relationTokens] = prop.split("=");
-        const [idSource, collection] = relationTokens.split(":");
+    if (query.load && typeof query.load === "string") {
+      const props = query.load.split(",").filter((p) => p.trim() !== "");
+
+      props.forEach((prop) => {
+        const parts = prop.split("=");
+        if (parts.length < 2) return;
+
+        const [propName, relationTokens] = parts;
+        const relationParts = relationTokens.split(":");
+        if (relationParts.length < 2) return;
+
+        const [idSource, collectionWithField] = relationParts;
+        const [collection, relatedField = "_id"] =
+          collectionWithField.split("@");
+
         console.log(
-          `Loading related records from "${collection}" into "${propName}", joined on "_id"="${idSource}"`
+          `Loading related records from "${collection}" into "${propName}", joined on "${idSource}" = "${relatedField}"`
         );
+
         const storageSource =
-          collection == "users" ? context.protectedStorage : context.storage;
-        responseData = Array.isArray(responseData)
-          ? responseData.map(transform)
-          : transform(responseData);
+          collection === "users" ? context.protectedStorage : context.storage;
+
+        responseData = responseData
+          ? Array.isArray(responseData)
+            ? responseData.map(transform)
+            : transform(responseData)
+          : [];
 
         function transform(r) {
-          const seekId = r[idSource];
-          const related = storageSource.get(collection, seekId);
+          if (!r || !r.hasOwnProperty(idSource)) return r;
+
+          const seekValue = r[idSource];
+          const related = Object.values(storageSource.get(collection)).find(
+            (item) => item[relatedField] === seekValue
+          );
+
+          if (!related) return r;
+
           delete related.hashedPassword;
-          r[propName] = related;
-          return r;
+          return { ...r, [propName]: related };
         }
       });
     }
