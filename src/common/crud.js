@@ -26,15 +26,11 @@ function parseWhere(query) {
     ">=": (prop, value) => (record) => record[prop] >= JSON.parse(value),
     ">": (prop, value) => (record) => record[prop] > JSON.parse(value),
     "=": (prop, value) => (record) => record[prop] == JSON.parse(value),
-    " like ": (prop, value) => (record) =>
-      record[prop].toLowerCase().includes(JSON.parse(value).toLowerCase()),
+    " like ": (prop, value) => (record) => record[prop].toLowerCase().includes(JSON.parse(value).toLowerCase()),
     " in ": (prop, value) => (record) =>
-      JSON.parse(`[${/\((.+?)\)/.exec(value)[1]}]`).includes(record[prop]),
+      JSON.parse(`[${/\((.+?)\)/.exec(value)[1]}]`).some((val) => record[prop]?.includes?.(val)),
   };
-  const pattern = new RegExp(
-    `^(.+?)(${Object.keys(operators).join("|")})(.+?)$`,
-    "i"
-  );
+  const pattern = new RegExp(`^(.+?)(${Object.keys(operators).join("|")})(.+?)$`, "i");
 
   try {
     let clauses = [query.trim()];
@@ -73,9 +69,7 @@ function get(context, tokens, query, body) {
 
   try {
     if (query.where) {
-      responseData = context.storage
-        .get(context.params.collection)
-        .filter(parseWhere(query.where));
+      responseData = context.storage.get(context.params.collection).filter(parseWhere(query.where));
     } else if (context.params.collection) {
       responseData = context.storage.get(context.params.collection, tokens[0]);
     } else {
@@ -130,9 +124,7 @@ function get(context, tokens, query, body) {
 
     if (query.select) {
       const props = query.select.split(",").filter((p) => p != "");
-      responseData = Array.isArray(responseData)
-        ? responseData.map(transform)
-        : transform(responseData);
+      responseData = Array.isArray(responseData) ? responseData.map(transform) : transform(responseData);
 
       function transform(r) {
         const result = {};
@@ -153,15 +145,13 @@ function get(context, tokens, query, body) {
         if (relationParts.length < 2) return;
 
         const [idSource, collectionWithField] = relationParts;
-        const [collection, relatedField = "_id"] =
-          collectionWithField.split("@");
+        const [collection, relatedField = "_id"] = collectionWithField.split("@");
 
         console.log(
           `Loading related records from "${collection}" into "${propName}", joined on "${idSource}" = "${relatedField}"`
         );
 
-        const storageSource =
-          collection === "users" ? context.protectedStorage : context.storage;
+        const storageSource = collection === "users" ? context.protectedStorage : context.storage;
 
         responseData = responseData
           ? Array.isArray(responseData)
@@ -173,9 +163,7 @@ function get(context, tokens, query, body) {
           if (!r || !r.hasOwnProperty(idSource)) return r;
 
           const seekValue = r[idSource];
-          const related = Object.values(storageSource.get(collection)).find(
-            (item) => item[relatedField] === seekValue
-          );
+          const related = Object.values(storageSource.get(collection)).find((item) => item[relatedField] === seekValue);
 
           if (!related) return r;
 
@@ -239,11 +227,7 @@ function put(context, tokens, query, body) {
   context.canAccess(existing, body);
 
   try {
-    responseData = context.storage.set(
-      context.params.collection,
-      tokens[0],
-      body
-    );
+    responseData = context.storage.set(context.params.collection, tokens[0], body);
   } catch (err) {
     throw new RequestError();
   }
@@ -271,11 +255,7 @@ function patch(context, tokens, query, body) {
   context.canAccess(existing, body);
 
   try {
-    responseData = context.storage.merge(
-      context.params.collection,
-      tokens[0],
-      body
-    );
+    responseData = context.storage.merge(context.params.collection, tokens[0], body);
   } catch (err) {
     throw new RequestError();
   }
