@@ -28,7 +28,7 @@
       "1": {
         "_id": "1",
         "title": "Pistachio and Raspberry Cheesecake Domes",
-        "category": ["Cakes & Cupcakes", "Pies & Tarts"],
+        "category": ["Cakes", "Pies"],
         "description": [
           "A luxurious and visually stunning dessert, combining the nutty richness of pistachio with the tangy sweetness of raspberry. These domes are perfect for special occasions or as a gourmet treat."
         ],
@@ -78,7 +78,7 @@
       "2": {
         "_id": "2",
         "title": "Indulgent Red Velvet Strawberry Cheesecake",
-        "category": ["Cakes & Cupcakes", "Pies & Tarts"],
+        "category": ["Cakes", "Pies"],
         "description": [
           "A decadent fusion of red velvet cake and creamy strawberry cheesecake, layered to perfection. This dessert is a showstopper, combining rich flavors with a stunning visual appeal."
         ],
@@ -113,13 +113,7 @@
         "difficulty": "Medium",
         "cuisine": "American",
         "caloriesPerServing": 450,
-        "tags": [
-          "Cheesecake",
-          "Red Velvet",
-          "Strawberry",
-          "Dessert",
-          "Indulgent"
-        ],
+        "tags": ["Cheesecake", "Red Velvet", "Strawberry", "Dessert", "Indulgent"],
         "_ownerId": "e1f2g3h4-i5j6-4p7q-9r0s-1t2u3v4w5x6y",
         "images": ["/images/recipes/2-1.jpg", "/images/recipes/2-2.jpg"],
         "rating": 4.9,
@@ -135,7 +129,7 @@
       "3": {
         "_id": "3",
         "title": "Beetroot Feta Cheesecake with Dill & Pistachio Dust",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A stunning and flavorful savory cheesecake featuring earthy beetroot, tangy feta cheese, and fresh dill, finished with a crunchy pistachio dust for an elegant texture and taste contrast."
         ],
@@ -166,13 +160,7 @@
         "difficulty": "Medium",
         "cuisine": "Modern European",
         "caloriesPerServing": 280,
-        "tags": [
-          "Savory Cheesecake",
-          "Beetroot",
-          "Feta",
-          "Pistachio",
-          "Appetizer"
-        ],
+        "tags": ["Savory Cheesecake", "Beetroot", "Feta", "Pistachio", "Appetizer"],
         "_ownerId": "e7f8a9b0-c1d2-4f3a-4b5c-6d7e8f9a0b1c",
         "images": ["/images/recipes/3-1.jpg"],
         "rating": 4.8,
@@ -188,7 +176,7 @@
       "4": {
         "_id": "d4e5f6a7-b8c9-4i0j-1k2l-3m4n5o6p7q8r",
         "title": "Decadent Chocolate Cake",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A rich and moist chocolate cake that is perfect for any occasion. This cake is layered with a smooth chocolate ganache and topped with fresh berries for a touch of elegance."
         ],
@@ -241,7 +229,7 @@
       "5": {
         "_id": "k7l8m9n0-o1p2-4v3w-5x6y-7z8a9b0c1d2e",
         "title": "Pistachio Lemon Breakfast Bread",
-        "category": ["Cookies & Bars", "Pies & Tarts"],
+        "category": ["Cookies", "Pies"],
         "description": [
           "A moist and nutty breakfast bread infused with zesty lemon and crunchy pistachios. Perfect for a light morning treat with a cup of coffee or tea."
         ],
@@ -292,7 +280,7 @@
       "6": {
         "_id": "q3r4s5t6-u7v8-4b9c-1d2e-3f4g5h6i7j8k",
         "title": "Mini Dragon Fruit Cheesecake Bites",
-        "category": ["Cakes & Cupcakes", "Frozen Treats"],
+        "category": ["Cakes", "Frozen Treats"],
         "description": [
           "These vibrant and creamy mini cheesecake bites are made with dragon fruit, offering a unique and tropical twist. Perfect for parties or as a light, elegant dessert."
         ],
@@ -326,13 +314,7 @@
         "difficulty": "Easy",
         "cuisine": "Fusion",
         "caloriesPerServing": 180,
-        "tags": [
-          "Cheesecake",
-          "Dragon Fruit",
-          "Mini Bites",
-          "Dessert",
-          "Tropical"
-        ],
+        "tags": ["Cheesecake", "Dragon Fruit", "Mini Bites", "Dessert", "Tropical"],
         "_ownerId": "12",
         "images": ["/images/recipes/6-1.jpg"],
         "rating": 4.8,
@@ -348,7 +330,7 @@
       "7": {
         "_id": "7",
         "title": "Raspberry Zinger Poke Cake",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A light and fluffy vanilla cake soaked with tangy raspberry syrup, topped with a creamy coconut frosting and shredded coconut for the ultimate nostalgic treat."
         ],
@@ -403,7 +385,7 @@
       "8": {
         "_id": "8",
         "title": "Black Forest Cheesecake",
-        "category": ["Cakes & Cupcakes", "Pies & Tarts"],
+        "category": ["Cakes", "Pies"],
         "description": [
           "A luxurious fusion of classic Black Forest cake and creamy cheesecake. Layers of chocolate, cherries, and creamy filling create a decadent dessert that's perfect for any celebration."
         ],
@@ -438,13 +420,7 @@
         "difficulty": "Medium",
         "cuisine": "Fusion",
         "caloriesPerServing": 420,
-        "tags": [
-          "Cheesecake",
-          "Black Forest",
-          "Chocolate",
-          "Cherries",
-          "Dessert"
-        ],
+        "tags": ["Cheesecake", "Black Forest", "Chocolate", "Cherries", "Dessert"],
         "_ownerId": "k7l8m9n0-o1p2-4v3w-5x6y-7z8a9b0c1d2e",
         "images": ["/images/recipes/8-1.jpg"],
         "rating": 4.9,
@@ -460,7 +436,7 @@
       "9": {
         "_id": "9",
         "title": "Luscious Lemon Cheesecake",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A rich and velvety lemon cheesecake with a buttery biscuit crust, topped with a tangy lemon curd for an irresistibly refreshing citrus burst."
         ],
@@ -509,7 +485,7 @@
       "10": {
         "_id": "10",
         "title": "Crème Brûlée Cheesecake",
-        "category": ["Cakes & Cupcakes", "Puddings & Custards"],
+        "category": ["Cakes", "Puddings"],
         "description": [
           "A luxurious dessert that combines the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for those who love a sophisticated twist on classic flavors."
         ],
@@ -557,7 +533,7 @@
       "11": {
         "_id": "11",
         "title": "Decadent Chocolate Cake with Silky Mousse",
-        "category": ["Cakes & Cupcakes", "Puddings & Custards"],
+        "category": ["Cakes", "Puddings"],
         "description": [
           "An indulgent, rich chocolate cake layered with velvety chocolate mousse and topped with a glossy ganache for the ultimate chocolate lover’s dream."
         ],
@@ -612,7 +588,7 @@
       "12": {
         "_id": "12",
         "title": "Raspberry Chocolate Ganache Cake",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A rich and indulgent chocolate cake layered with tangy raspberry filling and topped with a smooth chocolate ganache. Perfect for chocolate lovers and special occasions."
         ],
@@ -668,7 +644,7 @@
       "13": {
         "_id": "13",
         "title": "Crème Brûlée Cheesecake",
-        "category": ["Cakes & Cupcakes", "Puddings & Custards"],
+        "category": ["Cakes", "Puddings"],
         "description": [
           "A luscious fusion of creamy cheesecake and classic crème brûlée, featuring a rich vanilla custard filling and a crisp caramelized sugar topping."
         ],
@@ -716,7 +692,7 @@
       "14": {
         "_id": "14",
         "title": "Caramel Flan Cheesecake with a Chocolate Twist",
-        "category": ["Cakes & Cupcakes", "Puddings & Custards"],
+        "category": ["Cakes", "Puddings"],
         "description": [
           "A decadent fusion of creamy caramel flan and rich cheesecake, with a delightful chocolate twist. This dessert is perfect for those who love the combination of caramel, cheese, and chocolate."
         ],
@@ -764,7 +740,7 @@
       "15": {
         "_id": "15",
         "title": "Luscious Lemon-Lime Cherry Pistachio Cheesecake",
-        "category": ["Cakes & Cupcakes", "Frozen Treats"],
+        "category": ["Cakes", "Frozen Treats"],
         "description": [
           "A vibrant and refreshing cheesecake with zesty lemon-lime flavors, a crunchy pistachio crust, and a luscious cherry topping for the perfect sweet-tart balance."
         ],
@@ -815,7 +791,7 @@
       "16": {
         "_id": "16",
         "title": "Date Coffee Loaf Cake with Walnuts and Rich Espresso Glaze",
-        "category": ["Pies & Tarts"],
+        "category": ["Pies"],
         "description": [
           "A moist and flavorful loaf cake infused with the natural sweetness of dates, the richness of coffee, and the crunch of walnuts. Topped with a luxurious espresso glaze, this cake is perfect for coffee lovers."
         ],
@@ -869,7 +845,7 @@
       "17": {
         "_id": "17",
         "title": "Mini Crème Brûlée Cheesecakes",
-        "category": ["Puddings & Custards"],
+        "category": ["Puddings"],
         "description": [
           "These adorable mini cheesecakes combine the creamy richness of cheesecake with the caramelized crunch of crème brûlée. Perfect for parties or as an elegant individual dessert."
         ],
@@ -902,13 +878,7 @@
         "difficulty": "Medium",
         "cuisine": "Fusion",
         "caloriesPerServing": 220,
-        "tags": [
-          "Cheesecake",
-          "Crème Brûlée",
-          "Mini Bites",
-          "Dessert",
-          "Caramelized"
-        ],
+        "tags": ["Cheesecake", "Crème Brûlée", "Mini Bites", "Dessert", "Caramelized"],
         "_ownerId": "e5f6a7b8-c9d0-4j1k-2l3m-4n5o6p7q8r9s",
         "images": ["/images/recipes/17-1.jpg"],
         "rating": 4.8,
@@ -924,7 +894,7 @@
       "18": {
         "_id": "18",
         "title": "Decadent Chocolatey Cherry Bliss Cake",
-        "category": ["Cakes & Cupcakes"],
+        "category": ["Cakes"],
         "description": [
           "A rich and indulgent chocolate cake layered with luscious cherry filling and topped with a smooth chocolate ganache. Perfect for chocolate and cherry lovers, this cake is a true delight."
         ],
@@ -980,7 +950,7 @@
       "19": {
         "_id": "19",
         "title": "Pistachio Baklava Cheesecake",
-        "category": ["Cookies & Bars"],
+        "category": ["Cookies"],
         "description": [
           "A luxurious fusion of creamy cheesecake and the nutty, flaky layers of baklava. This dessert combines the richness of pistachios with the sweetness of honey, creating a truly indulgent treat."
         ],
@@ -1033,7 +1003,7 @@
       "20": {
         "_id": "20",
         "title": "Mini Greek-Baklava Inspired Delights",
-        "category": ["Cookies & Bars"],
+        "category": ["Cookies"],
         "description": [
           "Tiny morsels of flaky phyllo pastry, layered with a rich blend of walnuts, cinnamon, and cloves, drizzled with a honey-lemon syrup. A perfect bite-sized indulgence that captures the essence of Greek tradition."
         ],
@@ -1084,7 +1054,7 @@
       "21": {
         "_id": "21",
         "title": "No Bake Pumpkin Cheesecake Balls",
-        "category": ["Cakes & Cupcakes", "Cookies & Bars"],
+        "category": ["Cakes", "Cookies"],
         "description": [
           "These delightful no-bake pumpkin cheesecake balls are a perfect treat for fall. Combining the flavors of pumpkin, cream cheese, and warm spices, they are easy to make and irresistibly delicious."
         ],
@@ -1133,7 +1103,7 @@
       "22": {
         "_id": "22",
         "title": "Salted Caramel Cheesecake",
-        "category": ["Cakes & Cupcakes", "Puddings & Custards"],
+        "category": ["Cakes", "Puddings"],
         "description": [
           "A decadent cheesecake with a creamy, smooth filling, swirled with rich salted caramel. The perfect balance of sweet and salty, resting on a buttery graham cracker crust. A truly indulgent treat."
         ],
@@ -1185,7 +1155,7 @@
       "23": {
         "_id": "23",
         "title": "Red Velvet Brownies",
-        "category": ["Cookies & Bars"],
+        "category": ["Cookies"],
         "description": [
           "These rich and fudgy red velvet brownies combine the classic flavors of red velvet cake with the dense, chocolatey texture of brownies. Topped with a creamy cheesecake swirl, they are a decadent treat for any occasion."
         ],
@@ -1219,13 +1189,7 @@
         "difficulty": "Medium",
         "cuisine": "American",
         "caloriesPerServing": 280,
-        "tags": [
-          "Brownies",
-          "Red Velvet",
-          "Cheesecake",
-          "Dessert",
-          "Chocolate"
-        ],
+        "tags": ["Brownies", "Red Velvet", "Cheesecake", "Dessert", "Chocolate"],
         "_ownerId": "c4d5e6f7-a8b9-4d0e-1f2a-3b4c5d6e7f8a",
         "images": ["/images/recipes/23-1.jpg"],
         "rating": 4.7,
@@ -1292,13 +1256,7 @@
         "_id": "3",
         "title": "The Science of Searing: Achieving Perfect Caramelization and Flavor",
         "category": ["Cooking Tips"],
-        "tags": [
-          "Searing",
-          "Caramelization",
-          "Flavor",
-          "Cooking Techniques",
-          "Meat"
-        ],
+        "tags": ["Searing", "Caramelization", "Flavor", "Cooking Techniques", "Meat"],
         "content": [
           "Searing, often hailed as the cornerstone of flavor development, is a culinary technique that transforms the surface of food through intense heat. This process isn't just about aesthetics; it's a chemical reaction known as the Maillard reaction, where amino acids and sugars interact to create hundreds of new flavor compounds. Understanding this science is key to unlocking the full potential of your ingredients, whether it's a steak, vegetables, or even fruit.",
           "The key to successful searing lies in achieving the right balance of heat and moisture. A dry surface is crucial, as moisture will hinder the Maillard reaction and lead to steaming rather than searing. High heat, typically from a preheated pan or grill, is essential for rapid caramelization. This intense heat not only creates a beautiful crust but also locks in the natural juices of the food, resulting in a tender and flavorful interior. The type of fat used also plays a role; fats with high smoke points, like clarified butter or grapeseed oil, are ideal for searing.",
